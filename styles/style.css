@@ -95,7 +95,7 @@ body {
 
 /* section start ---------------------------------------------------------------------------------------------------*/
 .start {
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, 0)),
     url("../images/Anillosfinal.png");
   background-size: cover;
   background-position: center center;
@@ -144,6 +144,7 @@ body {
   text-align: left;
   z-index: 99;
   display: none;
+  box-shadow: 12px 12px 2px 1px rgba(84, 87, 34, 0.2)
 }
 
 .start .section-container header nav a {
@@ -202,10 +203,11 @@ body {
   cursor: pointer;
   transition: .3s;
   font-size: 15px;
+  box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
 }
 
 .start .section-container header .nav-bar:hover {
-  box-shadow: 0 0 35px #fff;
+  box-shadow: 0 0 20px #fff;
   width: 55px;
   height: 55px;
 }
@@ -291,14 +293,15 @@ body {
 }
 
 .start .section-container .picture img {
-  max-width: 350px;
+  max-width: 200px;
   border-radius: 50%;
-  border: 5px solid #546455;
+  margin-top: -60px;
+  border: 3px groove #546455;
   position: absolute;
   left: 50%;
   top: -40px;
   transform: translateX(-50%);
-  box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 6px 6px 20px 20px rgba(84, 87, 34, 0.20)
 }
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
@@ -369,7 +372,7 @@ body {
   padding: 80px 0 100px 0;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url('../images/Knowledge.jpg');
+    url('../images/centros_de_mesa_con_ramas_de_olivo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -446,6 +449,12 @@ body {
 
 .knowledge .section-container .info .col table ul li p {
   margin-left: 5px;
+}
+
+.knowledge .section-container .info .col table ul li p a{
+  margin-left: 5px;
+  color: white;
+  text-decoration: none;
 }
 
 .knowledge .section-container .info .col table ul li::marker {
@@ -817,14 +826,15 @@ body {
   }
 
   .start .section-container .picture img {
-    max-width: 200px;
+    max-width: 150px;
     border-radius: 50%;
-    border: 5px solid #546455;
+    margin-top: -30px;
+    border: 3px groove #546455;
     position: absolute;
     left: 50%;
     top: -33px;
     transform: translateX(-50%);
-    box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 6px 6px 20px 20px rgba(84, 87, 34, 0.20)
   }
 
   .lineStartName {
