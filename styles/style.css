@@ -291,13 +291,14 @@ body {
 }
 
 .start .section-container .picture img {
-  max-width: 200px;
+  max-width: 350px;
   border-radius: 50%;
   border: 5px solid #546455;
   position: absolute;
   left: 50%;
   top: -40px;
   transform: translateX(-50%);
+  box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.2);
 }
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
@@ -823,6 +824,7 @@ body {
     left: 50%;
     top: -33px;
     transform: translateX(-50%);
+    box-shadow: 1px 1px 8px 10px rgba(0, 0, 0, 0.2);
   }
 
   .lineStartName {
