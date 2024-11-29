@@ -137,7 +137,7 @@ body {
   width: 110px;
   position: fixed;
   margin-left: 60px;
-  background-color: #546455b4;
+  background-color: #546455d9;
   border: #546455 solid;
   padding: 30px;
   border-radius: 10px;
@@ -210,6 +210,7 @@ body {
   box-shadow: 0 0 20px #fff;
   width: 55px;
   height: 55px;
+  border-radius: 50%;
 }
 
 .start .section-container .info {
@@ -454,23 +455,24 @@ body {
 .knowledge .section-container .info .col table ul .boton-ubicacion {
   width: 250px;
   height: 50px;
-  margin-left: 5px;
+  margin-left: 5%;
   line-height: 50px;
   cursor: pointer;
   font-size: 20px;
-  transition: .3s;
+  animation-duration: .3ms;
   border-radius: 20px;
   background-color: #546455;
   box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
 }
 
 .knowledge .section-container .info .col table ul .boton-ubicacion:hover{
-  margin-left: 5px;
+  margin-left: 5%;
   border-radius: 20px;
   background-color: #647a66;
   box-shadow: 0 0 20px #fff;
   width: 251px;
   height: 51px;
+  animation-duration: .3ms;
 }
 
 .knowledge .section-container .info .col table ul .boton-ubicacion a{
@@ -781,6 +783,11 @@ body {
 
 
 
+
+
+
+
+
 /*--------------------------------------------*/
 /*************     Responsive     *************/
 /*--------------------------------------------*/
@@ -793,13 +800,15 @@ body {
   .start .section-container header nav {
     position: fixed;
     margin-left: 15%;
-    background-color: #546455;
+    background-color: #546455d9;
+    border: #546455 solid;
     padding: 7%;
     border-radius: 10px;
     text-align: left;
     z-index: 99;
     display: none;
     opacity: 90%;
+    box-shadow: 12px 12px 2px 1px rgba(84, 87, 34, 0.2)
   }
 
   /*menu items ---------------------------------------------------------------------------------------------------*/
@@ -826,22 +835,12 @@ body {
   .start .section-container header .nav-bar {
     position: fixed;
     background-color: #546455;
-    font-size: 25px;
+    font-size: 15px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
-    cursor: pointer;
-    transition: .3s;
-    font-size: 15px;
   }
-
-  .start .section-container header .nav-bar:hover {
-    box-shadow: 0 0 0px #ffffff00;
-    width: 50px;
-    height: 50px;
-  }
-
 
   .start .section-container .info {
     padding-bottom: 80px;
