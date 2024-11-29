@@ -213,7 +213,7 @@ body {
 }
 
 .start .section-container .info {
-  padding-bottom: 325px;
+  padding-bottom: 450px;
 }
 
 .lineStartName {
@@ -301,7 +301,7 @@ body {
   left: 50%;
   top: -40px;
   transform: translateX(-50%);
-  box-shadow: 6px 6px 20px 20px rgba(84, 87, 34, 0.20)
+  box-shadow: 6px 6px 20px 20px hsla(63, 44%, 24%, 0.2)
 }
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
@@ -451,7 +451,29 @@ body {
   margin-left: 5px;
 }
 
-.knowledge .section-container .info .col table ul li p a{
+.knowledge .section-container .info .col table ul .boton-ubicacion {
+  width: 250px;
+  height: 50px;
+  margin-left: 5px;
+  line-height: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: .3s;
+  border-radius: 20px;
+  background-color: #546455;
+  box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
+}
+
+.knowledge .section-container .info .col table ul .boton-ubicacion:hover{
+  margin-left: 5px;
+  border-radius: 20px;
+  background-color: #647a66;
+  box-shadow: 0 0 20px #fff;
+  width: 251px;
+  height: 51px;
+}
+
+.knowledge .section-container .info .col table ul .boton-ubicacion a{
   margin-left: 5px;
   color: white;
   text-decoration: none;
