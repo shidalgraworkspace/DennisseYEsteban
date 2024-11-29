@@ -186,7 +186,6 @@ body {
   margin-bottom: 50px;
 }
 
-
 .start .section-container header .logo .color {
   color: #546455;
   font-family: "Yellowtail";
@@ -456,22 +455,22 @@ body {
   width: 250px;
   height: 50px;
   margin-left: 5%;
+  border-radius: 20px;
   line-height: 50px;
   cursor: pointer;
   font-size: 20px;
-  animation-duration: .3ms;
-  border-radius: 20px;
   background-color: #546455;
   box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
+  animation-duration: .3ms;
 }
 
-.knowledge .section-container .info .col table ul .boton-ubicacion:hover{
+.knowledge .section-container .info .col table ul .boton-ubicacion:hover {
+  width: 251px;
+  height: 51px;
   margin-left: 5%;
   border-radius: 20px;
   background-color: #647a66;
   box-shadow: 0 0 20px #fff;
-  width: 251px;
-  height: 51px;
   animation-duration: .3ms;
 }
 
@@ -797,6 +796,33 @@ body {
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:950px) {
 
+
+  .knowledge .section-container .info .col table ul .boton-ubicacion {
+    width: 185px;
+    height: 50px;
+    margin-left: 5%;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #546455;
+    box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
+  }
+  
+  .knowledge .section-container .info .col table ul .boton-ubicacion:hover {
+    margin-left: 5%;
+    border-radius: 15px;
+    background-color: #647a66;
+    box-shadow: 0 0 20px #fff;
+    width: 186px;
+    height: 51px;
+  }
+  
+  .knowledge .section-container .info .col table ul .boton-ubicacion a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
+  }
+
   .start .section-container header nav {
     position: fixed;
     margin-left: 15%;
@@ -829,6 +855,7 @@ body {
     text-decoration: none;
     margin-bottom: 10px;
     font-weight: bold;
+    animation-duration: .3s;
   }
 
   /*Background ---------------------------------------------------------------------------------------------------*/
@@ -1169,8 +1196,10 @@ body {
     width: 90%;
     padding: 0 20px 20px 20px;
     background-color: #00000030;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px 15px 15px 15px;   
   }
+
+  
 }
 
 
