@@ -459,9 +459,10 @@ body {
   line-height: 50px;
   cursor: pointer;
   font-size: 20px;
-  background-color: #546455;
-  box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
-  animation-duration: .3ms;
+  background-color: #546455da;
+  border-color: #344034;
+  box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20);
+  animation-duration: 0.3ms;
 }
 
 .knowledge .section-container .info .col table ul .boton-ubicacion:hover {
@@ -477,6 +478,7 @@ body {
 .knowledge .section-container .info .col table ul .boton-ubicacion a{
   margin-left: 5px;
   color: white;
+  border-radius: 20px;
   text-decoration: none;
 }
 
@@ -797,31 +799,7 @@ body {
 @media screen and (max-width:950px) {
 
 
-  .knowledge .section-container .info .col table ul .boton-ubicacion {
-    width: 185px;
-    height: 50px;
-    margin-left: 5%;
-    line-height: 50px;
-    font-size: 15px;
-    border-radius: 20px;
-    background-color: #546455;
-    box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
-  }
-  
-  .knowledge .section-container .info .col table ul .boton-ubicacion:hover {
-    margin-left: 5%;
-    border-radius: 15px;
-    background-color: #647a66;
-    box-shadow: 0 0 20px #fff;
-    width: 186px;
-    height: 51px;
-  }
-  
-  .knowledge .section-container .info .col table ul .boton-ubicacion a{
-    margin-left: 5px;
-    color: white;
-    text-decoration: none;
-  }
+ 
 
   .start .section-container header nav {
     position: fixed;
@@ -867,6 +845,7 @@ body {
     height: 50px;
     border-radius: 50%;
     line-height: 50px;
+    z-index: 1;
   }
 
   .start .section-container .info {
@@ -899,7 +878,6 @@ body {
     overflow: hidden;
     transform: translateY(-50%);
     letter-spacing: 0.5px;
-
   }
 
   /* Animation StartMainName Mobile*/
@@ -911,7 +889,6 @@ body {
     from {
       width: 0;
     }
-  
     to {
       width: 10.5em;
     }
@@ -921,7 +898,6 @@ body {
     from {
       border-right-color: rgba(255, 255, 255, .75);
     }
-  
     to {
       border-right-color: transparent;
     }
@@ -990,6 +966,32 @@ body {
   .summary .section-container .info .col table {
     margin-top: 10px;
     margin-bottom: 30px;
+  }
+
+  .knowledge .section-container .info .col table ul .boton-ubicacion {
+    width: 185px;
+    height: 50px;
+    margin-left: 5%;
+    line-height: 50px;
+    font-size: 15px;
+    border-radius: 20px;
+    background-color: #546455;
+    box-shadow: 2px 2px 20px 5px rgba(84, 87, 34, 0.20)
+  }
+  
+  .knowledge .section-container .info .col table ul .boton-ubicacion:hover {
+    margin-left: 5%;
+    border-radius: 15px;
+    background-color: #647a66;
+    box-shadow: 0 0 20px #fff;
+    width: 186px;
+    height: 51px;
+  }
+  
+  .knowledge .section-container .info .col table ul .boton-ubicacion a{
+    margin-left: 5px;
+    color: white;
+    text-decoration: none;
   }
 
   .summary .section-container .info .col table .data {
@@ -1198,8 +1200,6 @@ body {
     background-color: #00000030;
     border-radius: 15px 15px 15px 15px;   
   }
-
-  
 }
 
 
