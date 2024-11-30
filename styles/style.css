@@ -135,7 +135,7 @@ body {
 /* Menu ---------------------------------------------------------------------------------------------------*/
 .start .section-container header nav {
   width: 110px;
-  height: 180px;
+  height: 220px;
   position: fixed;
   margin-left: 60px;
   background-color: #546455d9;
@@ -480,7 +480,11 @@ marquee p{
 }
 
 .knowledge .section-container .info .col table ul {
-  list-style-type: '✓';
+  list-style-type: '';
+}
+
+.knowledge .section-container .info .col table ul .puntosEspecificos{
+  list-style-type: '*';
 }
 
 .knowledge .section-container .info .col table ul li {
@@ -974,7 +978,7 @@ marquee p{
 
   .start .section-container header nav {
     width: 110px;
-    height: 200px;
+    height: 250px;
     position: fixed;
     margin-left: 15%;
     background-color: #546455d9;
