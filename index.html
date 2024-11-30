@@ -1082,6 +1082,16 @@
     </section> -->
 
     <script src="Js/main.js"></script>
+    <script>
+        var audio = document.getElementsByTagName('audio'); audio.play();
+    </script>
+    <script>
+        var myAudio = document.querySelector('audio');
+        window.addEventListener('touchstart', function audioStart() {
+            myAudio.play();
+            this.removeEventListener('touchstart', audioStart);
+        });
+    </script>
 </body>
 
 </html>
