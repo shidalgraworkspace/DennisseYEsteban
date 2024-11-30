@@ -134,7 +134,7 @@ body {
 
 /* Menu ---------------------------------------------------------------------------------------------------*/
 .start .section-container header nav {
-  width: 110px;
+  width: 130px;
   height: 220px;
   position: fixed;
   margin-left: 60px;
@@ -170,9 +170,10 @@ body {
 
 /* Musica que se reproduce al principio ------------------------------------------------------------------------*/
 .content-Player{
-  width: 110px;
+  width: 130px;
   position: absolute;
   margin-top: 9px;
+  text-align: center;
 }
 
 .boton-Player{
@@ -973,7 +974,7 @@ marquee p{
 @media screen and (max-width:950px) {
 
   .start .section-container header nav {
-    width: 110px;
+    width: 130px;
     height: 250px;
     position: fixed;
     margin-left: 15%;
