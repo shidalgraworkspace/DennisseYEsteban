@@ -23,7 +23,7 @@
 
 </head>
 
-<body onload="document.getElementById('player').play()">
+<body class="boton-Player" onclick="document.getElementById('player').play()">
 
     <!--Section start-->
     <section class="start" id="start">
@@ -1082,16 +1082,16 @@
     </section> -->
 
     <script src="Js/main.js"></script>
-    <script>
+    <!-- <script>
         var audio = document.getElementsByTagName('audio'); audio.play();
-    </script>
-    <script>
+    </script> -->
+    <!-- <script>
         var myAudio = document.querySelector('audio');
-        window.addEventListener('touchstart', function audioStart() { -->
+        window.addEventListener('touchstart', function audioStart() {
             myAudio.play();
             this.removeEventListener('touchstart', audioStart);
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
