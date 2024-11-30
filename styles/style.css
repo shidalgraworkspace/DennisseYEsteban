@@ -480,7 +480,7 @@ marquee p{
 }
 
 .knowledge .section-container .info .col table ul .puntosEspecificos{
-  list-style-type: '*';
+  list-style-type: '•';
 }
 
 .knowledge .section-container .info .col table ul li {
@@ -1343,7 +1343,7 @@ marquee p{
   }
 
   .knowledge .section-container .info .col table ul .puntosEspecificos{
-    list-style-type: '*';
+    list-style-type: '•';
   }
 
   .knowledge .section-container .info .col table ul li {
