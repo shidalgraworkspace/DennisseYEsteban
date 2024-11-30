@@ -479,10 +479,6 @@ marquee p{
   font-size: 25px;
 }
 
-.knowledge .section-container .info .col table ul {
-  list-style-type: '';
-}
-
 .knowledge .section-container .info .col table ul .puntosEspecificos{
   list-style-type: '*';
 }
@@ -1343,7 +1339,11 @@ marquee p{
   }
 
   .knowledge .section-container .info .col table ul {
-    list-style-type: '✓';
+    list-style-type: '';
+  }
+
+  .knowledge .section-container .info .col table ul .puntosEspecificos{
+    list-style-type: '*';
   }
 
   .knowledge .section-container .info .col table ul li {
