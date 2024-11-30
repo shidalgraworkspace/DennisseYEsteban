@@ -12,30 +12,25 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-            integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-            crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
         href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
     <title>Ceremonia de Dennisse y Esteban... Acompañanos</title>
     <link rel="shortcut icon" href="images/iconoMatrimonio.png" />
-    
+
 </head>
 
 <body>
-    
+
     <!--Section start-->
     <section class="start" id="start">
         <div class="section-container">
             <header>
-                <p>Cancion: Te esperaba - Carlos Rivera</p>
-                <audio style="background-color: transparent;" autoplay loop>
-                    <source src="audio/Te-Esperaba-Instrumental-Version.mp3">
-                    <source src="audio/Carlos-Rivera-Te-Esperaba.mp3">
-                    Tu navegador no soporta el elemento "audio"
-                </audio>
+
+
                 <div class="nav-bar" id="nav-bar" onclick="showHideMenu()">
                     Menu
                 </div>
@@ -46,10 +41,26 @@
                     <!-- <a href="#summary">Summary</a>
                     <a href="#skills">Skills</a>
                     <a href="#contact">Contact</a> -->
-                    
-                    
+                    <div class="content-Player">
+                        <audio id="player" autoplay="true" loop="true">
+                            <source src="udio/Te-Esperaba-Instrumental-Version.mp3">
+                            <source src="udio/Carlos-Rivera-Te-Esperaba.mp3">
+                            Tu navegador no soporta el elemento "audio"
+                        </audio>
+                        <marquee width="100%" direction="left" behavior="scroll" scrollamount="4">
+                            <p>♫ ♬ Cancion: Te esperaba - Carlos Rivera" ♪ ♩ 𝄞
+                            </p>
+                        </marquee>
+                        <button class="boton-Player" onclick="document.getElementById('player').play()"><i
+                                class="fa-solid fa-play"></i></button>
+                        <button class="boton-Player" onclick="document.getElementById('player').pause()"><i
+                                class="fa-solid fa-pause"></i></button>
+                        <button class="boton-Player" onclick="document.getElementById('player').volume+=0.1"><i
+                                class="fa-solid fa-volume-up"></i></button>
+                        <button class="boton-Player" onclick="document.getElementById('player').volume-=0.1"><i
+                                class="fa-solid fa-volume-down"></i></button>
+                    </div>
                 </nav>
-                
                 <br>
                 <br>
                 <div class="logo">
@@ -81,34 +92,37 @@
     <!--Section about me-->
     <section class="aboutme" id="aboutme">
         <div class="section-container">
-            <h2 class="title-section">Historia de nosotros</h2>
+            <h2 class="title-section">Datos rápidos</h2>
             <h4>Breve</h4>
             <p class="special">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                En este espacio resumiremos de que se trata
             </p>
-            <p><strong>Que hemos hecho:</strong></p>
+            <p><strong>Lo que hacer</strong></p>
             <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi nesciunt, corporis autem aliquid
-                recusandae, illum quaerat maiores cupiditate natus nobis totam nam saepe molestiae blanditiis asperiores
-                necessitatibus adipisci explicabo fuga.               
+                Estaremos casandonos por la Iglesia, en Belén, luego tomaremos unas fotos, una vez finalizado
+                visitaremos la Hacienda Naruva, donde haremos la recepción de este evento maravilloso que es para
+                nosotros, donde se te esta invitando para que compartas con nosotros ese día, uno de los mejores días de
+                nuestra relación, donde nos uniremos delante de Dios como una sola carne. Festejaremos contigo si nos
+                acompañas.
             </p>
             <div class="row">
                 <div class="col">
                     <i class="fa-solid fa-calendar-days"></i>
-                    <span class="title-detail">Nos acompañarías?</span>
+                    <span class="title-detail">Que día?</span>
                     <p>29 de Marzo del 2025</p>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-location-dot"></i>
                     <span class="title-detail">En donde?</span>
                     <p>
-                        Parroquia San Antonio de Padua
+                        Parroquia San Antonio de Padua <br>
+                        Belén
                     </p>
                     </p>
                 </div>
                 <div class="col">
                     <i class="fa-solid fa-flag"></i>
-                    <span class="title-detail">Evento</span>
+                    <span class="title-detail">Evento?</span>
                     <p>Hacienda Naruva - Santa Ana</p>
                 </div>
             </div>
@@ -608,7 +622,7 @@
             <h2 class="title-section">Summary</h2>
             <h3>My preparation and experience</h3>
 
-            
+
             <!-- <div class="info">
                 <div class="col">
                     <span class="title">Education</span>

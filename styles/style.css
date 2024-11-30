@@ -135,6 +135,7 @@ body {
 /* Menu ---------------------------------------------------------------------------------------------------*/
 .start .section-container header nav {
   width: 110px;
+  height: 180px;
   position: fixed;
   margin-left: 60px;
   background-color: #546455d9;
@@ -167,10 +168,43 @@ body {
   transition: .3s;
 }
 
-audio {
-  width: 200px;
-  height: 50px;
+/* Musica que se reproduce al principio ------------------------------------------------------------------------*/
+.content-Player{
+  width: 110px;
+  position: absolute;
+  margin-top: 9px;
 }
+
+.boton-Player{
+  background-color: transparent; 
+  margin: -7px 2px;
+  padding-top: -2px;
+  border-color: transparent;
+  font-size: 20px;
+  color: white;
+}
+
+.boton-Player:hover{
+  background-color: transparent;
+  color: rgb(150, 150, 152);
+  margin: -7px 2px;
+  padding-top: -2px;
+  border-color: transparent;
+  text-shadow: 2px 2px 2px black;
+  cursor: pointer;
+  font-size: 21px;
+  transition: 0.3s;
+  color: white;
+}
+
+marquee{
+  color: white;
+}
+
+marquee p{
+  text-shadow: 2px 2px 2px black;
+}
+/* ------------------------------------------------------------------------------------------------------------- */
 
 
 /* *********** */
@@ -938,10 +972,9 @@ audio {
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
 @media screen and (max-width:950px) {
 
-
- 
-
   .start .section-container header nav {
+    width: 110px;
+    height: 200px;
     position: fixed;
     margin-left: 15%;
     background-color: #546455d9;
