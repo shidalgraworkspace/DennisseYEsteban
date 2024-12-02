@@ -341,7 +341,7 @@ marquee p {
     }
 
     to {
-        width: em;
+        width: 8em;
     }
 }
 
@@ -586,8 +586,8 @@ marquee p {
     }
 
     .start .section-container header .Imagen-MensajeInicial {
-        width: 90px;
-        height: 90px;
+        width: 80px;
+        height: 80px;
         margin-top: 24px;
         margin-left: -50px;
         filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
@@ -595,14 +595,14 @@ marquee p {
 
     .start .section-container header .contenedor-NosCasamos-Logo .contenedor-LetrasTitulo{
         position: absolute;
-        top: 70%;
-        left: -10%;
+        top: 90%;
+        left: -24%;
         transform: translate(-50%, -50%);
     }
 
     .start .section-container header .contenedor-NosCasamos-Logo .logo p {
         font-weight: bold;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-family: "Alex Brush", serif;
         color: #546455;
         -webkit-text-stroke: black 0.1px;
@@ -611,7 +611,7 @@ marquee p {
 
     .start .section-container header .contenedor-NosCasamos-Logo .letraInicial {
         font-weight: bold;
-        font-size: 1.5rem;
+        font-size: 2.3rem;
         font-family: "Alex Brush", serif;
         color: 546455;
         -webkit-text-stroke: black 0.1px;
@@ -629,7 +629,7 @@ marquee p {
         margin-top: 25px;
         position: relative;
         font-family: "Alex Brush", serif;
-        font-size: 120%;
+        font-size: 160%;
         font-weight: bold;
         color: #546455;
         border-right: 2px solid rgba(255, 255, 255, .75);
@@ -655,7 +655,7 @@ marquee p {
         }
 
         to {
-            width: 10em;
+            width: 9.5em;
         }
     }
 
