@@ -271,19 +271,27 @@ marquee p {
     justify-content: center; */
 }
 
+.start .section-container header .Imagen-MensajeInicial {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: -450px;
+    filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
+}
+
 .start .section-container header .contenedor-NosCasamos-Logo .contenedor-LetrasTitulo{
     position: absolute;
-    top: 50%;
-    left: 0%;
+    top: 105%;
+    left: -50%;
     transform: translate(-50%, -50%);
 }
 
 .start .section-container header .contenedor-NosCasamos-Logo .logo p {
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 5rem;
     font-family: "Alex Brush", serif;
     color: #546455;
-    -webkit-text-stroke: black 0.1px;
+    -webkit-text-stroke: #354936 0.1px;
     filter: drop-shadow(5px 5px 5px #031206);
 }
 
@@ -298,7 +306,7 @@ marquee p {
     margin-top: 50px;
     position: relative;
     font-family: "Alex Brush", serif;
-    font-size: 300%;
+    font-size: 700%;
     font-weight: bold;
     color: #546455;
     border-right: 2px solid rgba(255, 255, 255, .75);
@@ -333,7 +341,7 @@ marquee p {
     }
 
     to {
-        width: 10em;
+        width: em;
     }
 }
 
@@ -580,8 +588,8 @@ marquee p {
     .start .section-container header .Imagen-MensajeInicial {
         width: 90px;
         height: 90px;
-        margin-top: 20px;
-        margin-left: 20px;
+        margin-top: 24px;
+        margin-left: -50px;
         filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
     }
 
