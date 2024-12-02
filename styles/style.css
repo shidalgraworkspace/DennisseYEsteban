@@ -147,7 +147,7 @@ body {
     position: fixed;
     display: flex;
     justify-content: center;
-    background-color: #546455;
+    background-color: #19691e;
     font-size: 20px;
     width: 100px;
     height: 100px;
@@ -177,8 +177,8 @@ body {
     height: 220px;
     position: fixed;
     margin-left: 60px;
-    background-color: #546455d9;
-    border: #546455 solid;
+    background-color: #19691ed9;
+    border: #19691e solid;
     padding: 30px;
     border-radius: 10px;
     text-align: left;
@@ -290,14 +290,14 @@ marquee p {
     font-weight: bold;
     font-size: 5rem;
     font-family: "Alex Brush", serif;
-    color: #546455;
+    color: #19691e;
     -webkit-text-stroke: #354936 0.1px;
     filter: drop-shadow(5px 5px 5px #031206);
 }
 
 /* color del corazon donde estan los nombres de los novios */
 .start .section-container header .logo .colorCorazon {
-    color: #546455;
+    color: #19691e;
     margin-left: 5%;
     margin-right: 5%;
 }
@@ -308,23 +308,24 @@ marquee p {
     font-family: "Alex Brush", serif;
     font-size: 700%;
     font-weight: bold;
-    color: #546455;
+    color: #19691e;
     border-right: 2px solid rgba(255, 255, 255, .75);
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     transform: translateY(-50%);
     letter-spacing: 2px;
-    -webkit-text-stroke: #354936 0.1px;
     filter: drop-shadow(5px 5px 5px #031206);
+    -webkit-text-stroke: #354936 0.1px;
 }
 
 .start .section-container header .contenedor-NosCasamos-Logo .letraInicial {
     font-weight: bold;
     font-size: 6rem;
     font-family: "Alex Brush", serif;
-    color: #546455;
+    color: #19691e;
     -webkit-text-stroke: #354936 0.1px;
+    filter: drop-shadow(5px 5px 5px #031206);
 }
 
 /* Animation StartMainName*/
@@ -468,7 +469,7 @@ marquee p {
         position: fixed;
         display: flex;
         justify-content: center;
-        background-color: #546455;
+        background-color: #19691e;
         font-size: 10px;
         width: 50px;
         height: 50px;
@@ -493,8 +494,8 @@ marquee p {
         height: 220px;
         position: fixed;
         margin-left: 60px;
-        background-color: #546455d9;
-        border: #546455 solid;
+        background-color: #19691ed9;
+        border: #19691e solid;
         padding: 30px;
         border-radius: 10px;
         text-align: left;
@@ -604,8 +605,8 @@ marquee p {
         font-weight: bold;
         font-size: 1.5rem;
         font-family: "Alex Brush", serif;
-        color: #546455;
-        -webkit-text-stroke: black 0.1px;
+        color: #19691e;
+        -webkit-text-stroke: #0a450e 0.1px;
         filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
     }
 
@@ -613,13 +614,13 @@ marquee p {
         font-weight: bold;
         font-size: 2.3rem;
         font-family: "Alex Brush", serif;
-        color: 546455;
-        -webkit-text-stroke: black 0.1px;
+        color: #19691e;
+        -webkit-text-stroke: #0a450e 0.1px;
     }
 
     /* color del corazon donde estan los nombres de los novios */
     .start .section-container header .logo .colorCorazon {
-        color: #546455;
+        color: #19691e;
         margin-left: 5%;
         margin-right: 5%;
     }
@@ -631,14 +632,14 @@ marquee p {
         font-family: "Alex Brush", serif;
         font-size: 160%;
         font-weight: bold;
-        color: #546455;
+        color: #19691e;
         border-right: 2px solid rgba(255, 255, 255, .75);
         text-align: center;
         white-space: nowrap;
         overflow: hidden;
         transform: translateY(-50%);
         letter-spacing: 2px;
-        -webkit-text-stroke: black 0.1px;
+        -webkit-text-stroke: #0a450e 0.1px;
     }
 
     /* Animation StartMainName*/
