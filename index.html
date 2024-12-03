@@ -25,67 +25,29 @@
     <section class="start" id="start">
         <div class="section-container">
             <header>
-                <div>
-                    <div>
-                        <!-- Boton Menu -->
-                        <div class="nav-bar" id="nav-bar" onclick="showHideMenu()">
-                            Menu
-                        </div>
-                        <!-- Menu abiero -->
-                        <nav id="nav" class="nav">
-                            <a href="#start">Inicio</a>
-                            <a href="#knowledge">Evento</a>
-                            <a href="#summary">Fotos</a>
-                            <!-- musica -->
-                            <div class="content-Player">
-                                <audio id="player" autoplay="true" loop="true">
-                                    <source src="udio/Te-Esperaba-Instrumental-Version.mp3">
-                                    <source src="udio/Carlos-Rivera-Te-Esperaba.mp3">
-                                    Tu navegador no soporta el elemento "audio"
-                                </audio>
-                                <marquee width="100%" direction="left" behavior="scroll" scrollamount="4">
-                                    <p>♫ ♬ Cancion: Te esperaba - Carlos Rivera" ♪ ♩ 𝄞</p>
-                                </marquee>
-                                <button class="boton-Player" onclick="document.getElementById('player').play()"><i
-                                        class="fa-solid fa-play"></i></button>
-                                <button class="boton-Player" onclick="document.getElementById('player').pause()"><i
-                                        class="fa-solid fa-pause"></i></button>
-                                <button class="boton-Player" onclick="document.getElementById('player').volume+=0.1"><i
-                                        class="fa-solid fa-volume-up"></i></button>
-                                <button class="boton-Player" onclick="document.getElementById('player').volume-=0.1"><i
-                                        class="fa-solid fa-volume-down"></i></button>
-                            </div>
-                        </nav>
-                    </div>
+                <div class="contenedor-mensajeHeader">
                     <img class="Imagen-MensajeInicial" src="images/images/Mensaje_inicial.png" alt="mensajeInicial">
                 </div>
-                
-
-                <div class="contenedor-NosCasamos-Logo">
-                    <!-- Adorno esquinero -->
-                    <div class="contenedor-imagenEsquinera">
-                        <img class="imagenEsquinera" src="images/images/EsquinaInvitacion2.png" alt="imagenEsquinera">
+                <div class="contenedor-LetrasTitulo">
+                    <!-- logo -->
+                    <div class="logo">
+                        <p>¡Nos casamos!</p>
                     </div>
-
-                    <div class="contenedor-LetrasTitulo">
-                        <!-- logo -->
-                        <div class="logo">
-                            <p>¡Nos casamos!</p>
-                        </div>
-                        <p class="lineStartName anim-typewriterStartName">
-                            <span class="letraInicial">D</span>ennisse
-                            <span class="colorCorazon">
-                                ♥
-                            </span>
-                            <span class="letraInicial">E</span>steban
-                        </p>
-
-                    </div>
+                    <p class="lineStartName anim-typewriterStartName">
+                        <span class="letraInicial">D</span>ennisse
+                        <span class="colorCorazon">
+                            ♥
+                        </span>
+                        <span class="letraInicial">E</span>steban
+                    </p>
+                </div>
+                <!-- Adorno esquinero -->
+                <div class="contenedor-imagenEsquinera">
+                    <img class="imagenEsquinera" src="images/images/EsquinaInvitacion2.png" alt="imagenEsquinera">
                 </div>
             </header>
         </div>
     </section>
     <script src="Js/main.js"></script>
 </body>
-
 </html>
