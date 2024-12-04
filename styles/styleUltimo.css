@@ -1,0 +1,835 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+.alex-brush-regular {
+    font-family: "Alex Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    background-color: #546455;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    zoom: 110%;
+}
+
+
+/* Comienzo de magia------------------------------------------------------------------------------------------------------------------------- */
+
+.start {
+    background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+        url("../images/images/fondo_de_pagina.png");
+    background-size: auto;
+    background-position: auto auto;
+    color: #fff;
+}
+
+.start {
+    animation-duration: 2s;
+    animation-name: slide-in;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+}
+
+@keyframes slide-in {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+.start .section-container {
+    max-width: 20000px;
+    height: 5000px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.start .section-container header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+/* contenedor del menu y el mensaje inicial */
+.contenedor-mensajeHeader {
+    display: inline-block;
+    position: relative;
+    text-align: justify;
+    justify-content: space-between;
+}
+
+/* contenedor de Nos casamos ------------------------------------------------------------------------------------------------------------------------------ */
+.start .section-container header .contenedor-LetrasTitulo {
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    text-align: center;
+    align-content: space-evenly;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+.start .section-container header .Imagen-MensajeInicial {
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.start .section-container header .contenedor-LetrasTitulo .contenedor-LetrasTitulo {
+    position: absolute;
+    top: 105%;
+    left: -325px;
+    transform: translate(-50%, -50%);
+}
+
+.start .section-container header .contenedor-LetrasTitulo .logo p {
+    font-weight: bold;
+    font-size: 5rem;
+    font-family: "Alex Brush", serif;
+    color: #19691e;
+    -webkit-text-stroke: #354936 0.1px;
+}
+
+/* color del corazon donde estan los nombres de los novios */
+.start .section-container header .logo .colorCorazon {
+    color: #19691e;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.start .section-container header .contenedor-LetrasTitulo .lineStartName {
+    margin-top: 50px;
+    position: relative;
+    font-family: "Alex Brush", serif;
+    font-size: 500%;
+    font-weight: bold;
+    color: #19691e;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+    letter-spacing: 2px;
+    -webkit-text-stroke: #354936 0.1px;
+    filter: drop-shadow(5px 5px 5px #031206);
+}
+
+.start .section-container header .contenedor-LetrasTitulo .letraInicial {
+    font-weight: bold;
+    font-size: 7rem;
+    font-family: "Alex Brush", serif;
+    color: #19691e;
+    -webkit-text-stroke: #354936 0.1px;
+}
+
+/* Animation StartMainName*/
+.start .section-container header .contenedor-LetrasTitulo .anim-typewriterStartName {
+    animation:
+        typewriter 4s steps(28) 2s 1 normal both,
+        blinkTextCursor .5s steps(28) infinite normal;
+    filter: drop-shadow(0 2px 5px #354936);
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 10em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+
+
+/* acomodo de la imagen esquinera superior derecha --------------------------------------------------------------------------------*/
+.start .section-container header .contenedor-imagenEsquinera {
+    display: flex;
+    justify-content: right;
+    max-width: 50%;
+    object-fit: cover;
+    display: block;
+}
+
+/* tamaño de la imagen */
+.start .section-container header .contenedor-imagenEsquinera .imagenEsquinera {
+    width: 500px;
+    height: 500px;
+    filter: drop-shadow(7px 17px 5px rgba(0, 0, 0, 0));
+}
+
+/* ----Termina Header-------------------------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive laptop ---------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width:1600px) {
+
+
+    .start {
+
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+            url("../images/images/fondo_de_pagina.png");
+        background-size: auto;
+        background-position: auto auto;
+        color: #fff;
+    }
+
+    .start {
+        animation-duration: 2s;
+        animation-name: slide-in;
+        animation-iteration-count: 1;
+        animation-direction: initial;
+    }
+
+    @keyframes slide-in {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+    .start .section-container {
+        max-width: 20000px;
+        height: 5000px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .start .section-container header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    /* contenedor del menu y el mensaje inicial */
+    .contenedor-mensajeHeader {
+        display: inline-block;
+        position: relative;
+        text-align: justify;
+        justify-content: space-between;
+    }
+
+    /* contenedor de Nos casamos ------------------------------------------------------------------------------------------------------------------------------ */
+    .start .section-container header .contenedor-LetrasTitulo {
+        margin-top: 200px;
+        position: relative;
+        display: grid;
+        text-align: center;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .start .section-container header .Imagen-MensajeInicial {
+        width: 300px;
+        height: 150px;
+        margin-top: 20px;
+        margin-left: 10px;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo {
+        position: absolute;
+        top: 30%;
+        left: 600px;
+        transform: translate(-50%, -50%);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .logo p {
+        font-weight: bold;
+        font-size: 5rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* color del corazon donde estan los nombres de los novios */
+    .start .section-container header .logo .colorCorazon {
+        color: #19691e;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .lineStartName {
+        margin-top: 50px;
+        position: relative;
+        font-family: "Alex Brush", serif;
+        font-size: 500%;
+        font-weight: bold;
+        color: #19691e;
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+        letter-spacing: 2px;
+        -webkit-text-stroke: #354936 0.1px;
+        filter: drop-shadow(5px 5px 5px #031206);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .letraInicial {
+        font-weight: bold;
+        font-size: 7rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* Animation StartMainName*/
+    .start .section-container header .contenedor-LetrasTitulo .anim-typewriterStartName {
+        animation:
+            typewriter 4s steps(28) 2s 1 normal both,
+            blinkTextCursor .5s steps(28) infinite normal;
+        filter: drop-shadow(0 2px 5px #354936);
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 9em;
+        }
+    }
+
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+
+    /* acomodo de la imagen esquinera superior derecha --------------------------------------------------------------------------------*/
+    .start .section-container header .contenedor-imagenEsquinera {
+        display: flex;
+        justify-content: right;
+        max-width: 50%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* tamaño de la imagen */
+    .start .section-container header .contenedor-imagenEsquinera .imagenEsquinera {
+        width: 400px;
+        height: 400px;
+        filter: drop-shadow(7px 17px 5px rgba(0, 0, 0, 0));
+    }
+
+    /* ----Termina Header-------------------------------------------------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive tablet ---------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width:1280px) {
+
+    .start {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+            url("../images/images/fondo_de_pagina.png");
+        background-size: auto;
+        background-position: auto auto;
+        color: #fff;
+    }
+
+    .start {
+        animation-duration: 2s;
+        animation-name: slide-in;
+        animation-iteration-count: 1;
+        animation-direction: initial;
+    }
+
+    @keyframes slide-in {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+    .start .section-container {
+        max-width: 5000px;
+        height: 5000px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .start .section-container header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    /* contenedor del menu y el mensaje inicial */
+    .contenedor-mensajeHeader {
+        display: inline-block;
+        position: relative;
+        text-align: justify;
+        justify-content: space-between;
+    }
+
+    /* contenedor de Nos casamos ------------------------------------------------------------------------------------------------------------------------------ */
+    .start .section-container header .contenedor-LetrasTitulo {
+        margin-top: 200px;
+        position: relative;
+        display: grid;
+        text-align: center;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .start .section-container header .Imagen-MensajeInicial {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10px;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .contenedor-LetrasTitulo {
+        position: absolute;
+        top: 105%;
+        left: -325px;
+        transform: translate(-50%, -50%);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .logo p {
+        font-weight: bold;
+        font-size: 7rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* color del corazon donde estan los nombres de los novios */
+    .start .section-container header .logo .colorCorazon {
+        color: #19691e;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .lineStartName {
+        margin-top: 50px;
+        position: relative;
+        font-family: "Alex Brush", serif;
+        font-size: 700%;
+        font-weight: bold;
+        color: #19691e;
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+        letter-spacing: 2px;
+        -webkit-text-stroke: #354936 0.1px;
+        filter: drop-shadow(5px 5px 5px #031206);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .letraInicial {
+        font-weight: bold;
+        font-size: 9rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* Animation StartMainName*/
+    .start .section-container header .contenedor-LetrasTitulo .anim-typewriterStartName {
+        animation:
+            typewriter 4s steps(28) 2s 1 normal both,
+            blinkTextCursor .5s steps(28) infinite normal;
+        filter: drop-shadow(0 2px 5px #354936);
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 8em;
+        }
+    }
+
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+
+    /* acomodo de la imagen esquinera superior derecha --------------------------------------------------------------------------------*/
+    .start .section-container header .contenedor-imagenEsquinera {
+        display: flex;
+        justify-content: right;
+        max-width: 50%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* tamaño de la imagen */
+    .start .section-container header .contenedor-imagenEsquinera .imagenEsquinera {
+        width: 500px;
+        height: 500px;
+        filter: drop-shadow(7px 17px 5px rgba(0, 0, 0, 0));
+    }
+
+    /* ----Termina Header-------------------------------------------------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive Telefono ---------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+/*  -------------------------------------------------------------------------------------------------------------------- */
+
+
+@media screen and (max-width:1000px) {
+    html {
+        scroll-behavior: smooth;
+        background-color: rgb(28, 192, 44);
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    body {
+        zoom: 80%;
+    }
+
+    .start {
+        background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+            url("../images/images/fondo_de_pagina.png");
+        background-size: auto;
+        background-position: auto auto;
+        color: #fff;
+    }
+
+    .start {
+        animation-duration: 2s;
+        animation-name: slide-in;
+        animation-iteration-count: 1;
+        animation-direction: initial;
+    }
+
+    @keyframes slide-in {
+        from {
+            margin-left: 100%;
+            width: 300%;
+        }
+
+        to {
+            margin-left: 0%;
+            width: 100%;
+        }
+    }
+
+    .start .section-container {
+        max-width: 20000px;
+        height: 5000px;
+        margin: auto;
+        text-align: center;
+        padding: 0px 10px;
+    }
+
+    .start .section-container header {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px;
+    }
+
+    /* contenedor del menu y el mensaje inicial */
+    .contenedor-mensajeHeader {
+        display: inline-block;
+        position: relative;
+        text-align: justify;
+        justify-content: space-between;
+    }
+
+    /* contenedor de Nos casamos ------------------------------------------------------------------------------------------------------------------------------ */
+    .start .section-container header .contenedor-LetrasTitulo {
+        margin-top: 200px;
+        position: relative;
+        display: grid;
+        text-align: center;
+        align-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .start .section-container header .Imagen-MensajeInicial {
+        width: 500px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 10px;
+        filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0));
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .contenedor-LetrasTitulo {
+        position: absolute;
+        top: 105%;
+        left: -325px;
+        transform: translate(-50%, -50%);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .logo p {
+        font-weight: bold;
+        font-size: 7rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* color del corazon donde estan los nombres de los novios */
+    .start .section-container header .logo .colorCorazon {
+        color: #19691e;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .lineStartName {
+        margin-top: 50px;
+        position: relative;
+        font-family: "Alex Brush", serif;
+        font-size: 700%;
+        font-weight: bold;
+        color: #19691e;
+        border-right: 2px solid rgba(255, 255, 255, .75);
+        text-align: center;
+        white-space: nowrap;
+        overflow: hidden;
+        transform: translateY(-50%);
+        letter-spacing: 2px;
+        -webkit-text-stroke: #354936 0.1px;
+        filter: drop-shadow(5px 5px 5px #031206);
+    }
+
+    .start .section-container header .contenedor-LetrasTitulo .letraInicial {
+        font-weight: bold;
+        font-size: 9rem;
+        font-family: "Alex Brush", serif;
+        color: #19691e;
+        -webkit-text-stroke: #354936 0.1px;
+    }
+
+    /* Animation StartMainName*/
+    .start .section-container header .contenedor-LetrasTitulo .anim-typewriterStartName {
+        animation:
+            typewriter 4s steps(28) 2s 1 normal both,
+            blinkTextCursor .5s steps(28) infinite normal;
+        filter: drop-shadow(0 2px 5px #354936);
+    }
+
+    @keyframes typewriter {
+        from {
+            width: 0;
+        }
+
+        to {
+            width: 8em;
+        }
+    }
+
+    @keyframes blinkTextCursor {
+        from {
+            border-right-color: rgba(255, 255, 255, .75);
+        }
+
+        to {
+            border-right-color: transparent;
+        }
+    }
+
+    /* acomodo de la imagen esquinera superior derecha --------------------------------------------------------------------------------*/
+    .start .section-container header .contenedor-imagenEsquinera {
+        display: flex;
+        justify-content: right;
+        max-width: 50%;
+        object-fit: cover;
+        display: block;
+    }
+
+    /* tamaño de la imagen */
+    .start .section-container header .contenedor-imagenEsquinera .imagenEsquinera {
+        width: 500px;
+        height: 500px;
+        filter: drop-shadow(7px 17px 5px rgba(0, 0, 0, 0));
+    }
+
+    /* ----Termina Header-------------------------------------------------------------------------------------------------------------------------- */
+    /* ------------------------------------------------------------------------------------------------------------------------------ */
+
+
+}

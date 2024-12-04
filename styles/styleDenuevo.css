@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Petit+Formal+Script&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&family=Yellowtail&display=swap');
+
+.alex-brush-regular {
+    font-family: "Alex Brush", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: "Titillium Web";
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: #546455;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+body {
+    zoom: 110%;
+}
+
+
+/* Comienzo de magia------------------------------------------------------------------------------------------------------------------------- */
+
+.start {
+    width: 100vw;
+    height: 550vh;
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    animation-duration: 2s;
+    animation-name: slide-in;
+    animation-iteration-count: 1;
+    animation-direction: initial;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+
+}
+
+@keyframes slide-in {
+    from {
+        margin-left: 100%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+
+.start .section-container {
+    max-width: 5000px;
+    height: 5000px;
+    text-align: center;
+    padding: 0px 10px;
+}
+
+.start .section-container header {
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+}
