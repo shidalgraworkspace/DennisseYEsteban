@@ -422,7 +422,7 @@ body {
 /* -------------------------------------- */
 
 
-/* Responsive tablet */
+/* Responsive tablet ipad pro */
 
 @media only screen and (min-width: 960px) and (max-width: 1025px),
 screen and (min-height: 1366px) {
@@ -559,7 +559,7 @@ screen and (min-height: 1366px) {
         }
 
         to {
-            width: 9em;
+            width: 11em;
         }
     }
 
