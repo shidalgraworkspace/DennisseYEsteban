@@ -71,7 +71,7 @@ body {
     margin-top: 11%;
     margin-left: 0%;
     transform: rotate(-25deg);
-    text-shadow: 12px 11px 65px #fff;
+    text-shadow: 5px 5px 30px #fff;
 }
 
 .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
@@ -83,6 +83,8 @@ body {
     color: #054113;
     font-weight: 900;
     line-height: 100%;
+    -webkit-text-stroke: #35493691 1px;
+
 }
 
 .start .section-container header .contenedor-LetrasTitulo .contenedor-NosCasamos p {
@@ -92,7 +94,7 @@ body {
     color: #19691e;
     -webkit-text-stroke: #35493691 1px;
     filter: drop-shadow(1px 1px 1px #031206);
-
+    text-shadow: 2px 2px 20px #fff;
 }
 
 /* color del corazon donde estan los nombres de los novios */
@@ -100,7 +102,7 @@ body {
     color: #19691e;
     margin-left: 5%;
     margin-right: 5%;
-    filter: drop-shadow(1px 1px 1px #031206);
+    text-shadow: 2px 2px 30px #fff;
 }
 
 .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -118,7 +120,7 @@ body {
     transform: translateY(-50%);
     letter-spacing: 2px;
     -webkit-text-stroke: #35493691 1px;
-    filter: drop-shadow(1px 1px 1px #031206);
+    text-shadow: 2px 2px 30px #fff;
 
 }
 
@@ -128,7 +130,7 @@ body {
     font-family: "Alex Brush";
     color: #19691e;
     -webkit-text-stroke: #35493691 1px;
-    filter: drop-shadow(1px 1px 1px #031206);
+    text-shadow: 2px 2px 30px #fff;
 
 }
 
@@ -272,20 +274,6 @@ body {
         padding: 3% 3% 5% 3%;
     }
 
-    /* .start .section-container header .contenedor-mensajeHeader {
-        display: inline-block;
-        position: relative;
-        text-align: justify;
-        margin-top: 1%;
-        margin-left: 0%;
-    }
-
-    .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
-        position: absolute;
-        width: 25rem;
-        height: 10rem;
-    } */
-
     .start .section-container header .contenedor-mensajeHeader {
         display: inline-block;
         position: relative;
@@ -293,9 +281,9 @@ body {
         margin-top: 11%;
         margin-left: 1%;
         transform: rotate(-25deg);
-        text-shadow: 12px 11px 65px #fff;
+        text-shadow: 6px 5px 30px #fff;
     }
-    
+
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
         position: absolute;
         width: 22rem;
@@ -305,6 +293,7 @@ body {
         color: #054113;
         font-weight: 900;
         line-height: 100%;
+        -webkit-text-stroke: #35493691 1px;
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -322,7 +311,7 @@ body {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
 
     }
 
@@ -331,7 +320,7 @@ body {
         color: #19691e;
         margin-left: 5%;
         margin-right: 5%;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -349,7 +338,7 @@ body {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -358,8 +347,7 @@ body {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
-
+        text-shadow: 2px 2px 30px #fff;
     }
 
     /* Animation StartMainName*/
@@ -510,9 +498,9 @@ screen and (min-height: 1366px) {
         margin-top: 12%;
         margin-left: -1%;
         transform: rotate(-25deg);
-        text-shadow: 12px 11px 65px #fff;
+        text-shadow: 5px 5px 25px #fff;
     }
-    
+
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
         position: absolute;
         width: 22rem;
@@ -522,6 +510,8 @@ screen and (min-height: 1366px) {
         color: #054113;
         font-weight: 900;
         line-height: 100%;
+        -webkit-text-stroke: #35493691 1px;
+
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -540,7 +530,7 @@ screen and (min-height: 1366px) {
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
         filter: drop-shadow(1px 1px 1px #031206);
-
+        text-shadow: 2px 2px 20px #fff;
     }
 
     /* color del corazon donde estan los nombres de los novios */
@@ -548,7 +538,7 @@ screen and (min-height: 1366px) {
         color: #19691e;
         margin-left: 5%;
         margin-right: 5%;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -566,7 +556,7 @@ screen and (min-height: 1366px) {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -575,8 +565,7 @@ screen and (min-height: 1366px) {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
-
+        text-shadow: 2px 2px 30px #fff;
     }
 
     /* Animation StartMainName*/
@@ -648,7 +637,7 @@ screen and (min-height: 1366px) {
     .image-music .section-container-fotoAudio .primeraImagen {
         width: 72rem;
         height: 72rem;
-        
+
     }
 }
 
@@ -725,9 +714,9 @@ screen and (min-height: 1366px) {
         margin-top: 11%;
         margin-left: 0%;
         transform: rotate(-25deg);
-        text-shadow: 12px 11px 65px #fff;
+        text-shadow: 3px 5px 20px #fff;
     }
-    
+
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
         position: absolute;
         width: 7rem;
@@ -737,6 +726,8 @@ screen and (min-height: 1366px) {
         color: #054113;
         font-weight: 700;
         line-height: 100%;
+        -webkit-text-stroke: #35493691 1px;
+
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -755,7 +746,7 @@ screen and (min-height: 1366px) {
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
         filter: drop-shadow(1px 1px 1px #031206);
-
+        text-shadow: 2px 2px 20px #fff;
     }
 
     /* color del corazon donde estan los nombres de los novios */
@@ -763,7 +754,8 @@ screen and (min-height: 1366px) {
         color: #19691e;
         margin-left: 2%;
         margin-right: 2%;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
+
     }
 
     .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -781,7 +773,7 @@ screen and (min-height: 1366px) {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -790,8 +782,7 @@ screen and (min-height: 1366px) {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        filter: drop-shadow(1px 1px 1px #031206);
-
+        text-shadow: 2px 2px 30px #fff;
     }
 
     /* Animation StartMainName*/
@@ -863,6 +854,6 @@ screen and (min-height: 1366px) {
     .image-music .section-container-fotoAudio .primeraImagen {
         width: 23rem;
         height: 23rem;
-        
+
     }
 }
