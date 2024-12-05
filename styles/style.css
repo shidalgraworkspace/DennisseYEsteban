@@ -55,14 +55,6 @@ body {
     padding: 3% 3% 5% 3%;
 }
 
-.start .section-container header .contenedor-mensajeHeader {
-    display: inline-block;
-    position: relative;
-    text-align: justify;
-    margin-top: 2%;
-    margin-left: 0%;
-}
-
 .start .section-container header .contenedor-LetrasTitulo {
     margin: 15% 0% 0% 25%;
     position: absolute;
@@ -72,11 +64,25 @@ body {
     transform: translate(-50%, -50%);
 }
 
+.start .section-container header .contenedor-mensajeHeader {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    margin-top: 11%;
+    margin-left: 0%;
+    transform: rotate(-25deg);
+    text-shadow: 12px 11px 65px #fff;
+}
+
 .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
     position: absolute;
     width: 30rem;
     height: 12rem;
-
+    font-family: "Alex Brush";
+    font-size: 4rem;
+    color: #054113;
+    font-weight: 900;
+    line-height: 100%;
 }
 
 .start .section-container header .contenedor-LetrasTitulo .contenedor-NosCasamos p {
@@ -266,7 +272,7 @@ body {
         padding: 3% 3% 5% 3%;
     }
 
-    .start .section-container header .contenedor-mensajeHeader {
+    /* .start .section-container header .contenedor-mensajeHeader {
         display: inline-block;
         position: relative;
         text-align: justify;
@@ -278,6 +284,27 @@ body {
         position: absolute;
         width: 25rem;
         height: 10rem;
+    } */
+
+    .start .section-container header .contenedor-mensajeHeader {
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        margin-top: 11%;
+        margin-left: 1%;
+        transform: rotate(-25deg);
+        text-shadow: 12px 11px 65px #fff;
+    }
+    
+    .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
+        position: absolute;
+        width: 22rem;
+        height: 12rem;
+        font-family: "Alex Brush";
+        font-size: 3rem;
+        color: #054113;
+        font-weight: 900;
+        line-height: 100%;
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -479,15 +506,22 @@ screen and (min-height: 1366px) {
     .start .section-container header .contenedor-mensajeHeader {
         display: inline-block;
         position: relative;
-        text-align: justify;
-        margin-top: 1%;
-        margin-left: 0%;
+        text-align: center;
+        margin-top: 12%;
+        margin-left: -1%;
+        transform: rotate(-25deg);
+        text-shadow: 12px 11px 65px #fff;
     }
-
+    
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
         position: absolute;
-        width: 25rem;
-        height: 10rem;
+        width: 22rem;
+        height: 12rem;
+        font-family: "Alex Brush";
+        font-size: 3rem;
+        color: #054113;
+        font-weight: 900;
+        line-height: 100%;
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -687,15 +721,22 @@ screen and (min-height: 1366px) {
     .start .section-container header .contenedor-mensajeHeader {
         display: inline-block;
         position: relative;
-        text-align: justify;
-        margin-top: 1%;
+        text-align: center;
+        margin-top: 11%;
         margin-left: 0%;
+        transform: rotate(-25deg);
+        text-shadow: 12px 11px 65px #fff;
     }
-
+    
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
         position: absolute;
-        width: 9rem;
-        height: 5rem;
+        width: 7rem;
+        height: 12rem;
+        font-family: "Alex Brush";
+        font-size: 1rem;
+        color: #054113;
+        font-weight: 700;
+        line-height: 100%;
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
