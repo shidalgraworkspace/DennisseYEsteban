@@ -13,16 +13,18 @@ html {
 
 body {
   zoom: 100%;
-}
-
-/* section start ---------------------------------------------------------------------------------------------------*/
-.start {
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
     url("../../images/fondo_de_pagina.png");
   background-size: cover;
   background-position: center center;
-  color: #fff;
+  background-color: #6d775e;
+  color: #6d775e;
 }
+
+/* section start ---------------------------------------------------------------------------------------------------*/
+/* .start {
+  
+} */
 
 .start {
   animation-duration: 2s;
@@ -31,7 +33,7 @@ body {
   animation-direction: initial;
 }
 
-@keyframes slide-in {
+/* @keyframes slide-in {
   from {
     margin-left: 100%;
     width: 300%;
@@ -41,55 +43,25 @@ body {
     margin-left: 0%;
     width: 100%;
   }
-}
+} */
 
 .start .section-container {
-  max-width: 20000px;
+  max-width: 1500px;
   margin: auto;
   text-align: center;
   padding: 0px 10px;
 }
 
 .start .section-container header {
-  padding: 15px;
-}
-
-/* Menu ---------------------------------------------------------------------------------------------------*/
-.start .section-container header nav {
-  width: 110px;
-  position: fixed;
-  margin-left: 60px;
-  background-color: #940253;
-  padding: 30px;
-  border-radius: 10px;
-  text-align: left;
-  z-index: 99;
-  display: none;
-}
-
-.start .section-container header nav a {
-  display: block;
-  color: #fff;
-  font-size: 20px;
-  text-decoration: none;
-  margin-bottom: 10px;
-  font-weight: bold;
-  transition: .3s;
-}
-
-.start .section-container header nav a:hover {
-  display: block;
-  color: rgb(150, 150, 152);
-  font-size: 21px;
-  text-decoration: none;
-  margin-bottom: 10px;
-  font-weight: bold;
-  transition: .3s;
+  padding: 70px 15px 15px 15px;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* *********** */
 .start .section-container header .logo {
   font-weight: bold;
+  color: white;
   font-size: 2rem;
   font-family: "Yellowtail";
   text-shadow: 0 0 35px #fff;
@@ -108,39 +80,55 @@ body {
 
 
 .start .section-container header .logo .color {
-  color: #940253;
+  color: #214a18;
   font-family: "Yellowtail";
 }
 
 .start .section-container header .nav-bar {
-  position: absolute;
+  position: relative;
   background-color: transparent;
   text-align: left;
   width: 25%;
-  height: 30%;
-  border-radius: 50%;
-  line-height: 50px;
-  transition: .3s;
-  font-size: 15px;
+  height: 15%;
+  margin: 3% 0 0 2%;
+}
+
+.start .section-container header .nav-bar p {
+  display: inline-block;
+  position: relative;
+  text-align: center;
+  font-family: "ALEX BRUSH";
+  color: white;
+  font-weight: 500;
+  line-height: 38px;
+  font-size: 230%;
+  transform: rotate(-25deg);
+}
+
+.start .section-container header .contenedor-titulo {
+  position: relative;
+  width: 30%;
+  margin-top: 125px;
 }
 
 .start .section-container .info {
-  padding-bottom: 130px;
+  padding-bottom: 0px;
 }
 
 .lineStartName {
   position: relative;
   font-family: 'ALEX BRUSH';
+  color: white;
   font-size: 240%;
   font-weight: bold;
   border-right: 2px solid rgba(255, 255, 255, .75);
   top: 50%;
   width: 24em;
-  margin: 26px auto;
+  margin: 0px auto;
   text-align: center;
   white-space: nowrap;
   overflow: hidden;
-  transform: translateY(-50%);
+  transform: translateY(0%);
   letter-spacing: 4px;
 }
 
@@ -172,34 +160,25 @@ body {
 
 .start .section-container .info h2 {
   font-weight: normal;
-  font-size: 20px;
-  font-family:  "Alex Brush";
+  font-size: 30px;
+  font-family: "Alex Brush";
+  color: white;
   margin-top: -10px;
   letter-spacing: 2px;
 }
 
-.start .section-container .info .networks {
-  margin: 20px 0;
+.start .section-container header .nav-bar-right {
+  position: relative;
+  text-align: right;
+  width: 15%;
+  height: 15%;
+  margin: 1% 4% 0 0;
+
 }
 
-.start .section-container .info .networks a {
-  display: inline-block;
-  text-decoration: none;
-  background-color: #000;
-  color: #940253;
-  border: 1px solid #940253;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  line-height: 40px;
-  margin: 0 5px;
-  transition: .3s;
-}
-
-.start .section-container .info .networks a:hover {
-  color: #fff;
-  background-color: #940253;
-  box-shadow: 0 0 20px #fff;
+.start .section-container header .nav-bar-right img {
+  width: 100%;
+  height: 100%;
 }
 
 .start .section-container .picture {
@@ -207,13 +186,10 @@ body {
 }
 
 .start .section-container .picture img {
-  max-width: 200px;
-  border-radius: 50%;
-  border: 5px solid #940253;
-  position: absolute;
-  left: 50%;
-  top: -100px;
-  transform: translateX(-50%);
+  max-width: 90%;
+  border-radius: 1%;
+  border: 1px solid #0e7e5a;
+  margin: 15% 0% 0% 0%;
 }
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
@@ -225,8 +201,11 @@ body {
 /*Section about me ---------------------------------------------------------------------------------------------------*/
 
 .aboutme {
-  background-color: #e6e6e6;
-  padding: 140px 0 100px 0;
+  /* background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+    url("../../images/fondo_de_pagina.png");
+    background-size: cover;
+  background-position: center center;
+  padding: 1200px 0 100px 0; */
   text-align: center;
 }
 
@@ -256,11 +235,11 @@ body {
 .aboutme .section-container .row {
   display: flex;
   margin-top: 30px;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .aboutme .section-container .row .col {
-  width: 70%;
+  width: 40%;
 }
 
 .aboutme .section-container .row .col i {
@@ -281,7 +260,7 @@ body {
 
 /*Section Knowledge ---------------------------------------------------------------------------------------------------*/
 .knowledge {
-  padding: 80px 0 100px 0;
+  /* padding: 80px 0 100px 0;
   text-align: center;
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
     url('../images/Knowledge.jpg');
@@ -289,13 +268,13 @@ body {
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  color: #fff;
+  color: #fff; */
 }
 
 .knowledge {
-  background-color: #e6e6e6;
+  /* background-color: #e6e6e6;
   padding: 100px 0 100px 0;
-  text-align: center;
+  text-align: center; */
 }
 
 .knowledge .section-container {
@@ -375,10 +354,11 @@ body {
   padding-top: 10px;
 }
 
-.separate{
+.separate {
   margin-left: 10px;
 }
-.separatePoint{
+
+.separatePoint {
   margin-left: 5px;
 }
 
@@ -755,17 +735,17 @@ body {
     from {
       width: 0;
     }
-  
+
     to {
       width: 12em;
     }
   }
-  
+
   @keyframes blinkTextCursor {
     from {
       border-right-color: rgba(255, 255, 255, .75);
     }
-  
+
     to {
       border-right-color: transparent;
     }
@@ -1043,34 +1023,3 @@ body {
     border-radius: 15px 15px 15px 15px;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
