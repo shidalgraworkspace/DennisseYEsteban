@@ -12,7 +12,11 @@ html {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
+    color: #fff;
+    animation-duration: 2s;
+    animation-name: slide-in;
+    animation-iteration-count: 1;
+    animation-direction: initial;
     /* background-color: #546455; */
     scroll-behavior: smooth;
 }
@@ -23,14 +27,10 @@ body {
     height: 550vh;
 }
 
-.start {
+/* .start {
     
-    color: #fff;
-    animation-duration: 2s;
-    animation-name: slide-in;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-}
+    
+} */
 
 @keyframes slide-in {
     from {
@@ -243,12 +243,12 @@ body {
     .start {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
-        animation-direction: initial;
+        animation-direction: initial; */
     }
 
     @keyframes slide-in {
@@ -461,12 +461,12 @@ screen and (min-height: 1366px) {
     .start {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
-        animation-direction: initial;
+        animation-direction: initial; */
     }
 
     @keyframes slide-in {
@@ -677,12 +677,12 @@ screen and (min-height: 1366px) {
     .start {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
-        animation-direction: initial;
+        animation-direction: initial; */
     }
 
     @keyframes slide-in {
@@ -857,6 +857,5 @@ screen and (min-height: 1366px) {
     .image-music .section-container-fotoAudio .primeraImagen {
         width: 23rem;
         height: 23rem;
-
     }
 }
