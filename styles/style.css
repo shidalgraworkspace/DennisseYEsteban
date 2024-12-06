@@ -27,11 +27,6 @@ body {
     height: 550vh;
 }
 
-/* .start {
-    
-    
-} */
-
 @keyframes slide-in {
     from {
         margin-left: 100%;
@@ -73,7 +68,6 @@ body {
     margin-top: 11%;
     margin-left: 0%;
     transform: rotate(-25deg);
-    text-shadow: 5px 5px 30px #fff;
 }
 
 .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
@@ -86,7 +80,8 @@ body {
     font-weight: 900;
     line-height: 100%;
     -webkit-text-stroke: #35493691 1px;
-
+    filter: drop-shadow(1px 1px 1px #031206);
+    text-shadow: 5px 5px 30px #fff;
 }
 
 .start .section-container header .contenedor-LetrasTitulo .contenedor-NosCasamos p {
@@ -104,7 +99,8 @@ body {
     color: #19691e;
     margin-left: 5%;
     margin-right: 5%;
-    text-shadow: 2px 2px 30px #fff;
+    -webkit-text-stroke: #35493691 1px;
+    text-shadow: 2px 2px 20px #fff;
 }
 
 .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -122,8 +118,8 @@ body {
     transform: translateY(-50%);
     letter-spacing: 2px;
     -webkit-text-stroke: #35493691 1px;
-    text-shadow: 1px 1px 20px #fff;
-
+    filter: drop-shadow(1px 1px 1px #031206);
+    text-shadow: 2px 2px 20px #fff;
 }
 
 .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -185,16 +181,7 @@ body {
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 .image-music {
-    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina_verde.png); */
-    /* background-size: cover;
-    background-position: center;
-    color: #fff;
-    animation-duration: 2s;
-    animation-name: slide-in;
-    animation-iteration-count: 1;
-    animation-direction: initial;
-    padding: 100px 0 100px 0; */
-    text-align: center; 
+    text-align: center;
 }
 
 .image-music .section-container-fotoAudio {
@@ -227,42 +214,6 @@ body {
 
 @media only screen and (min-width: 1025px) and (max-width: 1500px) {
 
-    /* @media screen and (max-width: 1500px){
-
-    html {
-        background-color: #546455;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        zoom: 100%;
-        width: 100vw;
-        height: 550vh;
-    } */
-
-    .start {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial; */
-    }
-
-    @keyframes slide-in {
-        from {
-            margin-left: 100%;
-            width: 300%;
-        }
-
-        to {
-            margin-left: 0%;
-            width: 100%;
-        }
-    }
-
     .start .section-container {
         max-width: 20000%;
         margin: auto;
@@ -283,7 +234,6 @@ body {
         margin-top: 11%;
         margin-left: 1%;
         transform: rotate(-25deg);
-        text-shadow: 6px 5px 30px #fff;
     }
 
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
@@ -296,6 +246,8 @@ body {
         font-weight: 900;
         line-height: 100%;
         -webkit-text-stroke: #35493691 1px;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo {
@@ -305,6 +257,8 @@ body {
         top: 7rem;
         left: 20rem;
         transform: translate(-50%, -50%);
+        -webkit-text-stroke: #35493691 1px;
+        text-shadow: 2px 2px 20px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .contenedor-NosCasamos p {
@@ -313,6 +267,7 @@ body {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
+        filter: drop-shadow(1px 1px 1px #031206);
         text-shadow: 2px 2px 20px #fff;
 
     }
@@ -340,8 +295,9 @@ body {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
-        
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
+
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -350,7 +306,7 @@ body {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
+        text-shadow: 2px 2px 20px #fff;
     }
 
     /* Animation StartMainName*/
@@ -400,15 +356,6 @@ body {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial;
-        padding: 10px 0 10px 0;  */
         text-align: center;
     }
 
@@ -444,42 +391,6 @@ body {
 
 @media only screen and (min-width: 960px) and (max-width: 1025px),
 screen and (min-height: 1366px) {
-
-    /* @media screen and (max-width: 1024px){
-
-    html {
-        background-color: #546455;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        zoom: 100%;
-        width: 100vw;
-        height: 550vh;
-    } */
-
-    .start {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial; */
-    }
-
-    @keyframes slide-in {
-        from {
-            margin-left: 100%;
-            width: 300%;
-        }
-
-        to {
-            margin-left: 0%;
-            width: 100%;
-        }
-    }
 
     .start .section-container {
         max-width: 20000%;
@@ -618,15 +529,6 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial;
-        padding: 10px 0 10px 0;*/
         text-align: center;
     }
 
@@ -661,41 +563,6 @@ screen and (min-height: 1366px) {
 /* Responsive Telefono */
 
 @media only screen and (min-width: 256px) and (max-width: 960px) {
-
-    /* @media screen and (max-width: 960px){
-    html {
-        background-color: #546455;
-        scroll-behavior: smooth;
-    }
-
-    body {
-        zoom: 100%;
-        width: 100vw;
-        height: 550vh;
-    } */
-
-    .start {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial; */
-    }
-
-    @keyframes slide-in {
-        from {
-            margin-left: 100%;
-            width: 300%;
-        }
-
-        to {
-            margin-left: 0%;
-            width: 100%;
-        }
-    }
 
     .start .section-container {
         max-width: 20000%;
@@ -835,15 +702,6 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-        background-size: cover;
-        background-position: center; 
-        color: #fff;
-        animation-duration: 2s;
-        animation-name: slide-in;
-        animation-iteration-count: 1;
-        animation-direction: initial;
-        padding: 10px 0 10px 0; */
         text-align: center;
     }
 
