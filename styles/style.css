@@ -412,7 +412,7 @@ screen and (min-height: 1366px) {
         margin-top: 12%;
         margin-left: -1%;
         transform: rotate(-25deg);
-        
+
     }
 
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
@@ -566,9 +566,9 @@ screen and (min-height: 1366px) {
 /* -------------------------------------- */
 
 
-/* Responsive Telefono */
+/* Responsive Telefono 256 x 960*/
 
-@media only screen and (min-width: 256px) and (max-width: 960px) {
+@media only screen and (min-width: 568px) and (max-width: 960px) {
 
     .start .section-container {
         max-width: 20000%;
@@ -725,3 +725,5 @@ screen and (min-height: 1366px) {
         height: 23rem;
     }
 }
+
+
