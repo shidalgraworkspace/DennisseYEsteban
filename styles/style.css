@@ -697,9 +697,15 @@ body {
     padding-bottom: 0px;
   }
   
+.contenedor-nombres {
+  width: 25px;
+  transform: translateX(-32px);
+}
+
   .lineStartName {
     position: relative;
     font-family: 'ALEX BRUSH';
+    
     color: white;
     font-size: 90%;
     font-weight: bold;
@@ -707,11 +713,11 @@ body {
     top: 50%;
     width: 24em;
     margin: 0px auto;
-    text-align: center;
+    text-align: start;
     white-space: nowrap;
     overflow: hidden;
     letter-spacing: 4px;
-    transform: translateX(-35px);
+   
   }
   
   /* Animation StartMainName*/
