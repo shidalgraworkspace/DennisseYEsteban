@@ -7,9 +7,13 @@
     padding: 0;
 }
 
-
 html {
-    background-color: #546455;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    /* background-color: #546455; */
     scroll-behavior: smooth;
 }
 
@@ -20,9 +24,7 @@ body {
 }
 
 .start {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
-    background-size: cover;
-    background-position: center;
+    
     color: #fff;
     animation-duration: 2s;
     animation-name: slide-in;
@@ -183,7 +185,7 @@ body {
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 .image-music {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+    /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina_verde.png); */
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -225,7 +227,7 @@ body {
 
 @media only screen and (min-width: 1025px) and (max-width: 1500px) {
 
-    /* @media screen and (max-width: 1500px){ */
+    /* @media screen and (max-width: 1500px){
 
     html {
         background-color: #546455;
@@ -236,12 +238,12 @@ body {
         zoom: 100%;
         width: 100vw;
         height: 550vh;
-    }
+    } */
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
@@ -398,9 +400,9 @@ body {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
@@ -443,7 +445,7 @@ body {
 @media only screen and (min-width: 960px) and (max-width: 1025px),
 screen and (min-height: 1366px) {
 
-    /* @media screen and (max-width: 1024px){ */
+    /* @media screen and (max-width: 1024px){
 
     html {
         background-color: #546455;
@@ -454,12 +456,12 @@ screen and (min-height: 1366px) {
         zoom: 100%;
         width: 100vw;
         height: 550vh;
-    }
+    } */
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
@@ -616,9 +618,9 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
@@ -660,7 +662,7 @@ screen and (min-height: 1366px) {
 
 @media only screen and (min-width: 256px) and (max-width: 960px) {
 
-    /* @media screen and (max-width: 960px){ */
+    /* @media screen and (max-width: 960px){
     html {
         background-color: #546455;
         scroll-behavior: smooth;
@@ -670,12 +672,12 @@ screen and (min-height: 1366px) {
         zoom: 100%;
         width: 100vw;
         height: 550vh;
-    }
+    } */
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
@@ -833,9 +835,9 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
+        /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center;
+        background-position: center; */
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
