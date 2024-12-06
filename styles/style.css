@@ -14,7 +14,7 @@ html {
 body {
   zoom: 100%;
   background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
-    url("images/fondo_de_pagina.png");
+    url("/images/fondo_de_pagina.png");
   background-size: cover;
   background-position: center center;
   background-color: #6d775e;
