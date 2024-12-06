@@ -677,13 +677,13 @@ body {
   
   .start .section-container header .nav-bar p {
     display: inline-block;
-    position: relative;
+    position: absolute;
     text-align: center;
     font-family: "ALEX BRUSH";
     color: white;
     font-weight: 500;
     line-height: 15px;
-    font-size: 60%;
+    font-size: 80%;
     transform: rotate(-25deg);
   }
   
@@ -771,7 +771,6 @@ body {
     max-width: 90%;
     border-radius: 1%;
     border: 1px solid #0e7e5a;
-    margin: 10% 0% 0% 0%;
   }
   
   /*general styles ---------------------------------------------------------------------------------------------------*/
