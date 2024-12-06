@@ -186,15 +186,15 @@ body {
 
 .image-music {
     /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina_verde.png); */
-    background-size: cover;
+    /* background-size: cover;
     background-position: center;
     color: #fff;
     animation-duration: 2s;
     animation-name: slide-in;
     animation-iteration-count: 1;
     animation-direction: initial;
-    padding: 100px 0 100px 0;
-    text-align: center;
+    padding: 100px 0 100px 0; */
+    text-align: center; 
 }
 
 .image-music .section-container-fotoAudio {
@@ -402,13 +402,13 @@ body {
     .image-music {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
         animation-direction: initial;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 0;  */
         text-align: center;
     }
 
@@ -620,13 +620,13 @@ screen and (min-height: 1366px) {
     .image-music {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
         animation-direction: initial;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 0;*/
         text-align: center;
     }
 
@@ -837,13 +837,13 @@ screen and (min-height: 1366px) {
     .image-music {
         /* background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
-        background-position: center; */
+        background-position: center; 
         color: #fff;
         animation-duration: 2s;
         animation-name: slide-in;
         animation-iteration-count: 1;
         animation-direction: initial;
-        padding: 10px 0 10px 0;
+        padding: 10px 0 10px 0; */
         text-align: center;
     }
 
