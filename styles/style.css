@@ -412,7 +412,7 @@ screen and (min-height: 1366px) {
         margin-top: 12%;
         margin-left: -1%;
         transform: rotate(-25deg);
-        text-shadow: 5px 5px 25px #fff;
+        
     }
 
     .start .section-container header .contenedor-mensajeHeader .Imagen-MensajeInicial {
@@ -425,6 +425,8 @@ screen and (min-height: 1366px) {
         font-weight: 900;
         line-height: 100%;
         -webkit-text-stroke: #35493691 1px;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
 
     }
 
@@ -452,7 +454,9 @@ screen and (min-height: 1366px) {
         color: #19691e;
         margin-left: 5%;
         margin-right: 5%;
-        text-shadow: 2px 2px 30px #fff;
+        -webkit-text-stroke: #35493691 1px;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -470,7 +474,8 @@ screen and (min-height: 1366px) {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -479,7 +484,8 @@ screen and (min-height: 1366px) {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     /* Animation StartMainName*/
@@ -624,8 +630,9 @@ screen and (min-height: 1366px) {
         color: #19691e;
         margin-left: 2%;
         margin-right: 2%;
-        text-shadow: 2px 2px 30px #fff;
-
+        -webkit-text-stroke: #35493691 1px;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .NombresPrincipales {
@@ -643,7 +650,7 @@ screen and (min-height: 1366px) {
         transform: translateY(-50%);
         letter-spacing: 2px;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
+        text-shadow: 1px 1px 30px #fff;
     }
 
     .start .section-container header .contenedor-LetrasTitulo .letraInicial {
@@ -652,7 +659,8 @@ screen and (min-height: 1366px) {
         font-family: "Alex Brush";
         color: #19691e;
         -webkit-text-stroke: #35493691 1px;
-        text-shadow: 1px 1px 20px #fff;
+        filter: drop-shadow(1px 1px 1px #031206);
+        text-shadow: 2px 2px 20px #fff;
     }
 
     /* Animation StartMainName*/
