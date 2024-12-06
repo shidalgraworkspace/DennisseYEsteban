@@ -20,7 +20,7 @@ body {
 }
 
 .start {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -183,7 +183,7 @@ body {
 /* --------------------------------------------------------------------------------------------------------------------------- */
 
 .image-music {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
     background-size: cover;
     background-position: center;
     color: #fff;
@@ -239,7 +239,7 @@ body {
     }
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -398,7 +398,7 @@ body {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -457,7 +457,7 @@ screen and (min-height: 1366px) {
     }
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -616,7 +616,7 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -673,7 +673,7 @@ screen and (min-height: 1366px) {
     }
 
     .start {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
@@ -833,7 +833,7 @@ screen and (min-height: 1366px) {
     /* ---------------- -------------------------------------------------------------------------------------------------------------- */
 
     .image-music {
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/images/fondo_de_pagina.png);
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../images/fondo_de_pagina.png);
         background-size: cover;
         background-position: center;
         color: #fff;
