@@ -151,7 +151,6 @@ body {
   width: 15%;
   height: 15%;
   margin: 1% 4% 0 0;
-
 }
 
 .start .section-container header .nav-bar-right img {
@@ -166,7 +165,6 @@ body {
 .start .section-container .picture img {
   max-width: 90%;
   border-radius: 1%;
-  border: 1px solid #0e7e5a;
   margin: 10% 0% 0% 0%;
 }
 
@@ -675,7 +673,7 @@ body {
     text-align: left;
     width: 40%;
     height: 80%;
-    margin: 3% 0 0 2%;
+    margin: 8% 0 0 0%;
   }
 
   .start .section-container header .nav-bar p {
@@ -735,7 +733,7 @@ body {
     }
 
     to {
-      width: 11em;
+      width: 12em;
     }
   }
 
@@ -781,7 +779,6 @@ body {
     max-width: 90%;
     margin: 5% 0% 0% 0%;
     border-radius: 1%;
-    border: 1px solid #0e7e5a;
   }
 
   /*general styles ---------------------------------------------------------------------------------------------------*/
