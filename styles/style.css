@@ -623,7 +623,7 @@ body {
 
 
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:500px) {
+@media screen and (max-width:950px) {
 
 
   .start .section-container {
@@ -1243,7 +1243,7 @@ body {
 
 
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
-@media screen and (max-width: 840px) {
+@media screen and (max-width: 1250px) {
 
 
   .start .section-container {
