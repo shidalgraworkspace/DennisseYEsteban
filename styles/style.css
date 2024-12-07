@@ -673,8 +673,8 @@ body {
     position: relative;
     background-color: transparent;
     text-align: left;
-    width: 25%;
-    height: 70%;
+    width: 40%;
+    height: 80%;
     margin: 3% 0 0 2%;
   }
 
@@ -685,8 +685,8 @@ body {
     font-family: "ALEX BRUSH";
     color: white;
     font-weight: 500;
-    line-height: 15px;
-    font-size: 80%;
+    line-height: 18px;
+    font-size: 110%;
     transform: rotate(-25deg);
   }
 
@@ -703,15 +703,14 @@ body {
 
   .contenedor-nombres {
     width: 25px;
-    margin: 0 0 0 13px;
+    margin: 0 0 0 0px;
   }
 
   .lineStartName {
     position: relative;
     font-family: 'ALEX BRUSH';
-
     color: white;
-    font-size: 90%;
+    font-size: 115%;
     font-weight: bold;
     border-right: 2px solid rgba(255, 255, 255, .75);
     top: 50%;
@@ -736,7 +735,7 @@ body {
     }
 
     to {
-      width: 13em;
+      width: 11em;
     }
   }
 
@@ -752,7 +751,7 @@ body {
 
   .start .section-container .info h2 {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 17px;
     font-family: "Alex Brush";
     color: white;
     margin-top: -10px;
@@ -777,7 +776,7 @@ body {
   .start .section-container .picture {
     position: relative;
   }
-  
+
   .start .section-container .picture img {
     max-width: 90%;
     margin: 5% 0% 0% 0%;
