@@ -1243,7 +1243,7 @@ body {
 
 
 /*Section responsive ---------------------------------------------------------------------------------------------------*/
-@media screen and (max-width:1000px) {
+@media screen and (max-width: 840px) {
 
 
   .start .section-container {
@@ -1321,7 +1321,7 @@ body {
 
   .contenedor-nombres {
     width: 225px;
-    margin: 0 0 0 140px;
+    margin: 0 0 0 90px;
   }
 
   .lineStartName {
