@@ -171,9 +171,9 @@ body {
 /*general styles ---------------------------------------------------------------------------------------------------*/
 .title-section {
   font-family: "ALEX BRUSH";
-    font-size: 3.5rem;
-    color: white;
-    margin-bottom: 10px;
+  font-size: 3.5rem;
+  color: white;
+  margin-bottom: 10px;
 }
 
 /*Section about me ---------------------------------------------------------------------------------------------------*/
@@ -188,9 +188,21 @@ body {
   padding: 0 10px;
 }
 
-.aboutme .section-container .audio {
-  width: 50%;
+.aboutme .section-container .contenedorAudio {
+  margin: 0% 10% 0% 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutme .section-container .contenedorAudio .audio {
+  width: 1000px;
   height: 100px;
+  border-radius: 20px;
+  box-shadow: 13px 7px 5px #131313;
+  background-color: #546455;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .aboutme .section-container h3 {
@@ -200,10 +212,10 @@ body {
 
 .aboutme .section-container .special {
   color: white;
-    font-family: "Alex brush";
-    font-size: 70px;
-    font-weight: bold;
-    margin-top: 50px;
+  font-family: "Alex brush";
+  font-size: 70px;
+  font-weight: bold;
+  margin-top: 50px;
 }
 
 .aboutme .section-container .contenedor-NuestraBoda {

@@ -12,6 +12,7 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>2 Ceremonia de Dennisse y Esteban... Acompañanos</title>
     <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/3832/3832174.png" />
+    <script src="https://kit.fontawesome.com/b1aeab81db.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -50,14 +51,25 @@
     <section class="aboutme" id="aboutme">
         <div class="section-container">
             <h2 class="title-section">Te Esperaba...</h2>
-            <audio class="audio", autoplay="true" loop="true" controls="true">
-                <source src="udio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
-                <source src="udio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
-                <source src="udio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
-                <source src="udio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
-                Your browser does not support the audio element.
-                
-            </audio>
+            <div class="contenedorAudio">
+                <audio id="player">
+                    <source src="audio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
+                    <source src="audio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
+                    <source src="audio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
+                    <source src="audio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
+                    Your browser does not support the audio element.
+                </audio>
+                <div class="audio">
+                    <button class="botonMusica" onclick="document.getElementById('player').play()">
+                        <span class="fa-solid fa-play"></span></button>
+                    <button class="botonMusica" onclick="document.getElementById('player').pause()">
+                        <i class="fa fa-pause" aria-hidden="true"></i></button>
+                    <button class="botonMusica" onclick="document.getElementById('player').volume+=0.1">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i></button>
+                    <button class="botonMusica" onclick="document.getElementById('player').volume-=0.1">
+                        <i class="fa fa-volume-down" aria-hidden="true"></i></button>
+                </div>
+            </div>
             <div class="contenedor-especial">
                 <p class="special">
                     “Nos encantaría celebrar este día tan especial en compañía de nuestra familia y amigos”
@@ -638,7 +650,7 @@
             </div>
         </div>
     </section>
-   
+
     <!--Section Skills-->
     <section class="skills" id="skills">
         <div class="section-container">
