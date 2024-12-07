@@ -170,8 +170,10 @@ body {
 
 /*general styles ---------------------------------------------------------------------------------------------------*/
 .title-section {
-  font-family: "Yellowtail";
-  font-size: 1.5rem;
+  font-family: "ALEX BRUSH";
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 10px;
 }
 
 /*Section about me ---------------------------------------------------------------------------------------------------*/
@@ -186,15 +188,43 @@ body {
   padding: 0 10px;
 }
 
+.aboutme .section-container .audio {
+  width: 50%;
+  height: 100px;
+}
+
 .aboutme .section-container h3 {
   text-transform: uppercase;
   font-size: 30px;
 }
 
 .aboutme .section-container .special {
-  color: #940253;
-  font-weight: bold;
-  margin-top: 15px;
+  color: white;
+    font-family: "Alex brush";
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.aboutme .section-container .contenedor-NuestraBoda {
+  margin: 100px;
+}
+
+.aboutme .section-container .contenedor-NuestraBoda p {
+  max-width: 1200px;
+  margin: auto;
+  color: white;
+  font-family: "alex brush";
+  font-size: 80px;
+}
+
+.aboutme .section-container .contenedor-anillos {
+  margin: auto;
+}
+
+.aboutme .section-container .contenedor-anillos .anillos {
+  width: 20%;
+  height: 15%;
 }
 
 .aboutme .section-container p {
@@ -203,7 +233,7 @@ body {
   color: #777;
 }
 
-.aboutme .section-container .row {
+/* .aboutme .section-container .row {
   display: flex;
   margin-top: 30px;
   justify-content: space-around;
@@ -227,7 +257,7 @@ body {
   display: block;
   font-weight: bold;
   margin: 8px 0;
-}
+} */
 
 /*Section Knowledge ---------------------------------------------------------------------------------------------------*/
 /* .knowledge {
@@ -661,7 +691,6 @@ body {
     margin-bottom: 50px;
   }
 
-
   .start .section-container header .logo .color {
     color: #214a18;
     font-family: "Yellowtail";
@@ -783,10 +812,14 @@ body {
 
   /*general styles ---------------------------------------------------------------------------------------------------*/
   .title-section {
-    font-family: "Yellowtail";
+    font-family: "ALEX BRUSH";
     font-size: 1.5rem;
+    color: white;
+    margin-bottom: 10px;
   }
 
+  /*Section about me ---------------------------------------------------------------------------------------------------*/
+  /*Section about me ---------------------------------------------------------------------------------------------------*/
   /*Section about me ---------------------------------------------------------------------------------------------------*/
 
   .aboutme {
@@ -796,24 +829,41 @@ body {
   .aboutme .section-container {
     max-width: 1500px;
     margin: auto;
-    padding: 0 10px;
+    padding: 20px 10px;
   }
 
-  .aboutme .section-container h3 {
-    text-transform: uppercase;
-    font-size: 30px;
+  .aboutme .section-container .contenedor-especial {
+    margin: 0% 18% 0% 18%;
+    max-width: 70%;
   }
 
   .aboutme .section-container .special {
-    color: #940253;
+    color: white;
+    font-family: "Alex brush";
+    font-size: 25px;
     font-weight: bold;
     margin-top: 15px;
   }
 
-  .aboutme .section-container p {
+  .aboutme .section-container .contenedor-NuestraBoda {
+    margin: 30px;
+  }
+
+  .aboutme .section-container .contenedor-NuestraBoda p {
     max-width: 1200px;
     margin: auto;
-    color: #777;
+    color: white;
+    font-family: "alex brush";
+    font-size: 40px;
+  }
+
+  .aboutme .section-container .contenedor-anillos {
+    margin: auto;
+  }
+
+  .aboutme .section-container .contenedor-anillos .anillos {
+    width: 30%;
+    height: 25%;
   }
 
   .aboutme .section-container .row {
