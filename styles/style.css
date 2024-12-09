@@ -117,7 +117,6 @@ body {
   margin-top: -10px;
   letter-spacing: 2px;
   text-shadow:
-  text-shadow:
   0.3px 0.3px 0 #000,
   -0.3px 0.3px 0 #000,
   -0.3px -0.3px 0 #000,
@@ -152,7 +151,6 @@ body {
   letter-spacing: 4px;
   /* -webkit-text-stroke-width: 0.01px;
   -webkit-text-stroke-color: black; */
-  text-shadow:
   text-shadow:
   0.3px 0.3px 0 #000,
   -0.3px 0.3px 0 #000,
