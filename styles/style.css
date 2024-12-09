@@ -13,14 +13,13 @@ html {
 
 body {
   zoom: 100%;
-  background: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),
+  background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url("../images/fondo_de_pagina.png");
   background-size: cover;
   background-position: center center;
   background-color: #6d775e;
   color: #6d775e;
-
-
+  background-repeat: no-repeat;
 }
 
 
@@ -37,32 +36,6 @@ body {
   justify-content: space-between;
 }
 
-/* *********** */
-.start .section-container header .logo {
-  font-weight: bold;
-  color: white;
-  font-size: 2rem;
-  font-family: "Yellowtail";
-  text-shadow: 0 0 35px #fff;
-}
-
-.start .section-container header .logo .icon-logo {
-  max-width: 100%;
-  display: flex;
-  text-align: center;
-  align-content: center;
-  justify-content: center;
-  flex-wrap: nowrap;
-  align-items: center;
-  margin-bottom: 50px;
-}
-
-
-.start .section-container header .logo .color {
-  color: #214a18;
-  font-family: "Yellowtail";
-}
-
 .start .section-container header .nav-bar {
   position: relative;
   background-color: transparent;
@@ -77,31 +50,99 @@ body {
   position: relative;
   text-align: center;
   font-family: "ALEX BRUSH";
-  color: white;
-  font-weight: 500;
-  line-height: 38px;
-  font-size: 230%;
+  color: #546455;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 300%;
   transform: rotate(-25deg);
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 
 .start .section-container header .contenedor-titulo {
-  position: relative;
-  width: 30%;
-  margin-top: 125px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 12% auto auto auto;
+  width: 1200px;
+  height: 400px;
 }
 
-.start .section-container .info {
-  padding-bottom: 0px;
+/* *********** */
+.start .section-container header .contenedor-titulo .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 25px;
+  margin: auto;
+  font-weight: bold;
+  color: #546455;
+  font-size: 5rem;
+  font-family: "Yellowtail";
+  text-shadow: 0 0 35px #fff;
+}
+
+.start .section-container header .contenedor-titulo .logo .color {
+  color: #214a18;
+  font-family: "Yellowtail";
+}
+
+.start .section-container .contenedor-titulo .info {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 600px;
+  height: 100px;
+}
+
+.start .section-container .info h2 {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  bottom: 70%;
+  margin: auto;
+  font-weight: 500;
+  font-size: 80px;
+  font-family: "alex brush";
+  color: #546455;
+  margin-top: -10px;
+  letter-spacing: 2px;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+}
+
+.start .section-container .contenedor-titulo .contenedor-nombres {
+  position: absolute;
+  top: 60%;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  margin: auto;
+  text-align: center;
+  width: 1000px;
+  height: 100px;
 }
 
 .lineStartName {
   position: relative;
   font-family: 'ALEX BRUSH';
-  color: white;
-  font-size: 240%;
-  font-weight: bold;
+  color: #546455;
+  font-size: 700%;
+  font-weight: 500;
   border-right: 2px solid rgba(255, 255, 255, .75);
-  top: 50%;
   width: 24em;
   margin: 0px auto;
   text-align: center;
@@ -109,6 +150,13 @@ body {
   overflow: hidden;
   transform: translateY(0%);
   letter-spacing: 4px;
+  /* -webkit-text-stroke-width: 0.01px;
+  -webkit-text-stroke-color: black; */
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 
 /* Animation StartMainName*/
@@ -137,30 +185,22 @@ body {
   }
 }
 
-.start .section-container .info h2 {
-  font-weight: normal;
-  font-size: 30px;
-  font-family: "Alex Brush";
-  color: white;
-  margin-top: -10px;
-  letter-spacing: 2px;
-}
-
 .start .section-container header .nav-bar-right {
   position: relative;
   text-align: right;
-  width: 15%;
+  width: 30%;
   height: 15%;
-  margin: 1% 4% 0 0;
+  margin: 1% 6% 0 0;
 }
 
 .start .section-container header .nav-bar-right img {
-  width: 100%;
-  height: 100%;
+  width: 120%;
+  height: 120%;
 }
 
 .start .section-container .picture {
   position: relative;
+  ;
 }
 
 .start .section-container .picture img {
@@ -172,10 +212,15 @@ body {
 /*general styles ---------------------------------------------------------------------------------------------------*/
 .title-section {
   font-family: "ALEX BRUSH";
-  font-size: 3.5rem;
-  color: white;
+  font-size: 4.5rem;
+  color: #546455;
   margin-bottom: 10px;
   margin-top: 45px;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
 }
 
 /*Section about me ---------------------------------------------------------------------------------------------------*/
@@ -201,13 +246,13 @@ body {
   display: flex;
   align-content: center;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   width: 100%;
   height: 125px;
 }
 
 .aboutme .section-container .contenedor-Audio .audio-Console {
-  padding: 0% 0% 0% 0%; 
+  padding: 0% 0% 0% 0%;
   width: 70%;
 }
 
@@ -358,12 +403,11 @@ audio::-webkit-media-controls-mute-button {
 audio::-webkit-media-controls-mute-button:hover {
   background-color: #2095471f;
   border-radius: 50%;
-} 
+}
 
 audio::-webkit-media-controls-overlay-enclosure {
   display: none;
 }
-
 
 /* -------------------------------------------------------------------------------------------------- */
 /* -------------------------------------------------------------------------------------------------- */
@@ -386,11 +430,17 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .aboutme .section-container .special {
-  color: white;
+  color: #546455;
   font-family: "Alex brush";
   font-size: 70px;
   font-weight: bold;
   margin-top: 50px;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+
 }
 
 .aboutme .section-container .contenedor-NuestraBoda {
@@ -403,6 +453,12 @@ audio::-webkit-media-controls-overlay-enclosure {
   color: white;
   font-family: "alex brush";
   font-size: 80px;
+  text-shadow:
+    1px 1px 0 #000,
+    -1px 1px 0 #000,
+    -1px -1px 0 #000,
+    1px -1px 0 #000;
+  ;
 }
 
 .aboutme .section-container .contenedor-anillos {
@@ -889,7 +945,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     text-align: left;
     width: 40%;
     height: 80%;
-    margin: 8% 0 0 0%;
+    margin: 5% 0px 0 0%;
   }
 
   .start .section-container header .nav-bar p {
@@ -897,44 +953,115 @@ audio::-webkit-media-controls-overlay-enclosure {
     position: absolute;
     text-align: center;
     font-family: "ALEX BRUSH";
-    color: white;
+    color: #546455;
     font-weight: 500;
     line-height: 18px;
     font-size: 110%;
     transform: rotate(-25deg);
+    text-shadow:
+      0.3px 0.3px 0 #000,
+      -0.3px 0.3px 0 #000,
+      -0.3px -0.3px 0 #000,
+      0.3px -0.3px 0 #000;
   }
 
   .start .section-container header .contenedor-titulo {
     position: absolute;
-    width: 49%;
-    margin: 70px 0 0 20%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 12% auto auto auto;
+    width: 400px;
+    height: 200px;
   }
 
-  .start .section-container .info {
-    padding-bottom: 0px;
-    margin: 15px 0 0 0;
+
+
+  /* *********** */
+  .start .section-container header .contenedor-titulo .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 25px;
+    margin: auto;
+    font-weight: bold;
+    color: #546455;
+    font-size: 2rem;
+    font-family: "Yellowtail";
+    text-shadow: 0 0 35px #fff;
   }
 
-  .contenedor-nombres {
-    width: 25px;
-    margin: 0 0 0 0px;
+  .start .section-container header .contenedor-titulo .logo .color {
+    color: #214a18;
+    font-family: "Yellowtail";
+  }
+
+  .start .section-container .contenedor-titulo .info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 300px;
+    height: 50px;
+  }
+
+  .start .section-container .info h2 {
+    position: absolute;
+    top: 0%;
+    left: 0;
+    right: 0;
+    bottom: 90%;
+    margin: auto;
+    font-weight: 500;
+    font-size: 35px;
+    font-family: "alex brush";
+    color: #546455;
+    margin-top: -10px;
+    letter-spacing: 2px;
+    text-shadow:
+      0.3px 0.3px 0 #000,
+      -0.3px 0.3px 0 #000,
+      -0.3px -0.3px 0 #000,
+      0.3px -0.3px 0 #000;
+  }
+
+  .start .section-container .contenedor-titulo .contenedor-nombres {
+    position: absolute;
+    top: 60%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    text-align: center;
+    width: 400px;
+    height: 100px;
   }
 
   .lineStartName {
     position: relative;
     font-family: 'ALEX BRUSH';
-    color: white;
-    font-size: 115%;
-    font-weight: bold;
+    color: #546455;
+    font-size: 250%;
+    font-weight: 500;
     border-right: 2px solid rgba(255, 255, 255, .75);
-    top: 50%;
     width: 24em;
     margin: 0px auto;
-    text-align: start;
+    text-align: center;
     white-space: nowrap;
     overflow: hidden;
+    transform: translateY(0%);
     letter-spacing: 4px;
-
+    /* -webkit-text-stroke-width: 0.01px;
+    -webkit-text-stroke-color: black; */
+    text-shadow:
+      1px 1px 0 #000,
+      -1px 1px 0 #000,
+      -1px -1px 0 #000,
+      1px -1px 0 #000;
   }
 
   /* Animation StartMainName*/
@@ -949,7 +1076,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     }
 
     to {
-      width: 12em;
+      width: 9em;
     }
   }
 
@@ -963,47 +1090,222 @@ audio::-webkit-media-controls-overlay-enclosure {
     }
   }
 
-  .start .section-container .info h2 {
-    font-weight: normal;
-    font-size: 17px;
-    font-family: "Alex Brush";
-    color: white;
-    margin-top: -10px;
-    letter-spacing: 2px;
-  }
+
 
   .start .section-container header .nav-bar-right {
-    position: absolute;
+    position: relative;
     text-align: right;
-    width: 90%;
-    height: 15%;
+    width: 31%;
+    height: 90%;
     margin: 0% 4% 0 0;
-    display: flex;
-    justify-content: flex-end;
   }
 
   .start .section-container header .nav-bar-right img {
-    width: 50%;
-    height: 125%;
+    width: 120%;
+    height: 120%;
   }
 
   .start .section-container .picture {
     position: relative;
+    ;
   }
 
   .start .section-container .picture img {
     max-width: 90%;
-    margin: 5% 0% 0% 0%;
     border-radius: 1%;
+    margin: 10% 0% 0% 0%;
   }
 
   /*general styles ---------------------------------------------------------------------------------------------------*/
   .title-section {
     font-family: "ALEX BRUSH";
-    font-size: 1.5rem;
-    color: white;
-    margin-bottom: 10px;
+    font-size: 2.5rem;
+    color: #546455;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow:
+      0.3px 0.3px 0 #000,
+      -0.3px 0.3px 0 #000,
+      -0.3px -0.3px 0 #000,
+      0.3px -0.3px 0 #000;
   }
+
+
+  /* AUDIO ----------------------------------------------------------------------------------------------------------- */
+  /* ---------------------------------------------------------------------------------------------------------------- */
+
+  /* campo donde se posicionara el audio */
+  .aboutme .section-container .contenedor-Audio {
+    margin: 5% 0% 5% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+  }
+
+  .aboutme .section-container .contenedor-Audio .audio-Console {
+    padding: 0% 0% 0% 0%;
+    width: 70%;
+  }
+
+  audio {
+    height: 60px;
+  }
+
+  /* controles de medios */
+  audio::-webkit-media-controls {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Caja de control de medios */
+  audio::-webkit-media-controls-enclosure {
+    width: 100%;
+    max-width: 800px;
+    height: 30px;
+    flex-shrink: 0;
+    bottom: 0;
+    text-indent: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Fondo */
+  audio::-webkit-media-controls-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* Aquí linea 254 usamos flex-start para garantizar  
+   * que el botón de reproducción sea visible incluso
+   * si somos demasiado pequeños para mostrar todos 
+   * los controles.
+   */
+    justify-content: flex-start;
+    -webkit-user-select: none;
+    position: relative;
+    width: 60%;
+    z-index: 0;
+    overflow: hidden;
+    text-align: right;
+    bottom: auto;
+    height: 60px;
+    background-color: rgba(54, 64, 55, 0.9);
+    border-radius: 5px;
+    /* La duración también se especifica en MediaControlElements.cpp 
+   * y LayoutTests/media/media-controls.js */
+    transition: opacity 0.3s;
+  }
+
+  /* Boton de play */
+  audio::-webkit-media-controls-play-button {
+    -webkit-appearance: media-play-button;
+    display: flex;
+    flex: none;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding: 0;
+    background-color: initial;
+    color: inherit;
+  }
+
+  /* Boton play efecto */
+  /* accion cuando se pasa el mouse por encima del boton de play */
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: #2095471f;
+  }
+
+  /* Tiempo transcurrido y duracion de la pista */
+  audio::-webkit-media-controls-current-time-display,
+  video::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  video::-webkit-media-controls-time-remaining-display {
+    -webkit-appearance: media-current-time-display;
+    -webkit-user-select: none;
+    flex: none;
+    display: flex;
+    border: none;
+    cursor: default;
+    height: 30px;
+    margin: 0 9px 0 0;
+    padding: 0;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-decoration: none;
+  }
+
+  /* fondo de linea de tiempo */
+  audio::-webkit-media-controls-timeline {
+    -webkit-appearance: media-slider;
+    display: flex;
+    flex: 1 1 auto;
+    height: 8px;
+    margin: 0 15px 0 0;
+    padding: 0;
+    background-color: transparent;
+    min-width: 25px;
+    border: initial;
+    color: inherit;
+  }
+
+  audio::-webkit-media-controls-timeline-container {
+    -webkit-appearance: media-controls-background;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1;
+    -webkit-user-select: none;
+    height: 16px;
+    min-width: 0;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #ee161600;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+  }
+
+  audio::-webkit-media-controls-mute-button:hover {
+    background-color: #2095471f;
+    border-radius: 50%;
+  }
+
+  audio::-webkit-media-controls-overlay-enclosure {
+    display: none;
+  }
+
+  /* -------------------------------------------------------------------------------------------------- */
+  /* -------------------------------------------------------------------------------------------------- */
+
 
   /*Section about me ---------------------------------------------------------------------------------------------------*/
   /*Section about me ---------------------------------------------------------------------------------------------------*/
@@ -1020,16 +1322,21 @@ audio::-webkit-media-controls-overlay-enclosure {
   }
 
   .aboutme .section-container .contenedor-especial {
-    margin: 0% 18% 0% 18%;
-    max-width: 70%;
+    margin: 10% 10% 0% 10%;
+    max-width: 80%;
   }
 
   .aboutme .section-container .special {
-    color: white;
+    color: #546455;
     font-family: "Alex brush";
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    margin-top: 15px;
+    margin: 0px 0px 0px 0px;
+    text-shadow:
+      0.3px 0.3px 0 #000,
+      -0.3px 0.3px 0 #000,
+      -0.3px -0.3px 0 #000,
+      0.3px -0.3px 0 #000;
   }
 
   .aboutme .section-container .contenedor-NuestraBoda {
@@ -1039,9 +1346,15 @@ audio::-webkit-media-controls-overlay-enclosure {
   .aboutme .section-container .contenedor-NuestraBoda p {
     max-width: 1200px;
     margin: auto;
-    color: white;
+    color: #546455;
     font-family: "alex brush";
-    font-size: 40px;
+    font-size: 50px;
+    text-shadow:
+      0.3px 0.3px 0 #000,
+      -0.3px 0.3px 0 #000,
+      -0.3px -0.3px 0 #000,
+      0.3px -0.3px 0 #000;
+    ;
   }
 
   .aboutme .section-container .contenedor-anillos {
