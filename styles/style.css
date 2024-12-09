@@ -20,6 +20,7 @@ body {
   background-color: #6d775e;
   color: #6d775e;
 
+
 }
 
 
@@ -192,16 +193,14 @@ body {
   margin: 0% 10% 0% 10%;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 80%;
 }
 
-
-
-
-
-
-
-
-
+.aboutme .section-container .contenedor-Audio .audio-Console {
+  width: 100%;
+  padding: 0% 2% 0% 2%;
+}
 
 
 
@@ -209,65 +208,51 @@ body {
 
 
 audio::-webkit-media-controls-panel {
-  background-color: #000000;
+  background-color: #fff;
+  
 }
 
 audio::-webkit-media-controls-play-button {
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 50%;
 }
 
 audio::-webkit-media-controls-play-button:hover {
-  background-color: #7a7c7c;
+  background-color: #dedede;
 }
 
-audio::-webkit-media-controls-mute-button {
-  background-color: #B1D4E0;
-  border-radius: 50%;
-}
-
+/* Tiempo actual de la cancion */
 audio::-webkit-media-controls-current-time-display {
-  color: #fff;
+  color: #000;
 }
 
+/* duracion Total de cancion */
 audio::-webkit-media-controls-time-remaining-display {
-  color: #fff;
+  color: #000;
 }
 
+
+/* barra deslizante */
 audio::-webkit-media-controls-timeline {
-  background-color: #B1D4E0;
-  border-radius: 25px;
+  background-color: #f4020200;
+  border-radius: 1px;
   margin-left: 10px;
   margin-right: 10px;
 }
 
+/* Dezlizador de volumen */
 audio::-webkit-media-controls-volume-slider {
-  background-color: #B1D4E0;
+  background-color: #B1D4E000;
   border-radius: 25px;
   padding-left: 8px;
   padding-right: 8px;
 }
 
-
-
-.aboutme .section-container .contenedor-Audio .audio-Console {
-  width: 60%;
+/* ------ no se  */
+audio::-webkit-media-controls-mute-button {
+  background-color: #dedede;
+  border-radius: 50%;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
