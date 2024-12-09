@@ -188,13 +188,91 @@ body {
   padding: 0 10px;
 }
 
-.aboutme .section-container .contenedorAudio {
+.aboutme .section-container .contenedor-Audio {
   margin: 0% 10% 0% 10%;
   display: flex;
   justify-content: center;
 }
 
-.aboutme .section-container .contenedorAudio .audio {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+audio::-webkit-media-controls-panel {
+  background-color: #000000;
+}
+
+audio::-webkit-media-controls-play-button {
+  background-color: #ffffff;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #7a7c7c;
+}
+
+audio::-webkit-media-controls-mute-button {
+  background-color: #B1D4E0;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-current-time-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-time-remaining-display {
+  color: #fff;
+}
+
+audio::-webkit-media-controls-timeline {
+  background-color: #B1D4E0;
+  border-radius: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #B1D4E0;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+
+
+.aboutme .section-container .contenedor-Audio .audio-Console {
+  width: 60%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.aboutme .section-container .contenedor-Audio .audio-Buttons{
   width: 1000px;
   height: 100px;
   border-radius: 20px;
@@ -203,6 +281,7 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  
 }
 
 .aboutme .section-container h3 {

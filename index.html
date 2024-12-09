@@ -15,7 +15,7 @@
     <script src="https://kit.fontawesome.com/b1aeab81db.js" crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onclick="document.getElementById('player').play()">
     <!--Section start-->
     <section class="start" id="start">
         <div class="section-container">
@@ -51,15 +51,23 @@
     <section class="aboutme" id="aboutme">
         <div class="section-container">
             <h2 class="title-section">Te Esperaba...</h2>
-            <div class="contenedorAudio">
-                <audio id="player">
+            <div class="contenedor-Audio">
+                <audio id="player" class="audio-Console" controls >
                     <source src="audio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
                     <source src="audio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
                     <source src="audio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
                     <source src="audio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
-                <div class="audio">
+                
+
+                
+                
+
+
+
+
+                <!-- <div class="audio-Buttons">
                     <button class="botonMusica" onclick="document.getElementById('player').play()">
                         <span class="fa-solid fa-play"></span></button>
                     <button class="botonMusica" onclick="document.getElementById('player').pause()">
@@ -68,7 +76,7 @@
                         <i class="fa fa-volume-up" aria-hidden="true"></i></button>
                     <button class="botonMusica" onclick="document.getElementById('player').volume-=0.1">
                         <i class="fa fa-volume-down" aria-hidden="true"></i></button>
-                </div>
+                </div> -->
             </div>
             <div class="contenedor-especial">
                 <p class="special">
