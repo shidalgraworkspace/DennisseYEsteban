@@ -189,7 +189,7 @@ body {
   padding: 0 10px;
 }
 
-/* .aboutme .section-container .contenedor-Audio {
+.aboutme .section-container .contenedor-Audio {
   margin: 0% 10% 0% 10%;
   display: flex;
   justify-content: center;
@@ -199,8 +199,8 @@ body {
 
 .aboutme .section-container .contenedor-Audio .audio-Console {
   width: 100%;
-  padding: 0% 2% 0% 2%;
-} */
+  padding: 0% 30% 0% 30%;
+}
 
 
 
@@ -423,8 +423,8 @@ audio::-webkit-media-controls-volume-slider,
 video::-webkit-media-controls-volume-slider {
   -webkit-appearance: media-volume-slider;
   display: flex;
-  /* The 1.9 value was empirically chosen to match old-flexbox behaviour
-   * and be aesthetically pleasing.
+  /* El valor 1.9 se eligió empíricamente para que coincida con el comportamiento del antiguo Flexbox
+   * y sea estéticamente agradable.
    */
   flex: 1 1.9 auto;
   height: 8px;
@@ -437,25 +437,25 @@ video::-webkit-media-controls-volume-slider {
   color: inherit;
 }
 
-/* FIXME these shouldn't use special pseudoShadowIds, but nicer rules.
- https://code.google.com/p/chromium/issues/detail?id=112508
- https://bugs.webkit.org/show_bug.cgi?id=62218
+/* ARREGLAME, no deberían usar pseudoShadowIds especiales, sino reglas más elegantes.
+https://code.google.com/p/chromium/issues/detail?id=112508
+https://bugs.webkit.org/show_bug.cgi?id=62218
 */
 input[type="range" i]::-webkit-media-slider-container {
   display: flex;
   align-items: center;
   flex-direction: row;
-  /* This property is updated by C++ code. */
+  /* Esta propiedad se actualiza mediante código C++. */
   box-sizing: border-box;
   height: 100%;
   width: 100%;
   border: 1px solid rgba(230, 230, 230, 0.35);
   border-radius: 4px;
   background-color: transparent;
-  /* Background drawing is managed by C++ code to draw ranges. */
+  /* El dibujo del fondo lo gestiona el código C++ para dibujar rangos. */
 }
 
-/* The negative right margin causes the track to overflow its container. */
+/* El margen derecho negativo hace que la pista desborde su contenedor. */
 input[type="range" i]::-webkit-media-slider-container>div {
   margin-right: -14px;
 }
