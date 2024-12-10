@@ -16,7 +16,7 @@
 </head>
 <!-- onclick="document.getElementById('player').play()" onscroll="document.getElementById('player').play()" -->
 
-<body onload="document.getElementById('player').play()">
+<body>
 <!-- primera seccion -->
     <section class="titulo" id="titulo">
         <div class="contenedor-seccion" id="contenedor-seccion">
@@ -35,7 +35,7 @@
     <section class="reproductor" id="reproductor">
         <div class="contenedor-reproductor" id="contenedor-reproductor">
             <audio id="player" class="audio-Console" controls>
-                <source src="audio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
+                <source onload="document.getElementById('player').play()" src="audio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
                 <source src="audio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
                 <source src="audio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
                 <source src="audio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
