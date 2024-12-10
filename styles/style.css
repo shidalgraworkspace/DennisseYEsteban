@@ -17,3 +17,161 @@ body {
   background-color: #FFF5E5;
 }
 
+/* AUDIO ----------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------------------- */
+
+audio {
+  height: 100px;
+}
+
+/* controles de medios */
+audio::-webkit-media-controls {
+  width: inherit;
+  height: inherit;
+  position: relative;
+  direction: ltr;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Caja de control de medios */
+audio::-webkit-media-controls-enclosure {
+  width: 100%;
+  max-width: 800px;
+  height: 30px;
+  flex-shrink: 0;
+  bottom: 0;
+  text-indent: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Fondo */
+audio::-webkit-media-controls-panel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  /* Aquí linea 254 usamos flex-start para garantizar  
+   * que el botón de reproducción sea visible incluso
+   * si somos demasiado pequeños para mostrar todos 
+   * los controles.
+   */
+  justify-content: flex-start;
+  -webkit-user-select: none;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  overflow: hidden;
+  text-align: right;
+  bottom: auto;
+  height: 60px;
+  background-color: rgba(54, 64, 55, 0.9);
+  border-radius: 5px;
+  /* La duración también se especifica en MediaControlElements.cpp 
+   * y LayoutTests/media/media-controls.js */
+  transition: opacity 0.3s;
+}
+
+/* Boton de play */
+audio::-webkit-media-controls-play-button {
+  -webkit-appearance: media-play-button;
+  display: flex;
+  flex: none;
+  border: none;
+  border-radius: 50px;
+  box-sizing: border-box;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-left: 9px;
+  margin-right: 9px;
+  padding: 0;
+  background-color: initial;
+  color: inherit;
+}
+
+/* Boton play efecto */
+/* accion cuando se pasa el mouse por encima del boton de play */
+audio::-webkit-media-controls-play-button:hover {
+  background-color: #2095471f;
+}
+
+/* Tiempo transcurrido y duracion de la pista */
+audio::-webkit-media-controls-current-time-display,
+video::-webkit-media-controls-current-time-display,
+audio::-webkit-media-controls-time-remaining-display,
+video::-webkit-media-controls-time-remaining-display {
+  -webkit-appearance: media-current-time-display;
+  -webkit-user-select: none;
+  flex: none;
+  display: flex;
+  border: none;
+  cursor: default;
+  height: 30px;
+  margin: 0 9px 0 0;
+  padding: 0;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  font-style: normal;
+  color: white;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+/* fondo de linea de tiempo */
+audio::-webkit-media-controls-timeline {
+  -webkit-appearance: media-slider;
+  display: flex;
+  flex: 1 1 auto;
+  height: 8px;
+  margin: 0 15px 0 0;
+  padding: 0;
+  background-color: transparent;
+  min-width: 25px;
+  border: initial;
+  color: inherit;
+}
+
+audio::-webkit-media-controls-timeline-container {
+  -webkit-appearance: media-controls-background;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1 1;
+  -webkit-user-select: none;
+  height: 16px;
+  min-width: 0;
+}
+
+audio::-webkit-media-controls-volume-slider {
+  background-color: #ee161600;
+  border-radius: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+audio::-webkit-media-controls-mute-button {
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-mute-button:hover {
+  background-color: #2095471f;
+  border-radius: 50%;
+}
+
+audio::-webkit-media-controls-overlay-enclosure {
+  display: none;
+}
+
+/* -------------------------------------------------------------------------------------------------- */
+/* -------------------------------------------------------------------------------------------------- */
