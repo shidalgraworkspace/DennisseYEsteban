@@ -14,6 +14,7 @@ html {
 body {
   zoom: 100%;
   background-color: #FFF5E5;
+
 }
 
 .contenedor-seccion {
@@ -21,7 +22,6 @@ body {
   margin: auto;
   text-align: center;
   padding: 0% 10% 0% 10%;
-
 }
 
 .contenedor-marco_flotante1 {
@@ -34,6 +34,7 @@ body {
   width: 113%;
   height: auto;
   display: flex;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-nos-casamos {
@@ -105,54 +106,19 @@ body {
   font-weight: 500;
 }
 
+.contenedor-seccion-fotosDeslizantes {
+  max-width: 1920px;
+  margin: auto;
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
+
 .contenedor-fotos_deslizantes {
   width: 100%;
   height: auto;
   margin: 50px auto 0 0;
   overflow: hidden;
-}
-
-/* animacion de las fotos */
-@keyframes Fotos {
-  0% {
-    margin-left: 0%;
-  }
-
-  15% {
-    margin-left: 0%;
-  }
-
-  20% {
-    margin-left: -100%;
-  }
-
-  35% {
-    margin-left: -100%;
-  }
-
-  40% {
-    margin-left: -200%;
-  }
-
-  55% {
-    margin-left: -200%;
-  }
-
-  60% {
-    margin-left: -300%;
-  }
-
-  75% {
-    margin-left: -300%;
-  }
-
-  80% {
-    margin-left: -400%;
-  }
-
-  95% {
-    margin-left: -400%;
-  }
 }
 
 .contenedor-fotos_deslizantes ul {
@@ -161,7 +127,59 @@ body {
   width: 500%;
   height: auto;
   animation: Fotos 10s infinite ease-in-out;
-  gap: 20px
+}
+
+/* animacion de las fotos */
+@keyframes Fotos {
+  0% {
+    margin-left: 0%;
+    background-color: transparent;
+  }
+
+  15% {
+    margin-left: 0%;
+    background-color: transparent;
+  }
+
+  20% {
+    margin-left: -100%;
+    background-color: transparent;
+  }
+
+  35% {
+    margin-left: -100%;
+    background-color: transparent;
+  }
+
+  40% {
+    margin-left: -200%;
+    background-color: transparent;
+  }
+
+  55% {
+    margin-left: -200%;
+    background-color: transparent;
+  }
+
+  60% {
+    margin-left: -300%;
+    background-color: transparent;
+  }
+
+  75% {
+    margin-left: -300%;
+    background-color: transparent;
+  }
+
+  80% {
+    margin-left: -400%;
+    background-color: transparent;
+  }
+
+  95% {
+    margin-left: -400%;
+    background-color: transparent;
+  }
 }
 
 .contenedor-fotos_deslizantes li {
@@ -173,9 +191,8 @@ body {
 .contenedor-fotos_deslizantes img {
   width: 100%;
   height: 100%;
-  border-radius: 75px;
+  border-radius: 10px;
 }
-
 
 /* AUDIO ----------------------------------------------------------------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------------------- */
@@ -189,6 +206,7 @@ body {
   align-items: center;
   width: 100%;
   height: 125px;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-reproductor .player {
@@ -362,11 +380,178 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-texto_invitacion .texto-invitacion {
   font-size: 400%;
+  padding: 0 3% 0 3%;
+}
+
+.contenedor-titulo_invitacion {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 80px 0 10px 0px;
+}
+
+.contenedor-titulo_invitacion .titulo-invitacion {
+  font-size: 500%;
+  padding: 0 7% 0 7%;
+}
+
+.contenedor-anillos {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-anillos .anillos {
+  width: 20%;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
+
+.contenedor-fecha {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 10px 0px;
+}
+
+.contenedor-fecha .fecha {
+  font-size: 300%;
+}
+
+.contenedor-texto_tiempoRestante {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 20px 0 10px 0px;
+}
+
+.contenedor-texto_tiempoRestante .texto_tiempoRestante {
+  font-size: 500%;
   padding: 0 7% 0 7%;
 }
 
 
 
+/* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
+.contenedor-Relog {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-Relog .contenedor-fondo_Temporizador {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: -1;
+}
+
+.contenedor-Relog .contenedor-fondo_Temporizador img {
+  width: 100%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
+
+.contenedor-Relog .temporizador {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-Relog .temporizador div {
+  display: grid;
+  padding: 20px;
+}
+
+.contenedor-Relog .temporizador .temporizador-primer_Cuadro {
+  margin: 0% 0% 0% 11%;
+}
+
+.contenedor-Relog .temporizador div .tamañoRegresivo {
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.contenedor-Relog .temporizador div .temporizadorDosPuntos {
+  display: grid;
+  place-items: center;
+  color: white;
+  font-size: 400%;
+  font-weight: bold;
+}
+
+.contenedor-Relog .temporizador div span {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 250%;
+  font-weight: 400;
+}
+
+.Contenedor-Felicidades {
+  display: none;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Contenedor-Felicidades .Felicidades {
+  display: none;
+  font-size: 300%;
+}
+
+
+
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+/* ////////////////////////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////////////// */
+
+
+
+.contenedor-shidalgra {
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+
+.contenedor-shidalgra .contenedor-textoShidalgra {
+  width: 100%;
+  height: auto;
+}
+
+.contenedor-shidalgra .contenedor-textoShidalgra p {
+  font-size: 500%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contenedor-shidalgra .contenedor-imagenShidalgra {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-shidalgra .contenedor-imagenShidalgra img {
+  width: 70%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+/* ////////////////////////////////////////////////////////// */
 
 
 
@@ -396,7 +581,31 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 
 
-@media screen and (max-width:800px) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1000px) {
 
   .contenedor-seccion {
     max-width: 1920px;
@@ -404,6 +613,19 @@ audio::-webkit-media-controls-overlay-enclosure {
     text-align: center;
     padding: 0% 10% 0% 10%;
 
+  }
+
+  .contenedor-marco_flotante1 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .contenedor-marco_flotante1 .marco_flotante1 {
+    width: 113%;
+    height: auto;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-nos-casamos {
@@ -493,6 +715,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     height: auto;
     margin: 50px auto 0 0;
     overflow: hidden;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   /* animacion de las fotos */
@@ -557,6 +780,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-fotos_deslizantes img {
     width: 100%;
+    border-radius: 10px;
   }
 
   /* ---------------------------------------------------------------------------------------------------------------- */
@@ -564,20 +788,20 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   /* AUDIO ----------------------------------------------------------------------------------------------------------- */
 
-.contenedor-reproductor {
-  margin: 0% 0% 0% 0%;
-  display: flex;
-  align-content: center;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 125px;
-}
+  .contenedor-reproductor {
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+  }
 
-.contenedor-reproductor .player {
-  padding: 0% 0% 0% 0%;
-  width: 75%;
-}
+  .contenedor-reproductor .player {
+    padding: 0% 0% 0% 0%;
+    width: 75%;
+  }
 
   audio {
     height: 40px;
@@ -627,7 +851,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     text-align: right;
     bottom: auto;
     height: 40px;
-    
+
     background-color: rgba(54, 64, 55, 0.9);
     border-radius: 5px;
     /* La duración también se especifica en MediaControlElements.cpp 
@@ -743,9 +967,194 @@ audio::-webkit-media-controls-overlay-enclosure {
   }
 
   .contenedor-texto_invitacion .texto-invitacion {
-    font-size: 100%;
+    font-size: 200%;
+    padding: 0 3% 0 3%;
+  }
+
+  .contenedor-titulo_invitacion {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0px 0px;
+  }
+
+  .contenedor-titulo_invitacion .titulo-invitacion {
+    font-size: 300%;
     padding: 0 7% 0 7%;
   }
+
+  .contenedor-anillos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .contenedor-anillos .anillos {
+    width: 25%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fecha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .contenedor-fecha .fecha {
+    font-size: 150%;
+  }
+
+
+  .contenedor-texto_tiempoRestante {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 10px 0px;
+  }
+
+  .contenedor-texto_tiempoRestante .texto_tiempoRestante {
+    font-size: 350%;
+    padding: 0 7% 0 7%;
+  }
+
+
+
+  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
+  .contenedor-Relog {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .contenedor-Relog .contenedor-fondo_Temporizador {
+    width: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .contenedor-Relog .contenedor-fondo_Temporizador img {
+    width: 80%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-Relog .temporizador {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-Relog .temporizador div {
+    display: grid;
+    padding: 10px;
+  }
+
+  .contenedor-Relog .temporizador .temporizador-primer_Cuadro {
+    margin: 0% 0% 0% 11%;
+  }
+
+  .contenedor-Relog .temporizador div .tamañoRegresivo {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  .contenedor-Relog .temporizador div .temporizadorDosPuntos {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 200%;
+    font-weight: bold;
+  }
+
+  .contenedor-Relog .temporizador div span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 125%;
+    font-weight: 200;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ////////////////////////////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////// */
+
+
+
+  /* ////////////////////////////////////////////////////////// */
+
+
+  .contenedor-shidalgra {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .contenedor-shidalgra .contenedor-textoShidalgra {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-shidalgra .contenedor-textoShidalgra p {
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contenedor-shidalgra .contenedor-imagenShidalgra {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-shidalgra .contenedor-imagenShidalgra img {
+    width: 70%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+  /* ////////////////////////////////////////////////////////// */
+
 }
 
 
@@ -755,23 +1164,617 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 
 
-.contenedor-shidalgra {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 50px;
-}
 
-.contenedor-shidalgra p {
-  font-size: 100%;
-  font-family: 'Times New Roman', Times, serif;
-}
 
-.contenedor-shidalgra img {
-  width: 100%;
-  height: auto;
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 100px;
-}
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:800px) {
+
+  .contenedor-seccion {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+
+  }
+
+  .contenedor-marco_flotante1 {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .contenedor-marco_flotante1 .marco_flotante1 {
+    width: 113%;
+    height: auto;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-nos-casamos {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: -8px;
+  }
+
+  .contenedor-nos-casamos .noscasamos {
+    font-size: 50px;
+  }
+
+  .contenedor-marco_flotante {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-marco_flotante .marco_flotante1 {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ------------------------------------------------------------------------------- */
+  .contenedor-nombres {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    white-space: nowrap;
+  }
+
+  .contenedor-nombres .nombres {
+    font-size: 200%;
+    border-right: 2px solid rgba(86, 80, 80, 0.75);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+  }
+
+  .contenedor-nombres .anim-nombres {
+    animation: escriboNombres 4s steps(30) 2s normal both,
+      cursor .5s steps(30) infinite normal;
+  }
+
+  @keyframes escriboNombres {
+    from {
+      width: 0;
+    }
+
+    to {
+      width: 7.5em;
+    }
+  }
+
+  @keyframes cursor {
+    from {
+      border-right-color: rgba(255, 255, 255 .75);
+    }
+
+    to {
+      border-right-color: transparent;
+    }
+  }
+
+  /* ------------------------------------------------------------------------------- */
+
+  .contenedor-versiculo1 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+  }
+
+  .contenedor-versiculo1 .versiculo1 {
+    font-size: 150%;
+  }
+
+  .contenedor-versiculo1 .versiculo1-negrita {
+    font-size: 150%;
+    font-weight: 500;
+  }
+
+  .contenedor-fotos_deslizantes {
+    width: 100%;
+    height: auto;
+    margin: 50px auto 0 0;
+    overflow: hidden;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* animacion de las fotos */
+  @keyframes Fotos {
+    0% {
+      margin-left: 0%;
+    }
+
+    15% {
+      margin-left: 0%;
+    }
+
+
+    20% {
+      margin-left: -100%;
+    }
+
+    35% {
+      margin-left: -100%;
+    }
+
+
+    40% {
+      margin-left: -200%;
+    }
+
+    55% {
+      margin-left: -200%;
+    }
+
+
+    60% {
+      margin-left: -300%;
+    }
+
+    75% {
+      margin-left: -300%;
+    }
+
+    80% {
+      margin-left: -400%;
+    }
+
+    95% {
+      margin-left: -400%;
+    }
+  }
+
+  .contenedor-fotos_deslizantes ul {
+    display: flex;
+    padding: 0;
+    width: 500%;
+
+    animation: Fotos 10s infinite ease-in-out;
+  }
+
+  .contenedor-fotos_deslizantes li {
+    list-style: none;
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-fotos_deslizantes img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  /* ---------------------------------------------------------------------------------------------------------------- */
+
+
+  /* AUDIO ----------------------------------------------------------------------------------------------------------- */
+
+  .contenedor-reproductor {
+    margin: 0% 0% 0% 0%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+  }
+
+  .contenedor-reproductor .player {
+    padding: 0% 0% 0% 0%;
+    width: 75%;
+  }
+
+  audio {
+    height: 40px;
+  }
+
+  /* controles de medios */
+  audio::-webkit-media-controls {
+    width: inherit;
+    height: inherit;
+    position: relative;
+    direction: ltr;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Caja de control de medios */
+  audio::-webkit-media-controls-enclosure {
+    width: 100%;
+    max-width: 800px;
+    height: 30px;
+    flex-shrink: 0;
+    bottom: 0;
+    text-indent: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  /* Fondo */
+  audio::-webkit-media-controls-panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /* Aquí linea 254 usamos flex-start para garantizar  
+   * que el botón de reproducción sea visible incluso
+   * si somos demasiado pequeños para mostrar todos 
+   * los controles.
+   */
+    justify-content: flex-start;
+    -webkit-user-select: none;
+    position: relative;
+    width: 100%;
+    z-index: 0;
+    overflow: hidden;
+    text-align: right;
+    bottom: auto;
+    height: 40px;
+
+    background-color: rgba(54, 64, 55, 0.9);
+    border-radius: 5px;
+    /* La duración también se especifica en MediaControlElements.cpp 
+   * y LayoutTests/media/media-controls.js */
+    transition: opacity 0.3s;
+  }
+
+  /* Boton de play */
+  audio::-webkit-media-controls-play-button {
+    -webkit-appearance: media-play-button;
+    display: flex;
+    flex: none;
+    border: none;
+    border-radius: 50px;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    margin-left: 9px;
+    margin-right: 9px;
+    padding: 0;
+    background-color: #425e3b;
+    color: inherit;
+  }
+
+  /* Boton play efecto */
+  /* accion cuando se pasa el mouse por encima del boton de play */
+  audio::-webkit-media-controls-play-button:hover {
+    background-color: #2095471f;
+  }
+
+  /* Tiempo transcurrido y duracion de la pista */
+  audio::-webkit-media-controls-current-time-display,
+  video::-webkit-media-controls-current-time-display,
+  audio::-webkit-media-controls-time-remaining-display,
+  video::-webkit-media-controls-time-remaining-display {
+    -webkit-appearance: media-current-time-display;
+    -webkit-user-select: none;
+    flex: none;
+    display: flex;
+    border: none;
+    cursor: default;
+    height: 30px;
+    margin: 0 9px 0 0;
+    padding: 0;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0;
+    text-shadow: none;
+    text-decoration: none;
+  }
+
+  /* fondo de linea de tiempo */
+  audio::-webkit-media-controls-timeline {
+    -webkit-appearance: media-slider;
+    display: flex;
+    flex: 1 1 auto;
+    height: 8px;
+    margin: 0 15px 0 0;
+    padding: 0;
+    background-color: transparent;
+    min-width: 25px;
+    border: initial;
+    color: inherit;
+  }
+
+  audio::-webkit-media-controls-timeline-container {
+    -webkit-appearance: media-controls-background;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    flex: 1 1;
+    -webkit-user-select: none;
+    height: 16px;
+    min-width: 0;
+  }
+
+  audio::-webkit-media-controls-volume-slider {
+    background-color: #ee161600;
+    border-radius: 25px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+
+  audio::-webkit-media-controls-mute-button {
+    border-radius: 50%;
+  }
+
+  audio::-webkit-media-controls-mute-button:hover {
+    background-color: #2095471f;
+    border-radius: 50%;
+  }
+
+  audio::-webkit-media-controls-overlay-enclosure {
+    display: none;
+  }
+
+  /* -------------------------------------------------------------------------------------------------- */
+
+  .contenedor-texto_invitacion {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0px 0 10px 0px;
+  }
+
+  .contenedor-texto_invitacion .texto-invitacion {
+    font-size: 200%;
+    padding: 0 3% 0 3%;
+  }
+
+  .contenedor-titulo_invitacion {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 30px 0 0px 0px;
+  }
+
+  .contenedor-titulo_invitacion .titulo-invitacion {
+    font-size: 300%;
+    padding: 0 7% 0 7%;
+  }
+
+  .contenedor-anillos {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .contenedor-anillos .anillos {
+    width: 25%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fecha {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .contenedor-fecha .fecha {
+    font-size: 150%;
+  }
+
+  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
+
+  .contenedor-texto_tiempoRestante {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 20px 0 10px 0px;
+  }
+
+  .contenedor-texto_tiempoRestante .texto_tiempoRestante {
+    font-size: 175%;
+    padding: 0 7% 0 7%;
+  }
+
+
+
+  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
+  .contenedor-Relog {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .contenedor-Relog .contenedor-fondo_Temporizador {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+  }
+
+  .contenedor-Relog .contenedor-fondo_Temporizador img {
+    width: 80%;
+    height: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-Relog .temporizador {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-Relog .temporizador div {
+    display: grid;
+    padding: 5px;
+  }
+
+  .contenedor-Relog .temporizador .temporizador-primer_Cuadro {
+    margin: 0% 0% 0% 11%;
+  }
+
+  .contenedor-Relog .temporizador div .tamañoRegresivo {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 125%;
+    font-weight: bold;
+  }
+
+  .contenedor-Relog .temporizador div .temporizadorDosPuntos {
+    display: grid;
+    place-items: center;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+  }
+
+  .contenedor-Relog .temporizador div span {
+    display: block;
+    text-align: center;
+    color: white;
+    font-size: 90%;
+    font-weight: 200;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ////////////////////////////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////// */
+  /* ////////////////////////////////////////////////////////// */
+
+
+
+  /* ////////////////////////////////////////////////////////// */
+
+
+  .contenedor-shidalgra {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    text-align: center;
+  }
+
+  .contenedor-shidalgra .contenedor-textoShidalgra {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-shidalgra .contenedor-textoShidalgra p {
+    font-size: 110%;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .contenedor-shidalgra .contenedor-imagenShidalgra {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-shidalgra .contenedor-imagenShidalgra img {
+    width: 70%;
+    height: auto;
+    margin-top: 25px;
+    margin-bottom: 100px;
+  }
+
+  /* ////////////////////////////////////////////////////////// */
+
+}
