@@ -24,6 +24,7 @@ body {
   padding: 0% 15% 0% 15%;
 }
 
+/* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-marco_flotante1 {
   width: 100%;
   height: auto;
@@ -106,29 +107,27 @@ body {
   font-weight: 500;
 }
 
-.contenedor-seccion-fotosPrincipal {
-  max-width: 100%;
-  margin: 50px 0px 0px 0px;
+/* Segunda Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-seccion-fotoPrincipal {
+  max-width: 1920px;
+  margin: 50px auto auto auto;
   text-align: center;
   padding: 0% 15% 0% 15%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
-.contenedor-fotos_principal {
+.contenedor-foto_Principal {
   width: 100%;
   height: auto;
 }
 
-.contenedor-fotos_Principal img {
-  width: 100%;
+.contenedor-foto_Principal img {
+  width: 80%;
   height: auto;
   border-radius: 10px;
 }
 
-/* AUDIO ----------------------------------------------------------------------------------------------------------- */
-/* ---------------------------------------------------------------------------------------------------------------- */
-
-
+/* Tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-reproductor {
   margin: 0% 0% 0% 0%;
   display: flex;
@@ -298,10 +297,8 @@ audio::-webkit-media-controls-overlay-enclosure {
   display: none;
 }
 
-/* -------------------------------------------------------------------------------------------------- */
-/* -------------------------------------------------------------------------------------------------- */
 
-
+/* Cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-texto_invitacion {
   display: block;
   width: 100%;
@@ -351,6 +348,8 @@ audio::-webkit-media-controls-overlay-enclosure {
   font-size: 300%;
 }
 
+
+/* Quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion-temporizador {
   max-width: 1920px;
   margin: auto;
@@ -371,9 +370,6 @@ audio::-webkit-media-controls-overlay-enclosure {
   padding: 0 7% 0 7%;
 }
 
-
-
-/* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
 .contenedor-Relog {
   width: 100%;
   margin: 20px 0px 0px 0px;
@@ -384,7 +380,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-Relog .contenedor-fondo_Temporizador {
   display: flex;
- 
   justify-content: center;
   position: absolute;
   z-index: -1;
@@ -454,12 +449,12 @@ audio::-webkit-media-controls-overlay-enclosure {
   font-size: 300%;
 }
 
-
+/* Sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion-fotosDeslizantes {
-  max-width: 100%x;
-  margin: 100px 0px 0px 0px;
+  max-width: 1920px;
+  margin: 100px auto auto auto;
   text-align: center;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 20% 0% 20%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
@@ -538,11 +533,12 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-fotos_deslizantes img {
-  width: 100%;
+  width: 80%;
   height: 100%;
   border-radius: 25px;
 }
 
+/* Setima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-versiculo2 {
   display: block;
   width: 100%;
@@ -560,12 +556,13 @@ audio::-webkit-media-controls-overlay-enclosure {
   font-weight: 500;
 }
 
+/* Octava Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-flor1 {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .contenedor-flor1 .flor1 {
@@ -574,19 +571,273 @@ audio::-webkit-media-controls-overlay-enclosure {
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
+/* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-seccion-foto_entregaAnillo {
+  max-width: 1920px;
+  margin: 150px auto auto auto;
+  text-align: center;
+  padding: 0% 15% 0% 15%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
 
+.contenedor-foto_entregaAnillo {
+  width: 100%;
+  height: auto;
+}
 
+.contenedor-foto_entregaAnillo img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
 
+/* Decima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-divisor_datosIglesia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.contenedor-imagen_ceremonia {
+  position: absolute;
+  margin-top: 20rem;
+  margin-left: -60rem;
 
+}
 
+.contenedor-imagen_ceremonia img {
+  width: 10rem;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
 
+.contenedor-seccion-ceremonia {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
 
+.contenedor-titulo_ceremonia {
+  width: 100%;
+}
 
+.contenedor-titulo_ceremonia p {
+  font-size: 600%;
+  font-weight: 500;
+}
 
+.contenedor-hora_ceremonia {
+  width: 100%;
+  margin-top: 100px;
+}
 
+.contenedor-hora_ceremonia p {
+  font-size: 300%;
+  font-weight: 500;
+}
 
+.contenedor-parroquia_ceremonia {
+  width: 100%;
+}
 
+.contenedor-parroquia_ceremonia .parroquia_ceremonia {
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.contenedor-lugarIglesia_ceremonia {
+  width: 100%;
+}
+
+.contenedor-lugarIglesia_ceremonia .lugarIglesia_ceremonia {
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.contenedor-botonVermapa_iglesia {
+  position: absolute;
+  width: 50rem;
+  margin-top: 30rem;
+}
+
+.contenedor-botonVermapa_iglesia a {
+  width: 100%;
+}
+
+.contenedor-botonVermapa_iglesia a img {
+  width: 60%;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-botonVermapa_iglesia a img:hover {
+  width: 61%;
+
+}
+
+/* UnDecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-divisor_recepcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20rem;
+}
+
+.contenedor-imagen_recepcion {
+  position: absolute;
+  margin-top: 20rem;
+  margin-left: -60rem;
+
+}
+
+.contenedor-imagen_recepcion img {
+  width: 10rem;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+
+}
+
+.contenedor-seccion-recepcion {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.contenedor-titulo_recepcion {
+  width: 100%;
+}
+
+.contenedor-titulo_recepcion p {
+  font-size: 600%;
+  font-weight: 500;
+}
+
+.contenedor-hora_recepcion {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.contenedor-hora_recepcion p {
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.contenedor-salon_recepcion {
+  width: 100%;
+}
+
+.contenedor-salon_recepcion p {
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.contenedor-lugar_recepcion {
+  width: 100%;
+}
+
+.contenedor-lugar_recepcion p {
+  font-size: 300%;
+  font-weight: 500;
+}
+
+.contenedor-botonVermapa_recepcion {
+  position: absolute;
+  width: 50rem;
+  margin-top: 30rem;
+}
+
+.contenedor-botonVermapa_recepcion a {
+  width: 100%;
+}
+
+.contenedor-botonVermapa_recepcion a img {
+  width: 60%;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-botonVermapa_recepcion a img:hover {
+  width: 61%;
+
+}
+
+/* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-seccion_detalles {
+  max-width: 1920px;
+  margin: auto;
+  text-align: center;
+  padding: 0% 15% 0% 15%;
+}
+
+.contenedor-titulo_detalles {
+  width: 100%;
+  display: block;
+  margin: 35rem 0rem 0rem 0rem;
+}
+
+.contenedor-titulo_detalles p {
+  font-size: 600%;
+  font-weight: 500;
+}
+
+.contenedor-divisorFila_detalles {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-divisorFila_detalles .contenedor-imagen_formal {
+  padding: 10rem;
+}
+
+.contenedor-divisorFila_detalles .contenedor-imagen_formal img {
+  width: 15rem;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-UnionLinea_corazon {
+  padding: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+  position: absolute;
+  margin: auto;
+}
+
+.contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
+  width: 0.5rem;
+}
+
+.contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
+  position: absolute;
+  margin: auto;
+}
+
+.contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
+  width: 10rem;
+}
+
+.contenedor-divisorColumna_Detalles {
+  padding: 5rem;
+}
+
+.contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta {
+  margin-bottom: 2rem;
+}
+
+.contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta p {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.contenedor-divisorColumna_Detalles .contenedor-formal {
+  font-size: 4rem;
+  font-weight: 800;
+}
 
 
 
@@ -713,6 +964,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   }
 
+  /* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-marco_flotante1 {
     width: 100%;
     height: auto;
@@ -790,8 +1042,6 @@ audio::-webkit-media-controls-overlay-enclosure {
     }
   }
 
-  /* ------------------------------------------------------------------------------- */
-
   .contenedor-versiculo1 {
     display: block;
     width: 100%;
@@ -808,15 +1058,16 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 500;
   }
 
-  .contenedor-seccion-fotosPrincipal {
+  /* Segunda Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-fotoPrincipal {
     max-width: 1920px;
-    margin: 30px 0px 0px 0px;;
+    margin: 50px 0px 0px 0px;
     text-align: center;
     padding: 0% 10% 0% 10%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  .contenedor-fotos_principal {
+  .contenedor-foto_Principal {
     width: 100%;
     height: auto;
     margin: 50px auto 0 0;
@@ -824,16 +1075,13 @@ audio::-webkit-media-controls-overlay-enclosure {
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  .contenedor-fotos_Principal img {
-    width: 100%;
+  .contenedor-foto_Principal img {
+    width: 80%;
+    height: 80%;
     border-radius: 10px;
   }
 
-  /* ---------------------------------------------------------------------------------------------------------------- */
-
-
-  /* AUDIO ----------------------------------------------------------------------------------------------------------- */
-
+  /* Tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-reproductor {
     margin: 0% 0% 0% 0%;
     display: flex;
@@ -1003,8 +1251,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     display: none;
   }
 
-  /* -------------------------------------------------------------------------------------------------- */
-
+  /* Cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-texto_invitacion {
     display: block;
     width: 100%;
@@ -1055,7 +1302,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-size: 150%;
   }
 
-
+  /* Quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-texto_tiempoRestante {
     display: block;
     width: 100%;
@@ -1068,15 +1315,11 @@ audio::-webkit-media-controls-overlay-enclosure {
     padding: 0 7% 0 7%;
   }
 
-
-
-  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
   .contenedor-Relog {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-
   }
 
   .contenedor-Relog .contenedor-fondo_Temporizador {
@@ -1139,7 +1382,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 200;
   }
 
-  
+  /* Sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-fotosDeslizantes {
     max-width: 1920px;
     margin: 100px 0px 0px 0px;
@@ -1221,43 +1464,306 @@ audio::-webkit-media-controls-overlay-enclosure {
     border-radius: 10px;
   }
 
-.contenedor-versiculo2 {
-  display: block;
-  width: 100%;
-  height: auto;
-  margin-top: 50px;
+  /* Setima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-versiculo2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+  }
+
+  .contenedor-versiculo2 .versiculo2 {
+    font-size: 200%;
+    padding: 0% 10% 0% 10%;
+
+  }
+
+  .contenedor-versiculo2 .versiculo2-negrita {
+    font-size: 200%;
+    font-weight: 500;
+  }
+
+  /* Octava Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor1 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  .contenedor-flor1 .flor1 {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-foto_entregaAnillo {
+    max-width: 100%;
+    margin: 75px 0px 0px 0px;
+    text-align: center;
+    padding: 0% 15% 0% 15%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-foto_entregaAnillo {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-foto_entregaAnillo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Decima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-divisor_datosIglesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-imagen_ceremonia {
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: -35rem;
+
+  }
+
+  .contenedor-imagen_ceremonia img {
+    width: 7rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion-ceremonia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .contenedor-titulo_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-titulo_ceremonia p {
+    font-size: 400%;
+    font-weight: 500;
+  }
+
+  .contenedor-hora_ceremonia {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .contenedor-hora_ceremonia p {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-parroquia_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-parroquia_ceremonia .parroquia_ceremonia {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-lugarIglesia_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-lugarIglesia_ceremonia .lugarIglesia_ceremonia {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-botonVermapa_iglesia {
+    position: absolute;
+    width: 25rem;
+    margin-top: 18rem;
+  }
+
+  .contenedor-botonVermapa_iglesia a {
+    width: 100%;
+  }
+
+  .contenedor-botonVermapa_iglesia a img {
+    width: 60%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-botonVermapa_iglesia a img:hover {
+    width: 61%;
+  }
+
+  /* Undecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-divisor_recepcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+  }
+
+  .contenedor-imagen_recepcion {
+    position: absolute;
+    margin-top: 15rem;
+    margin-left: -35rem;
+
+  }
+
+  .contenedor-imagen_recepcion img {
+    width: 7rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+
+  }
+
+  .contenedor-seccion-recepcion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .contenedor-titulo_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-titulo_recepcion p {
+    font-size: 400%;
+    font-weight: 500;
+  }
+
+  .contenedor-hora_recepcion {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .contenedor-hora_recepcion p {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-salon_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-salon_recepcion .salon_recepcion {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-lugar_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-lugar_recepcion .lugar_recepcion {
+    font-size: 175%;
+    font-weight: 500;
+  }
+
+  .contenedor-botonVermapa_recepcion {
+    position: absolute;
+    width: 25rem;
+    margin-top: 18rem;
+  }
+
+  .contenedor-botonVermapa_recepcion a {
+    width: 100%;
+  }
+
+  .contenedor-botonVermapa_recepcion a img {
+    width: 60%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-botonVermapa_recepcion a img:hover {
+    width: 61%;
+  }
+
+  /* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion_detalles {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 5% 0% 5%;
+  }
   
-}
+  .contenedor-titulo_detalles {
+    width: 100%;
+    display: block;
+    margin: 15rem 0rem 0rem 0rem;
+  }
 
-.contenedor-versiculo2 .versiculo2 {
-  font-size: 200%;
-  padding: 0% 10% 0% 10%;
+  .contenedor-titulo_detalles p {
+    font-size: 400%;
+    font-weight: 500;
+  }
 
-}
+  .contenedor-divisorFila_detalles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.contenedor-versiculo2 .versiculo2-negrita {
-  font-size: 200%;
-  font-weight: 500;
-}
+  .contenedor-divisorFila_detalles .contenedor-imagen_formal {
+    padding: 5rem;
+  }
 
-.contenedor-flor1 {
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
-}
+  .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
+    width: 10rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
 
-.contenedor-flor1 .flor1 {
-  width: 40%;
-  height: auto;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
+  .contenedor-UnionLinea_corazon {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
+  .contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+    position: absolute;
+    margin: auto;
+  }
 
+  .contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
+    width: 0.35rem;
+  }
 
+  .contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
+    position: absolute;
+    margin: auto;
+  }
 
+  .contenedor-UnionLinea_corazon .contenedor-imagen_corazon img {
+    width: 3rem;
+  }
 
+  .contenedor-divisorColumna_Detalles {
+    padding: 2.8rem;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta {
+    margin-bottom: 1rem;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta p {
+    font-size: 2.2rem;
+    font-weight: 200;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-formal {
+    font-size: 2.2em;
+    font-weight: 600;
+  }
 
 
 
@@ -1391,9 +1897,9 @@ audio::-webkit-media-controls-overlay-enclosure {
     margin: auto;
     text-align: center;
     padding: 0% 10% 0% 10%;
-
   }
 
+  /* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-marco_flotante1 {
     width: 100%;
     height: auto;
@@ -1489,7 +1995,8 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 500;
   }
 
-  .contenedor-seccion-fotosPrincipal {
+  /* Segunda Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-fotoPrincipal {
     max-width: 1920px;
     margin: 20px 0px 0px 0px;
     text-align: center;
@@ -1497,7 +2004,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  .contenedor-fotos_principal {
+  .contenedor-foto_Principal {
     width: 100%;
     height: auto;
     margin: 50px auto 0 0;
@@ -1505,16 +2012,12 @@ audio::-webkit-media-controls-overlay-enclosure {
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  .contenedor-fotos_Principal img {
+  .contenedor-foto_Principal img {
     width: 100%;
     border-radius: 10px;
   }
 
-  /* ---------------------------------------------------------------------------------------------------------------- */
-
-
-  /* AUDIO ----------------------------------------------------------------------------------------------------------- */
-
+  /* Tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-reproductor {
     margin: 0% 0% 0% 0%;
     display: flex;
@@ -1684,8 +2187,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     display: none;
   }
 
-  /* -------------------------------------------------------------------------------------------------- */
-
+  /* Cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-texto_invitacion {
     display: block;
     width: 100%;
@@ -1736,8 +2238,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-size: 150%;
   }
 
-  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
-
+  /* Quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-texto_tiempoRestante {
     display: block;
     width: 100%;
@@ -1750,15 +2251,11 @@ audio::-webkit-media-controls-overlay-enclosure {
     padding: 0 7% 0 7%;
   }
 
-
-
-  /* //////////////////-------------------/////////////////////------------------//////////////////--------------/ */
   .contenedor-Relog {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
-
   }
 
   .contenedor-Relog .contenedor-fondo_Temporizador {
@@ -1823,7 +2320,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 200;
   }
 
-
+  /* Sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-fotosDeslizantes {
     max-width: 1920px;
     margin: 75px 0px 0px 0px;
@@ -1905,22 +2402,24 @@ audio::-webkit-media-controls-overlay-enclosure {
     border-radius: 10px;
   }
 
+  /* Setima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-versiculo2 {
     display: block;
     width: 100%;
     height: auto;
     margin-top: 50px;
   }
-  
+
   .contenedor-versiculo2 .versiculo2 {
     font-size: 150%;
   }
-  
+
   .contenedor-versiculo2 .versiculo2-negrita {
     font-size: 150%;
     font-weight: 500;
   }
 
+  /* Octava Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-flor1 {
     width: 100%;
     height: auto;
@@ -1928,14 +2427,277 @@ audio::-webkit-media-controls-overlay-enclosure {
     justify-content: center;
     margin-top: 50px;
   }
-  
+
   .contenedor-flor1 .flor1 {
     width: 40%;
     height: auto;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
+  /* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-foto_entregaAnillo {
+    max-width: 100%;
+    margin: 50px 0px 0px 0px;
+    text-align: center;
+    padding: 0% 15% 0% 15%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    border-radius: 10px;
+  }
 
+  .contenedor-foto_entregaAnillo {
+    width: 100%;
+    height: auto;
+  }
+
+  .contenedor-foto_entregaAnillo img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  /* Decima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-divisor_datosIglesia {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-imagen_ceremonia {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: -19rem;
+  }
+
+  .contenedor-imagen_ceremonia img {
+    width: 2rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+
+  }
+
+  .contenedor-seccion-ceremonia {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .contenedor-titulo_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-titulo_ceremonia p {
+    font-size: 400%;
+    font-weight: 500;
+  }
+
+  .contenedor-hora_ceremonia {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .contenedor-hora_ceremonia p {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-parroquia_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-parroquia_ceremonia .parroquia_ceremonia {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-lugarIglesia_ceremonia {
+    width: 100%;
+  }
+
+  .contenedor-lugarIglesia_ceremonia .lugarIglesia_ceremonia {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-botonVermapa_iglesia {
+    position: absolute;
+    width: 25rem;
+    margin-top: 13rem;
+  }
+
+  .contenedor-botonVermapa_iglesia a {
+    width: 100%;
+  }
+
+  .contenedor-botonVermapa_iglesia a img {
+    width: 35%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-botonVermapa_iglesia a img:hover {
+    width: 36%;
+  }
+
+  /* Undecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-divisor_recepcion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .contenedor-imagen_recepcion {
+    position: absolute;
+    margin-top: 13rem;
+    margin-left: -19rem;
+  }
+
+  .contenedor-imagen_recepcion img {
+    width: 2rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion-recepcion {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .contenedor-titulo_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-titulo_recepcion p {
+    font-size: 400%;
+    font-weight: 500;
+  }
+
+  .contenedor-hora_recepcion {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .contenedor-hora_recepcion p {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-salon_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-salon_recepcion .salon_recepcion {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-lugar_recepcion {
+    width: 100%;
+  }
+
+  .contenedor-lugar_recepcion .lugar_recepcion {
+    font-size: 120%;
+    font-weight: 500;
+  }
+
+  .contenedor-botonVermapa_recepcion {
+    position: absolute;
+    width: 25rem;
+    margin-top: 13rem;
+  }
+
+  .contenedor-botonVermapa_recepcion a {
+    width: 100%;
+  }
+
+  .contenedor-botonVermapa_recepcion a img {
+    width: 35%;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-botonVermapa_recepcion a img:hover {
+    width: 36%;
+  }
+
+  /* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion_detalles {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 5% 0% 5%;
+  }
+
+  .contenedor-titulo_detalles {
+    width: 100%;
+    display: block;
+    margin: 10rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-titulo_detalles p {
+    font-size: 300%;
+    font-weight: 500;
+  }
+
+  .contenedor-divisorFila_detalles {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-divisorFila_detalles .contenedor-imagen_formal {
+    padding: 2.5rem;
+  }
+
+  .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
+    width: 5rem;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-UnionLinea_corazon {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+    position: absolute;
+    margin: auto;
+  }
+
+  .contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
+    width: 0.125rem;
+  }
+
+  .contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
+    position: absolute;
+    margin: auto;
+  }
+
+  .contenedor-UnionLinea_corazon .contenedor-imagen_corazon img {
+    width: 2rem;
+  }
+
+  .contenedor-divisorColumna_Detalles {
+    padding: 1.4rem;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta {
+    margin-bottom: 1rem;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-CodigoVetimenta p {
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
+
+  .contenedor-divisorColumna_Detalles .contenedor-formal {
+    font-size: 1.1em;
+    font-weight: 600;
+  }
 
 
 
