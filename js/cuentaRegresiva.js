@@ -63,12 +63,12 @@
         nextMin = "00:",
         nextSec = "00",
         evento = dayMonth + yyyy + nextHour + nextMin + nextSec;
-        // nextYear = yyyy,
-        // dayMonth = "12/13/",
-        // nextHour = " 01:",
-        // nextMin = "9:",
-        // nextSec = "00",
-        // evento = dayMonth + yyyy + nextHour + nextMin + nextSec;
+    // nextYear = yyyy,
+    // dayMonth = "12/13/",
+    // nextHour = " 01:",
+    // nextMin = "9:",
+    // nextSec = "00",
+    // evento = dayMonth + yyyy + nextHour + nextMin + nextSec;
 
 
     today = mm + "/" + dd + "/" + yyyy + " " + hh + ":" + min + ":" + sec;

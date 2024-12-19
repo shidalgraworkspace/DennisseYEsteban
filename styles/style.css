@@ -21,7 +21,7 @@ body {
   max-width: 1920px;
   margin: auto;
   text-align: center;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 20% 0% 20%;
 }
 
 /* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -303,7 +303,7 @@ audio::-webkit-media-controls-overlay-enclosure {
   display: block;
   width: 100%;
   height: auto;
-  margin: 10px 0 10px 0px;
+  margin: 10px 10px 10px 20px;
 }
 
 .contenedor-texto_invitacion .texto-invitacion {
@@ -548,7 +548,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-versiculo2 .versiculo2 {
   font-size: 300%;
-  padding: 0% 10% 0% 10%;
+  padding: 0% 20% 0% 20%;
 }
 
 .contenedor-versiculo2 .versiculo2-negrita {
@@ -562,10 +562,10 @@ audio::-webkit-media-controls-overlay-enclosure {
   height: auto;
   display: flex;
   justify-content: center;
-  margin-top: 150px;
+  margin-top: 15rem;
 }
 
-.contenedor-flor1 .flor1 {
+.contenedor-flor1 img {
   width: 40%;
   height: auto;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -574,7 +574,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 /* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion-foto_entregaAnillo {
   max-width: 1920px;
-  margin: 150px auto auto auto;
+  margin: 15rem auto auto auto;
   text-align: center;
   padding: 0% 15% 0% 15%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -600,13 +600,13 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-imagen_ceremonia {
   position: absolute;
-  margin-top: 20rem;
+  margin-top: 18rem;
   margin-left: -60rem;
 
 }
 
 .contenedor-imagen_ceremonia img {
-  width: 10rem;
+  width: 8rem;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
 }
 
@@ -623,7 +623,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-titulo_ceremonia p {
-  font-size: 600%;
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -633,7 +633,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-hora_ceremonia p {
-  font-size: 300%;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -642,7 +642,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-parroquia_ceremonia .parroquia_ceremonia {
-  font-size: 300%;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -651,7 +651,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-lugarIglesia_ceremonia .lugarIglesia_ceremonia {
-  font-size: 300%;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -666,13 +666,18 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-botonVermapa_iglesia a img {
-  width: 60%;
+  width: 40%;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
 }
 
 .contenedor-botonVermapa_iglesia a img:hover {
-  width: 61%;
+  width: 41%;
 
+}
+
+.contenedor-botonVermapa_iglesia a img:active {
+  width: 39%;
+  filter: drop-shadow(1.5px 1.5px 10px rgba(0 0 0 / 0.8));
 }
 
 /* UnDecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -691,9 +696,8 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-imagen_recepcion img {
-  width: 10rem;
+  width: 8rem;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-
 }
 
 .contenedor-seccion-recepcion {
@@ -709,7 +713,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-titulo_recepcion p {
-  font-size: 600%;
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -728,7 +732,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-salon_recepcion p {
-  font-size: 300%;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -737,7 +741,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-lugar_recepcion p {
-  font-size: 300%;
+  font-size: 3rem;
   font-weight: 500;
 }
 
@@ -752,16 +756,20 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-botonVermapa_recepcion a img {
-  width: 60%;
+  width: 40%;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
 }
 
 .contenedor-botonVermapa_recepcion a img:hover {
-  width: 61%;
-
+  width: 41%;
 }
 
-/* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-botonVermapa_recepcion a img:active {
+  width: 39%;
+  filter: drop-shadow(1.5px 1.5px 10px rgba(0 0 0 / 0.8));
+}
+
+/* Duo-decima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion_detalles {
   max-width: 1920px;
   margin: auto;
@@ -776,7 +784,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-titulo_detalles p {
-  font-size: 600%;
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -826,39 +834,53 @@ audio::-webkit-media-controls-overlay-enclosure {
 .contenedor-divisorColumna_Detalles {
   padding: 2rem;
 }
-s
-.contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
+
+s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   margin-bottom: 2rem;
 }
 
 .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta p {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 400;
 }
 
 .contenedor-divisorColumna_Detalles .contenedor-formal {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 800;
 }
 
 .contenedor-seccion_detalles .contenedor-aviso {
-  width: 90%;
+  width: 70%;
   display: block;
   margin: 3.5rem auto auto auto;
 }
 
 .contenedor-seccion_detalles .contenedor-aviso .aviso {
-  font-size: 4rem;
+  font-size: 3rem;
   font-weight: 500;
 }
 
+/* Decimo tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-flor2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 15rem;
+}
+
+.contenedor-flor2 img {
+  width: 40%;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
 
 /* Decimo cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion-Regalo {
   max-width: 1920px;
-  margin: auto;
+  margin: 15rem auto auto auto;
   text-align: center;
-  padding: 0% 15% 0% 15%;
+  padding: 0% 30% 0% 30%;
 }
 
 .contenedor-TituloRegalo {
@@ -868,7 +890,7 @@ s
 }
 
 .contenedor-TituloRegalo p {
-  font-size: 600%;
+  font-size: 4rem;
   font-weight: 500;
 }
 
@@ -998,62 +1020,230 @@ s
   font-weight: 500;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////////////////////// */
-/* ////////////////////////////////////////////////////////// */
-
-
-/* ////////////////////////////////////////////////////////// */
-
-
-
-.contenedor-shidalgra {
-  width: 100%;
-  height: auto;
-  margin-top: 50px;
-  text-align: center;
-}
-
-
-.contenedor-shidalgra .contenedor-textoShidalgra {
-  width: 100%;
-  height: auto;
-}
-
-.contenedor-shidalgra .contenedor-textoShidalgra p {
-  font-size: 500%;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.contenedor-shidalgra .contenedor-imagenShidalgra {
+/* Decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-flor3 {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
+  margin-top: 15rem;
 }
 
-.contenedor-shidalgra .contenedor-imagenShidalgra img {
-  width: 70%;
+.contenedor-flor3 img {
+  width: 40%;
+  height: auto;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
+
+
+/* Decimo sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+.contenedor-seccion_confirmacion {
+  max-width: 1920px;
+  margin: 15rem auto auto auto;
+  text-align: center;
+}
+
+.contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
+  width: 100%;
+  display: block;
+  margin: 10rem 0rem 0rem 0rem;
+}
+
+.contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+
+.contenedor-seccion_confirmacion .contenedor-versiculo3 {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  height: auto;
+  margin: 50px auto 0px auto;
+}
+
+.contenedor-seccion_confirmacion .contenedor-versiculo3 p {
+  font-size: 3rem;
+  
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
+  width: 25rem;
+  height: 5rem;
+  background-color: #546455;
+  font-size: 3rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  cursor: pointer;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
+  width: 25.2rem;
+  height: 5.2rem;
+  background-color: #546455;
+  font-size: 3.1rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
+  width: 24.8rem;
+  height: 4.8rem;
+  background-color: #546455;
+  font-size: 2.9rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
+  display: none;
+  width: 25rem;
+  height: 5rem;
+  background-color: #546455;
+  font-size: 3rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  cursor: pointer;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
+  width: 25.2rem;
+  height: 5.2rem;
+  background-color: #546455;
+  font-size: 3.1rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
+  width: 24.8rem;
+  height: 4.8rem;
+  background-color: #546455;
+  font-size: 2.9rem;
+  color: white;
+  border-radius: 5rem;
+  border: 1px solid black;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+}
+
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
+  width: 100%;
+  height: 50rem;
+  margin-top: 40px;
+  display: none;
+}
+
+/* decimo setima seccion */
+.contenedor-titulo_teEsperamos {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin: 10rem 0rem 0rem 0rem;
+}
+
+.contenedor-seccion-foto_teEsperamos {
+  max-width: 1920px;
+  margin: 150px auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0% 15% 0% 15%;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+}
+
+.contenedor-titulo_teEsperamos p {
+  font-size: 4rem;
+  font-weight: 500;
+}
+
+.contenedor-foto_teEsperamos {
+  width: 100%;
   height: auto;
   margin-top: 50px;
-  margin-bottom: 100px;
+  display: flex;
+  justify-content: center;
 }
 
-/* ////////////////////////////////////////////////////////// */
+.contenedor-foto_teEsperamos img {
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
+  margin-top: 10rem;
+  width: 80%;
+  height: 100px;
+}
+
+.contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final p {
+  text-align: center;
+  font-size: 3rem;
+}
+
+/* decimo octava seccion */
+.contenedor-seccion-final {
+  max-width: 1920px;
+  margin: 15rem auto auto auto;
+  text-align: center;
+  padding: 0% 10% 0% 10%;
+}
+
+.contenedor-seccion-final .contenedor-marco_flotante2 {
+  width: 100%;
+  height: auto;
+  display: block;
+  transform: scaleX(-1);
+}
+
+.contenedor-seccion-final .contenedor-marco_flotante2 img {
+  width: 113%;
+  height: auto;
+  display: flex;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  transform: scaleY(-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1114,7 +1304,6 @@ s
     margin: auto;
     text-align: center;
     padding: 0% 10% 0% 10%;
-
   }
 
   /* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -1602,7 +1791,6 @@ s
     display: flex;
     padding: 0;
     width: 500%;
-
     animation: Fotos 10s infinite ease-in-out;
   }
 
@@ -1643,10 +1831,10 @@ s
     height: auto;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 15rem;
   }
 
-  .contenedor-flor1 .flor1 {
+  .contenedor-flor1 img {
     width: 40%;
     height: auto;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -1655,7 +1843,7 @@ s
   /* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-foto_entregaAnillo {
     max-width: 100%;
-    margin: 75px 0px 0px 0px;
+    margin: 15rem 0rem 0rem 0rem;
     text-align: center;
     padding: 0% 15% 0% 15%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -1755,6 +1943,11 @@ s
     width: 61%;
   }
 
+  .contenedor-botonVermapa_iglesia a img:active {
+    width: 49%;
+    filter: drop-shadow(1.5px 1.5px 10px rgba(0 0 0 / 0.8));
+  }
+
   /* Undecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-divisor_recepcion {
     display: flex;
@@ -1838,6 +2031,11 @@ s
 
   .contenedor-botonVermapa_recepcion a img:hover {
     width: 61%;
+  }
+
+  .contenedor-botonVermapa_recepcion a img:active {
+    width: 49%;
+    filter: drop-shadow(1.5px 1.5px 10px rgba(0 0 0 / 0.8));
   }
 
   /* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -1932,208 +2130,373 @@ s
     font-weight: 500;
   }
 
-/* Decimo cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
-.contenedor-seccion-Regalo {
-  max-width: 1920px;
-  margin: auto;
-  text-align: center;
-  padding: 0% 15% 0% 15%;
-}
-
-.contenedor-TituloRegalo {
-  width: 100%;
-  display: block;
-  margin: 10rem 0rem 0rem 0rem;
-}
-
-.contenedor-TituloRegalo p {
-  font-size: 400%;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo {
-  width: 100%;
-  height: 400px;
-  margin-top: 30px;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  background-color: #425e3b;
-  border-radius: 15px;
-  border: black 2px solid;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal {
-  width: 100%;
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ----- */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz {
-  width: 20%;
-  height: 100%;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De {
-  width: 70%;
-  height: 100%;
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ------ */
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
-  width: 80%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
-  width: 80%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
-  width: 80%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 p {
-  color: white;
-  width: 90%;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 p {
-  color: white;
-  width: 90%;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 p {
-  color: white;
-  width: 90%;
-  font-size: 2rem;
-  font-weight: 500;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ////////////////////////////////////////////////////////// */
-  /* ////////////////////////////////////////////////////////// */
-  /* ////////////////////////////////////////////////////////// */
-
-
-
-  /* ////////////////////////////////////////////////////////// */
-
-
-  .contenedor-shidalgra {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .contenedor-shidalgra .contenedor-textoShidalgra {
-    width: 100%;
-    height: auto;
-  }
-
-  .contenedor-shidalgra .contenedor-textoShidalgra p {
-    font-size: 200%;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .contenedor-shidalgra .contenedor-imagenShidalgra {
+  /* Decimo tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor2 {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
+    margin-top: 15rem;
   }
 
-  .contenedor-shidalgra .contenedor-imagenShidalgra img {
-    width: 70%;
+  .contenedor-flor2 img {
+    width: 40%;
     height: auto;
-    margin-top: 25px;
-    margin-bottom: 100px;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  /* ////////////////////////////////////////////////////////// */
+  /* Decimo cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-Regalo {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 15% 0% 15%;
+  }
 
+  .contenedor-TituloRegalo {
+    width: 100%;
+    display: block;
+    margin: 15rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-TituloRegalo p {
+    font-size: 400%;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo {
+    width: 100%;
+    height: 400px;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    background-color: #425e3b;
+    border-radius: 15px;
+    border: black 2px solid;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ----- */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz {
+    width: 20%;
+    height: 100%;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De {
+    width: 70%;
+    height: 100%;
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------ */
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
+    width: 80%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
+    width: 80%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
+    width: 80%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 p {
+    color: white;
+    width: 90%;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 p {
+    color: white;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 p {
+    color: white;
+    width: 90%;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  /* Decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 15rem;
+  }
+
+  .contenedor-flor3 img {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* Decimo sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion_confirmacion {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
+    width: 100%;
+    display: block;
+    margin: 10rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-versiculo3 {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 50px auto 0px auto;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-versiculo3 p {
+    font-size: 3rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
+    width: 25rem;
+    height: 5rem;
+    background-color: #546455;
+    font-size: 3rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    cursor: pointer;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
+    width: 25.2rem;
+    height: 5.2rem;
+    background-color: #546455;
+    font-size: 3.1rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
+    width: 24.8rem;
+    height: 4.8rem;
+    background-color: #546455;
+    font-size: 2.9rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
+    display: none;
+    width: 25rem;
+    height: 5rem;
+    background-color: #546455;
+    font-size: 3rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    cursor: pointer;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
+    width: 25.2rem;
+    height: 5.2rem;
+    background-color: #546455;
+    font-size: 3.1rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
+    width: 24.8rem;
+    height: 4.8rem;
+    background-color: #546455;
+    font-size: 2.9rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
+    width: 100%;
+    height: 50rem;
+    margin-top: 50px;
+    display: none;
+  }
+
+  /* decimo setima seccion */
+  .contenedor-titulo_teEsperamos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-seccion-foto_teEsperamos {
+    max-width: 1920px;
+    margin: 150px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15% 0% 15%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-titulo_teEsperamos p {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .contenedor-foto_teEsperamos {
+    width: 100%;
+    height: auto;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-foto_teEsperamos img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
+    margin-top: 5rem;
+    width: 100%;
+    height: 100px;
+  }
+
+  .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final p {
+    text-align: center;
+    font-size: 3rem;
+  }
+
+  /* decimo octava seccion */
+  .contenedor-seccion-final {
+    max-width: 1920px;
+    margin: 15rem auto auto auto;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
+
+  .contenedor-seccion-final .contenedor-marco_flotante2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scaleX(-1);
+  }
+
+  .contenedor-seccion-final .contenedor-marco_flotante2 img {
+    width: 113%;
+    height: auto;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    transform: scaleY(-1);
+  }
 }
 
 
@@ -2202,7 +2565,7 @@ s
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:750px) {
 
   .contenedor-seccion {
     max-width: 1920px;
@@ -2229,7 +2592,7 @@ s
     display: block;
     width: 100%;
     height: auto;
-    margin-top: -8px;
+    margin-top: 2rem;
   }
 
   .contenedor-nos-casamos .noscasamos {
@@ -2256,7 +2619,7 @@ s
   }
 
   .contenedor-nombres .nombres {
-    font-size: 200%;
+    font-size: 2.5rem;
     border-right: 2px solid rgba(86, 80, 80, 0.75);
     overflow: hidden;
     display: flex;
@@ -2275,7 +2638,7 @@ s
     }
 
     to {
-      width: 7.5em;
+      width: 7.1em;
     }
   }
 
@@ -2299,11 +2662,11 @@ s
   }
 
   .contenedor-versiculo1 .versiculo1 {
-    font-size: 150%;
+    font-size: 2rem;
   }
 
   .contenedor-versiculo1 .versiculo1-negrita {
-    font-size: 150%;
+    font-size: 2rem;
     font-weight: 500;
   }
 
@@ -2508,7 +2871,7 @@ s
   }
 
   .contenedor-texto_invitacion .texto-invitacion {
-    font-size: 200%;
+    font-size: 2rem;
     padding: 0 3% 0 3%;
   }
 
@@ -2520,7 +2883,7 @@ s
   }
 
   .contenedor-titulo_invitacion .titulo-invitacion {
-    font-size: 300%;
+    font-size: 3rem;
     padding: 0 7% 0 7%;
   }
 
@@ -2547,7 +2910,7 @@ s
   }
 
   .contenedor-fecha .fecha {
-    font-size: 150%;
+    font-size: 2rem;
   }
 
   /* Quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -2559,7 +2922,7 @@ s
   }
 
   .contenedor-texto_tiempoRestante .texto_tiempoRestante {
-    font-size: 175%;
+    font-size: 1.5rem;
     padding: 0 7% 0 7%;
   }
 
@@ -2699,7 +3062,6 @@ s
     display: flex;
     padding: 0;
     width: 500%;
-
     animation: Fotos 10s infinite ease-in-out;
   }
 
@@ -2723,7 +3085,7 @@ s
   }
 
   .contenedor-versiculo2 .versiculo2 {
-    font-size: 150%;
+    font-size: 1.5rem;
   }
 
   .contenedor-versiculo2 .versiculo2-negrita {
@@ -2737,10 +3099,10 @@ s
     height: auto;
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    margin-top: 7rem;
   }
 
-  .contenedor-flor1 .flor1 {
+  .contenedor-flor1 img {
     width: 40%;
     height: auto;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -2749,9 +3111,9 @@ s
   /* Novena Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-foto_entregaAnillo {
     max-width: 100%;
-    margin: 50px 0px 0px 0px;
+    margin: 7rem 0px 0px 0px;
     text-align: center;
-    padding: 0% 15% 0% 15%;
+    padding: 0% 7% 0% 7%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
     border-radius: 10px;
   }
@@ -2783,7 +3145,6 @@ s
   .contenedor-imagen_ceremonia img {
     width: 2rem;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-
   }
 
   .contenedor-seccion-ceremonia {
@@ -2799,7 +3160,7 @@ s
   }
 
   .contenedor-titulo_ceremonia p {
-    font-size: 400%;
+    font-size: 3rem;
     font-weight: 500;
   }
 
@@ -2809,7 +3170,7 @@ s
   }
 
   .contenedor-hora_ceremonia p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
@@ -2818,7 +3179,7 @@ s
   }
 
   .contenedor-parroquia_ceremonia .parroquia_ceremonia {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -2827,7 +3188,7 @@ s
   }
 
   .contenedor-lugarIglesia_ceremonia .lugarIglesia_ceremonia {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -2874,7 +3235,7 @@ s
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 5rem;
   }
 
   .contenedor-titulo_recepcion {
@@ -2882,7 +3243,7 @@ s
   }
 
   .contenedor-titulo_recepcion p {
-    font-size: 400%;
+    font-size: 3rem;
     font-weight: 500;
   }
 
@@ -2892,7 +3253,7 @@ s
   }
 
   .contenedor-hora_recepcion p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
@@ -2901,7 +3262,7 @@ s
   }
 
   .contenedor-salon_recepcion .salon_recepcion {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -2910,7 +3271,7 @@ s
   }
 
   .contenedor-lugar_recepcion .lugar_recepcion {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
@@ -2948,7 +3309,7 @@ s
   }
 
   .contenedor-titulo_detalles p {
-    font-size: 300%;
+    font-size: 3rem;
     font-weight: 500;
   }
 
@@ -2966,7 +3327,7 @@ s
   }
 
   .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
-    width: 5rem;
+    width: 3.5rem;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   }
 
@@ -3004,7 +3365,7 @@ s
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
@@ -3016,215 +3377,397 @@ s
   .contenedor-seccion_detalles .contenedor-aviso {
     width: 90%;
     display: block;
-
     margin: 1rem auto auto auto;
   }
 
   .contenedor-seccion_detalles .contenedor-aviso .aviso {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-weight: 500;
   }
 
-  /* Decimo cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
-.contenedor-seccion-Regalo {
-  max-width: 1920px;
-  margin: auto;
-  text-align: center;
-  padding: 0% 5% 0% 5%;
-}
-
-.contenedor-TituloRegalo {
-  width: 100%;
-  display: block;
-  margin: 10rem 0rem 0rem 0rem;
-}
-
-.contenedor-TituloRegalo p {
-  font-size: 300%;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo {
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  margin-top: 30px;
-  background-color: #425e3b;
-  border-radius: 15px;
-  border: black 2px solid;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal {
-  width: 100%;
-  height: 350px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ----- */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz {
-  width: 25%;
-  height: 100%;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De {
-  width: 65%;
-  height: 100%;
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 {
-  display: flex;
-  width: 100%;
-  height: 33.3%;
-  position: relative;
-  align-items: center;
-  justify-content: center;
-}
-
-/* ------ */
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
-  width: 90%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
-  width: 90%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
-  width: 90%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-}
-
-/* ------ */
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 p {
-  color: white;
-  width: 95%;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 p {
-  color: white;
-  width: 90%;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-.contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 p {
-  color: white;
-  width: 90%;
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  /* ////////////////////////////////////////////////////////// */
-  /* ////////////////////////////////////////////////////////// */
-  /* ////////////////////////////////////////////////////////// */
-
-
-
-  /* ////////////////////////////////////////////////////////// */
-
-
-  .contenedor-shidalgra {
-    width: 100%;
-    height: auto;
-    margin-top: 50px;
-    text-align: center;
-  }
-
-  .contenedor-shidalgra .contenedor-textoShidalgra {
-    width: 100%;
-    height: auto;
-  }
-
-  .contenedor-shidalgra .contenedor-textoShidalgra p {
-    font-size: 110%;
-    font-family: 'Times New Roman', Times, serif;
-  }
-
-  .contenedor-shidalgra .contenedor-imagenShidalgra {
+  /* decimo tercera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor2 {
     width: 100%;
     height: auto;
     display: flex;
     justify-content: center;
+    margin-top: 7rem;
   }
 
-  .contenedor-shidalgra .contenedor-imagenShidalgra img {
-    width: 70%;
+  .contenedor-flor2 img {
+    width: 40%;
     height: auto;
-    margin-top: 25px;
-    margin-bottom: 100px;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  /* ////////////////////////////////////////////////////////// */
+  /* Decimo cuarta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion-Regalo {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
 
+  .contenedor-TituloRegalo {
+    width: 100%;
+    display: block;
+    margin: 7rem auto auto auto;
+
+  }
+
+  .contenedor-TituloRegalo p {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #425e3b;
+    border-radius: 15px;
+    border: black 2px solid;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ----- */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz {
+    width: 25%;
+    height: 100%;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De {
+    width: 65%;
+    height: 100%;
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 {
+    display: flex;
+    width: 100%;
+    height: 33.3%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ------ */
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
+    width: 90%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
+    width: 90%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
+    width: 90%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* ------ */
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto1 p {
+    color: white;
+    width: 95%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 p {
+    color: white;
+    width: 90%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 p {
+    color: white;
+    width: 90%;
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+
+  /* decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+
+  .contenedor-flor3 img {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* Decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-flor3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+  }
+
+  .contenedor-flor3 img {
+    width: 40%;
+    height: auto;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  /* Decimo sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
+  .contenedor-seccion_confirmacion {
+    max-width: 1920px;
+    margin: auto;
+    text-align: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
+    width: 100%;
+    display: block;
+    margin: 7rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+
+  .contenedor-seccion_confirmacion .contenedor-versiculo3 {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 50px auto 0px auto;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-versiculo3 p {
+    font-size: 2rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
+    width: 20rem;
+    height: 4rem;
+    background-color: #546455;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    cursor: pointer;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
+    width: 20.1rem;
+    height: 4.1rem;
+    background-color: #546455;
+    font-size: 2.1rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
+    width: 19.9rem;
+    height: 3.9rem;
+    background-color: #546455;
+    font-size: 1.9rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
+    display: none;
+    width: 20rem;
+    height: 4rem;
+    background-color: #546455;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    cursor: pointer;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
+    width: 20.1rem;
+    height: 4.1rem;
+    background-color: #546455;
+    font-size: 3.1rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
+    width: 19.9rem;
+    height: .9rem;
+    background-color: #546455;
+    font-size: 2.9rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  }
+
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
+    width: 100%;
+    height: 50rem;
+    margin-top: 50px;
+    display: none;
+  }
+
+  /* decimo setima seccion */
+  .contenedor-titulo_teEsperamos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 7rem 0rem 0rem 0rem;
+  }
+
+  .contenedor-seccion-foto_teEsperamos {
+    max-width: 1920px;
+    margin: 150px auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 15% 0% 15%;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  }
+
+  .contenedor-titulo_teEsperamos p {
+    font-size: 3rem;
+    font-weight: 500;
+  }
+
+  .contenedor-foto_teEsperamos {
+    width: 100%;
+    height: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .contenedor-foto_teEsperamos img {
+    width: 113%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
+    margin-top: 5rem;
+    width: 100%;
+    height: 100px;
+  }
+
+  .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final p {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  /* decimo octava seccion */
+  .contenedor-seccion-final {
+    max-width: 1920px;
+    margin: 15rem auto auto auto;
+    text-align: center;
+    padding: 0% 10% 0% 10%;
+  }
+
+  .contenedor-seccion-final .contenedor-marco_flotante2 {
+    width: 100%;
+    height: auto;
+    display: block;
+    transform: scaleX(-1);
+  }
+
+  .contenedor-seccion-final .contenedor-marco_flotante2 img {
+    width: 113%;
+    height: auto;
+    display: flex;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    transform: scaleY(-1);
+  }
 }
