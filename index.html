@@ -61,10 +61,10 @@
         <div class="contenedor-seccion" id="contenedor-seccion">
             <div class="contenedor-reproductor" id="contenedor-reproductor">
                 <audio id="player" class="player" loop controls autoplay>
-                    <source src="audio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
-                    <source src="audio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
-                    <source src="audio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
-                    <source src="audio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
+                    <source src="udio/Carlos-Rivera-Te-Esperaba.mp3" type="audio/mpeg">
+                    <source src="udio/Carlos-Rivera-Te-Esperaba.ogg" type="audio/ogg">
+                    <source src="udio/Carlos-Rivera-Te-Esperaba.aac" type="audio/aac">
+                    <source src="udio/Carlos-Rivera-Te-Esperaba.wav" type="audio/wav">
                     Your browser does not support the audio element.
                 </audio>
             </div>
@@ -317,7 +317,7 @@
         <div class="contenedor-seccion-Regalo" id="contenedor-seccion">
             <div class="contenedor-TituloRegalo" id="contenedor-TituloRegalo">
                 <p>
-                    Regalo
+                    Obsequios
                 </p>
             </div>
             <!-- --- -->
@@ -335,14 +335,15 @@
                         </div>
                     </div>
                     <div class="contenedor-divisor_vertical_De" id="contenedor-divisor_vertical_De">
+                        <meta name="format-detection" content="telephone=no">
                         <div class="contenedor-texto1">
                             <p>No se que van a poner aquí</p>
                         </div>
                         <div class="contenedor-texto2">
-                            <p>Sinpe movil novia = 83809966</p>
+                            <p>Sinpe novia = 8380-9966</p>
                         </div>
                         <div class="contenedor-texto3">
-                            <p>Sinpe movil novio = 85986414</p>
+                            <p>Sinpe novio = 8598-6414</p>
                         </div>
                     </div>
                 </div>
@@ -372,18 +373,25 @@
                 </p>
             </div>
             <div class="contenedor-formulario_Asistencia" id="contenedor-formulario_Asistencia">
-                <div class="contenedor-BtnMostrar" id="contenedor-BtnMostrar">
-                    <button class="mostrarFormulario" id="mostrarFormulario" onclick="mostrar();">Confirmar
-                        asistencia</button>
-                    <button class="ocultarFormulario" id="ocultarFormulario" onclick="ocultar();">Ocultar
-                        formulario</button>
-                </div>
-                <div class="llenado-Formulario" style="display: none;" id="llenado-Formulario">
-                    <iframe
-                        src="https://docs.google.com/forms/d/e/1FAIpQLScKkk84xdxaKPZO1_rfFYqNZ1Tzld6S7-7EW8NF-xLLb5I1jg/viewform?embedded=true"
-                        width="100%" height="948" frameborder="0" marginheight="0" marginwidth="0">
-                        Cargando…
-                    </iframe>
+                <div class="contenedor-BtnWhatsapp" id="contenedor-BtnWhatsapp">
+                    <meta name="format-detection" content="telephone=no">
+                    <div>
+
+                        
+                        <button class="whatsapp" id="whatsapp1">
+                            <a href="https://api.whatsapp.com/send?phone=86499187">
+                                <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i>
+                                Novia
+                            </a>
+                        </button>
+
+                    </div>
+                    <div>
+                        <button class="whatsapp" id="whatsapp2">
+                            <i class="fa-brands fa-whatsapp" style="color: #63E6BE;"></i>
+                            Novio
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -400,7 +408,8 @@
                 <img src="images/EntregaAnillo.png" alt="EntregaAnillo">
             </div>
             <div class="contenedor-Mensaje_final" id="contenedor-Mensaje_final">
-                <p>Comparte con nosotros todas tus fotografías del evento usando los siguientes números de Whatsapp 83809966 o 85986414</p>
+                <p>Comparte con nosotros todas tus fotografías del evento usando los siguientes números de
+                    Whatsapp:<br><br>83809966<br>o<br>85986414</p>
             </div>
         </div>
     </section>
@@ -412,8 +421,8 @@
             </div>
         </div>
     </section>
-    <script src="js/MostrarFormulario.js"></script>
     <script src="js/cuentaRegresiva.js"></script>
     <script src="https://kit.fontawesome.com/b1aeab81db.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

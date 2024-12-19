@@ -21,7 +21,7 @@ body {
   max-width: 1920px;
   margin: auto;
   text-align: center;
-  padding: 0% 20% 0% 20%;
+  padding: 0% 10% 0% 10%;
 }
 
 /* Primera Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -32,7 +32,7 @@ body {
 }
 
 .contenedor-marco_flotante1 .marco_flotante1 {
-  width: 100%;
+  width: 113%;
   height: auto;
   display: flex;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
@@ -690,7 +690,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-imagen_recepcion {
   position: absolute;
-  margin-top: 20rem;
+  margin-top: 17rem;
   margin-left: -60rem;
 
 }
@@ -904,6 +904,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   border-radius: 15px;
   border: black 2px solid;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
 }
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal {
@@ -961,6 +962,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   position: relative;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto2 {
@@ -970,6 +972,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   position: relative;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De .contenedor-texto3 {
@@ -979,22 +982,23 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   position: relative;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 /* ------ */
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
-  width: 50%;
+  width: 35%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
-  width: 50%;
+  width: 35%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
-  width: 50%;
+  width: 35%;
   filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
@@ -1040,20 +1044,24 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 .contenedor-seccion_confirmacion {
   max-width: 1920px;
   margin: 15rem auto auto auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
 }
 
 .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
   width: 100%;
-  display: block;
+  display: flex;
+  justify-content: center;
   margin: 10rem 0rem 0rem 0rem;
 }
 
 .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+  width: 80%;
   font-size: 4rem;
   font-weight: 500;
 }
-
 
 .contenedor-seccion_confirmacion .contenedor-versiculo3 {
   display: flex;
@@ -1065,101 +1073,69 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
 .contenedor-seccion_confirmacion .contenedor-versiculo3 p {
   font-size: 3rem;
-  
 }
 
 .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
   width: 100%;
-  margin-top: 50px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
-  width: 100%;
+  height: 2rem;
   display: flex;
   justify-content: center;
+  align-items: center;
+  margin: 10rem 0rem 0rem 0rem;
 }
 
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
-  width: 25rem;
-  height: 5rem;
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp {
+  width: 20rem;
+  height: 4rem;
   background-color: #546455;
-  font-size: 3rem;
+  font-size: 2rem;
   color: white;
   border-radius: 5rem;
   border: 1px solid black;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+  box-shadow: inset 10px 10px 10px #354136, inset -10px -10px 10px #354136;
   cursor: pointer;
+
 }
 
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
-  width: 25.2rem;
-  height: 5.2rem;
-  background-color: #546455;
-  font-size: 3.1rem;
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp a {
+  text-decoration: none;
+  color: white;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp i {
+  margin-right: 0.7rem;
+}
+
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:hover {
+  width: 20.1rem;
+  height: 4.1rem;
+  background-color: #5e705f;
+  font-size: 2rem;
   color: white;
   border-radius: 5rem;
   border: 1px solid black;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
 }
 
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
-  width: 24.8rem;
-  height: 4.8rem;
-  background-color: #546455;
-  font-size: 2.9rem;
+.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:active {
+  width: 19.9rem;
+  height: 3.9rem;
+  background-color: #4f5e50;
+  font-size: 1.9rem;
   color: white;
   border-radius: 5rem;
   border: 1px solid black;
   filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
 }
 
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
-  display: none;
-  width: 25rem;
-  height: 5rem;
-  background-color: #546455;
-  font-size: 3rem;
-  color: white;
-  border-radius: 5rem;
-  border: 1px solid black;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  cursor: pointer;
-}
-
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
-  width: 25.2rem;
-  height: 5.2rem;
-  background-color: #546455;
-  font-size: 3.1rem;
-  color: white;
-  border-radius: 5rem;
-  border: 1px solid black;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-}
-
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
-  width: 24.8rem;
-  height: 4.8rem;
-  background-color: #546455;
-  font-size: 2.9rem;
-  color: white;
-  border-radius: 5rem;
-  border: 1px solid black;
-  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-}
-
-
-.contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
-  width: 100%;
-  height: 50rem;
-  margin-top: 40px;
-  display: none;
-}
-
-/* decimo setima seccion */
+/* decimo setima seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-titulo_teEsperamos {
   width: 100%;
   display: flex;
@@ -1170,13 +1146,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
 .contenedor-seccion-foto_teEsperamos {
   max-width: 1920px;
-  margin: 150px auto auto auto;
+  margin: auto auto auto auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 0% 15% 0% 15%;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-titulo_teEsperamos p {
@@ -1196,6 +1171,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   width: 80%;
   height: auto;
   border-radius: 10px;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
 }
 
 .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
@@ -1209,12 +1185,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   font-size: 3rem;
 }
 
-/* decimo octava seccion */
+/* decimo octava seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion-final {
   max-width: 1920px;
   margin: 15rem auto auto auto;
   text-align: center;
-  padding: 0% 10% 0% 10%;
+  padding: 10rem 10% 0% 10%;
 }
 
 .contenedor-seccion-final .contenedor-marco_flotante2 {
@@ -2174,6 +2150,8 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     border-radius: 15px;
     border: black 2px solid;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
+
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal {
@@ -2254,17 +2232,17 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* ------ */
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
-    width: 80%;
+    width: 60%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
-    width: 80%;
+    width: 60%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
-    width: 80%;
+    width: 60%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
@@ -2308,24 +2286,31 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* Decimo sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion_confirmacion {
     max-width: 1920px;
-    margin: auto;
+    margin: 15rem auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+
   }
 
   .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
     width: 100%;
-    display: block;
-    margin: 10rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 0rem 0rem;
   }
 
   .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+    width: 80%;
     font-size: 4rem;
     font-weight: 500;
   }
 
   .contenedor-seccion_confirmacion .contenedor-versiculo3 {
-    display: block;
-    width: 80%;
+    display: flex;
+    justify-content: center;
+    width: 60%;
     height: auto;
     margin: 50px auto 0px auto;
   }
@@ -2336,96 +2321,69 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
     width: 100%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
-    width: 100%;
+    height: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 10rem 0rem 0rem 0rem;
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
-    width: 25rem;
-    height: 5rem;
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp {
+    width: 15rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #546455;
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     border-radius: 5rem;
     border: 1px solid black;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    box-shadow: inset 10px 10px 10px #354136, inset -10px -10px 10px #354136;
     cursor: pointer;
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
-    width: 25.2rem;
-    height: 5.2rem;
-    background-color: #546455;
-    font-size: 3.1rem;
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp i {
+    margin-right: 0.7rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:hover {
+    width: 15.1rem;
+    height: 3.1rem;
+    background-color: #5e705f;
+    font-size: 2rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:active {
+    width: 14.9rem;
+    height: 2.9rem;
+    background-color: #4f5e50;
+    font-size: 1.9rem;
     color: white;
     border-radius: 5rem;
     border: 1px solid black;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
-    width: 24.8rem;
-    height: 4.8rem;
-    background-color: #546455;
-    font-size: 2.9rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
-    display: none;
-    width: 25rem;
-    height: 5rem;
-    background-color: #546455;
-    font-size: 3rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-    cursor: pointer;
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
-    width: 25.2rem;
-    height: 5.2rem;
-    background-color: #546455;
-    font-size: 3.1rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
-    width: 24.8rem;
-    height: 4.8rem;
-    background-color: #546455;
-    font-size: 2.9rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
-    width: 100%;
-    height: 50rem;
-    margin-top: 50px;
-    display: none;
-  }
-
-  /* decimo setima seccion */
+  /* decimo setima seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-titulo_teEsperamos {
     width: 100%;
     display: flex;
@@ -2436,13 +2394,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   .contenedor-seccion-foto_teEsperamos {
     max-width: 1920px;
-    margin: 150px auto auto auto;
+    margin: auto auto auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0% 15% 0% 15%;
-    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-titulo_teEsperamos p {
@@ -2462,6 +2419,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     width: 100%;
     height: auto;
     border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
@@ -2475,12 +2433,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     font-size: 3rem;
   }
 
-  /* decimo octava seccion */
+  /* decimo octava seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-final {
     max-width: 1920px;
     margin: 15rem auto auto auto;
     text-align: center;
-    padding: 0% 10% 0% 10%;
+    padding: 15rem 10% 0% 10%;
   }
 
   .contenedor-seccion-final .contenedor-marco_flotante2 {
@@ -3430,6 +3388,8 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     border-radius: 15px;
     border: black 2px solid;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
+
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal {
@@ -3442,12 +3402,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   /* ----- */
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz {
-    width: 25%;
+    width: 15%;
     height: 100%;
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_De {
-    width: 65%;
+    width: 75%;
     height: 100%;
   }
 
@@ -3510,17 +3470,17 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* ------ */
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-1 img {
-    width: 90%;
+    width: 100%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-2 img {
-    width: 90%;
+    width: 100%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal .contenedor-divisor_vertical_Iz .contenedor-3 img {
-    width: 90%;
+    width: 100%;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
@@ -3579,24 +3539,30 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* Decimo sexta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion_confirmacion {
     max-width: 1920px;
-    margin: auto;
+    margin: 7rem auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
+
   }
 
   .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion {
     width: 100%;
-    display: block;
-    margin: 7rem 0rem 0rem 0rem;
+    display: flex;
+    justify-content: center;
+    margin: 0rem 0rem 0rem 0rem;
   }
 
   .contenedor-seccion_confirmacion .contenedor-titulo_confirmacion p {
+    width: 80%;
     font-size: 3rem;
     font-weight: 500;
   }
 
-
   .contenedor-seccion_confirmacion .contenedor-versiculo3 {
-    display: block;
+    display: flex;
+    justify-content: center;
     width: 80%;
     height: auto;
     margin: 50px auto 0px auto;
@@ -3608,96 +3574,69 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia {
     width: 100%;
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnMostrar {
-    width: 100%;
+    height: 2rem;
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin: 5rem 0rem 0rem 0rem;
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario {
-    width: 20rem;
-    height: 4rem;
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp {
+    width: 9rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #546455;
-    font-size: 2rem;
+    font-size: 1.5rem;
     color: white;
     border-radius: 5rem;
     border: 1px solid black;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+    box-shadow: inset 10px 10px 10px #354136, inset -10px -10px 10px #354136;
     cursor: pointer;
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:hover {
-    width: 20.1rem;
-    height: 4.1rem;
-    background-color: #546455;
-    font-size: 2.1rem;
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp i {
+    margin-right: 0.7rem;
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:hover {
+    width: 9.1rem;
+    height: 3.1rem;
+    background-color: #5e705f;
+    font-size: 1.6rem;
+    color: white;
+    border-radius: 5rem;
+    border: 1px solid black;
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
+
+  }
+
+  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .contenedor-BtnWhatsapp .whatsapp:active {
+    width: 8.9rem;
+    height: 2.9rem;
+    background-color: #4f5e50;
+    font-size: 1.4rem;
     color: white;
     border-radius: 5rem;
     border: 1px solid black;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   }
 
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .mostrarFormulario:active {
-    width: 19.9rem;
-    height: 3.9rem;
-    background-color: #546455;
-    font-size: 1.9rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario {
-    display: none;
-    width: 20rem;
-    height: 4rem;
-    background-color: #546455;
-    font-size: 2rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-    cursor: pointer;
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:hover {
-    width: 20.1rem;
-    height: 4.1rem;
-    background-color: #546455;
-    font-size: 3.1rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .ocultarFormulario:active {
-    width: 19.9rem;
-    height: .9rem;
-    background-color: #546455;
-    font-size: 2.9rem;
-    color: white;
-    border-radius: 5rem;
-    border: 1px solid black;
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
-  }
-
-
-  .contenedor-seccion_confirmacion .contenedor-formulario_Asistencia .llenado-Formulario {
-    width: 100%;
-    height: 50rem;
-    margin-top: 50px;
-    display: none;
-  }
-
-  /* decimo setima seccion */
+  /* decimo setima seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-titulo_teEsperamos {
     width: 100%;
     display: flex;
@@ -3708,13 +3647,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   .contenedor-seccion-foto_teEsperamos {
     max-width: 1920px;
-    margin: 150px auto auto auto;
+    margin: auto auto auto auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0% 15% 0% 15%;
-    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-titulo_teEsperamos p {
@@ -3734,6 +3672,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     width: 113%;
     height: auto;
     border-radius: 10px;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
   .contenedor-seccion-foto_teEsperamos .contenedor-Mensaje_final {
@@ -3748,12 +3687,12 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     font-weight: 500;
   }
 
-  /* decimo octava seccion */
+  /* decimo octava seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion-final {
     max-width: 1920px;
     margin: 15rem auto auto auto;
     text-align: center;
-    padding: 0% 10% 0% 10%;
+    padding: 5rem 10% 0% 10%;
   }
 
   .contenedor-seccion-final .contenedor-marco_flotante2 {
