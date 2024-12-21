@@ -772,15 +772,19 @@ audio::-webkit-media-controls-overlay-enclosure {
 /* Duo-decima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
 .contenedor-seccion_detalles {
   max-width: 1920px;
-  margin: auto;
+  margin: 35rem auto auto auto;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 0% 15% 0% 15%;
 }
 
 .contenedor-titulo_detalles {
   width: 100%;
   display: block;
-  margin: 35rem 0rem 0rem 0rem;
+  margin: 0rem 0rem 0rem 0rem;
 }
 
 .contenedor-titulo_detalles p {
@@ -790,15 +794,19 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-divisorFila_detalles {
   width: 100%;
+  height: 25rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-left: 3rem;
-  margin-top: 100px;
 }
 
 .contenedor-divisorFila_detalles .contenedor-imagen_formal {
-  padding: 3rem;
+  width: 30%;
+  height: 23rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
@@ -807,35 +815,41 @@ audio::-webkit-media-controls-overlay-enclosure {
 }
 
 .contenedor-UnionLinea_corazon {
-  padding: 7rem;
+  width: 10%;
+  height: 23rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+  height: 23rem;
   position: absolute;
   margin: auto;
 }
 
 .contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
-  width: 0.5rem;
+  height: 23rem;
 }
 
 .contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: auto;
 }
 
-.contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
-  width: 10rem;
-}
-
 .contenedor-divisorColumna_Detalles {
-  padding: 2rem;
+  width: 30%;
+  height: 23rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
+.contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   margin-bottom: 2rem;
 }
 
@@ -847,12 +861,14 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 .contenedor-divisorColumna_Detalles .contenedor-formal {
   font-size: 3rem;
   font-weight: 800;
+
 }
 
 .contenedor-seccion_detalles .contenedor-aviso {
   width: 70%;
   display: block;
-  margin: 3.5rem auto auto auto;
+  margin: 5rem auto auto auto;
+
 }
 
 .contenedor-seccion_detalles .contenedor-aviso .aviso {
@@ -1927,7 +1943,7 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   }
 
   .contenedor-titulo_recepcion p {
-    font-size: 400%;
+    font-size: 4rem;
     font-weight: 500;
   }
 
@@ -1986,88 +2002,105 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion_detalles {
     max-width: 1920px;
-    margin: auto;
+    margin: 25rem auto auto auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0% 5% 0% 5%;
   }
 
   .contenedor-titulo_detalles {
     width: 100%;
     display: block;
-    margin: 15rem 0rem 0rem 0rem;
+    margin: auto;
   }
 
   .contenedor-titulo_detalles p {
-    font-size: 400%;
+    font-size: 4rem;
     font-weight: 500;
   }
 
   .contenedor-divisorFila_detalles {
     width: 100%;
+    height: 25rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 0rem;
-    margin-top: 50px;
   }
 
   .contenedor-divisorFila_detalles .contenedor-imagen_formal {
-    padding: 5rem;
+    width: 30%;
+    height: 23rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
-    width: 10rem;
+    width: 13rem;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   }
 
   .contenedor-UnionLinea_corazon {
-    padding: 3rem;
+    width: 20%;
+    height: 23rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+    height: 15rem;
     position: absolute;
     margin: auto;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
-    width: 0.35rem;
+    height: 15rem;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_corazon img {
-    width: 3rem;
+    width: 40px;
   }
 
   .contenedor-divisorColumna_Detalles {
-    padding: 2.8rem;
+    width: 30%;
+    height: 23rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
-    margin-bottom: 1rem;
+    width: 25rem;
+    margin-bottom: 2rem;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta p {
-    font-size: 2.2rem;
-    font-weight: 200;
+    font-size: 2.5rem;
+    font-weight: 400;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-formal {
-    font-size: 2.2em;
-    font-weight: 600;
+    font-size: 3rem;
+    font-weight: 800;
   }
 
   .contenedor-seccion_detalles .contenedor-aviso {
-    width: 75%;
+    width: 70%;
     display: block;
-
-    margin: 4rem auto auto auto;
+    margin: 5rem auto auto auto;
   }
 
   .contenedor-seccion_detalles .contenedor-aviso .aviso {
@@ -3194,15 +3227,18 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
   /* Duodecima Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
   .contenedor-seccion_detalles {
     max-width: 1920px;
-    margin: auto;
+    margin: 15rem auto auto auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 0% 5% 0% 5%;
   }
 
   .contenedor-titulo_detalles {
     width: 100%;
     display: block;
-    margin: 10rem 0rem 0rem 0rem;
   }
 
   .contenedor-titulo_detalles p {
@@ -3212,73 +3248,85 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
 
   .contenedor-divisorFila_detalles {
     width: 100%;
+    height: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-left: 0rem;
-    margin-top: 20px;
   }
 
   .contenedor-divisorFila_detalles .contenedor-imagen_formal {
-    padding: 2.5rem;
+    width: 35%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenedor-divisorFila_detalles .contenedor-imagen_formal img {
-    width: 3.5rem;
+    width: 7rem;
     filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.8));
   }
 
   .contenedor-UnionLinea_corazon {
-    padding: 1rem;
+    width: 10%;
+    height: 15rem;
     display: flex;
     justify-content: center;
     align-items: center;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_linea {
+    height: 7rem;
     position: absolute;
     margin: auto;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_linea img {
-    width: 0.125rem;
+    height: 7rem;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_corazon {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: auto;
   }
 
   .contenedor-UnionLinea_corazon .contenedor-imagen_corazon img {
-    width: 2rem;
+    width: 25px;
   }
 
   .contenedor-divisorColumna_Detalles {
-    padding: 1.4rem;
+    width: 55%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
-    margin-bottom: 1rem;
+    width: 13rem;
+    margin-bottom: 2rem;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta p {
-    font-size: 1.5rem;
-    font-weight: 500;
+    font-size: 2rem;
+    font-weight: 400;
   }
 
   .contenedor-divisorColumna_Detalles .contenedor-formal {
-    font-size: 1.2em;
-    font-weight: 600;
+    font-size: 2rem;
+    font-weight: 800;
   }
 
   .contenedor-seccion_detalles .contenedor-aviso {
-    width: 90%;
-    display: block;
-    margin: 1rem auto auto auto;
+    width: 100%;
   }
 
   .contenedor-seccion_detalles .contenedor-aviso .aviso {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 500;
   }
 
@@ -3328,7 +3376,6 @@ s .contenedor-divisorColumna_Detalles .contenedor-CodigoVestimenta {
     border: black 2px solid;
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
     box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
-
   }
 
   .contenedor-fondoRegalo .contenedor-divisor_horizontal {
