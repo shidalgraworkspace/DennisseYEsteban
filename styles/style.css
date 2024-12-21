@@ -896,7 +896,7 @@ audio::-webkit-media-controls-overlay-enclosure {
   max-width: 1920px;
   margin: 15rem auto auto auto;
   text-align: center;
-  padding: 0% 25% 0% 25%;
+  padding: 0% 15% 0% 15%;
 }
 
 .contenedor-TituloRegalo {
@@ -910,6 +910,20 @@ audio::-webkit-media-controls-overlay-enclosure {
   font-weight: 500;
 }
 
+/* .contenedor-fondoRegalo {
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10rem;
+  background-color: #81d176;
+  border-radius: 15px;
+  border: black 2px solid;
+  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+  box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
+} */
 .contenedor-fondoRegalo {
   width: 100%;
   height: 900px;
@@ -918,11 +932,8 @@ audio::-webkit-media-controls-overlay-enclosure {
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
-  background-color: #848664;
+  background-color: transparent;
   border-radius: 15px;
-  border: black 2px solid;
-  filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-  box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
 }
 
 .contenedor-fondoRegalo .contenedor_vertical {
@@ -953,33 +964,54 @@ audio::-webkit-media-controls-overlay-enclosure {
 .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
   width: 90%;
   height: 70%;
-  margin-top: 1rem;
-  display: flex;
+  margin-top: 7rem;
+  display: block;
   justify-content: center;
   align-items: center;
 }
 
-.contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+/* .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
   width: 100%;
   height: 70%;
   color: #FFF5E5;
   font-size: 3.2rem;
   font-weight: 500;
   filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+} */
+.contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+  width: 100%;
+  height: 70%;
+  color: black;
+  font-size: 3.2rem;
+  font-weight: 500;
 }
 
+/* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+  width: 90%;
+  height: 15%;
+} */
+
 .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+  display: block;
+  margin-top: -10rem;
   width: 90%;
   height: 15%;
 }
 
-.contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+/* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
   width: 100%;
   height: 70%;
   color: #FFF5E5;
   font-size: 3rem;
   font-weight: 500;
   filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+} */
+.contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+  width: 100%;
+  height: 70%;
+  color: black;
+  font-size: 3rem;
+  font-weight: 500;
 }
 
 /* Decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -2101,7 +2133,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     max-width: 1920px;
     margin: 15rem auto auto auto;
     text-align: center;
-    padding: 0% 10% 0% 10%;
+    padding: 0% 9% 0% 9%;
   }
 
   .contenedor-TituloRegalo {
@@ -2115,6 +2147,21 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 500;
   }
 
+  /* .contenedor-fondoRegalo {
+    width: 100%;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: #81d176;
+    border-radius: 15px;
+    border: black 2px solid;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
+  } */
+
   .contenedor-fondoRegalo {
     width: 100%;
     height: 900px;
@@ -2123,11 +2170,6 @@ audio::-webkit-media-controls-overlay-enclosure {
     justify-content: center;
     align-items: center;
     margin-top: 10rem;
-    background-color: #848664;
-    border-radius: 15px;
-    border: black 2px solid;
-    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
   }
 
   .contenedor-fondoRegalo .contenedor_vertical {
@@ -2155,36 +2197,65 @@ audio::-webkit-media-controls-overlay-enclosure {
     filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
     width: 90%;
     height: 70%;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+  } */
+
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
+    width: 90%;
+    height: 70%;
+    margin-top: 7rem;
+    display: block;
+
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
     width: 100%;
     height: 80%;
     color: #FFF5E5;
     font-size: 3.1rem;
     font-weight: 500;
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+  } */
+
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+    width: 100%;
+    height: 80%;
+    color: black;
+    font-size: 3.1rem;
+    font-weight: 500;
   }
 
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+    width: 90%;
+    height: 15%;
+  } */
   .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+    margin-top: 5rem;
+    display: block;
     width: 90%;
     height: 15%;
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
     width: 100%;
     height: 70%;
     color: #FFF5E5;
     font-size: 3rem;
     font-weight: 500;
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+  } */
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+    width: 100%;
+    height: 70%;
+    color: black;
+    font-size: 3rem;
+    font-weight: 500;
   }
 
   /* Decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
@@ -3297,7 +3368,7 @@ audio::-webkit-media-controls-overlay-enclosure {
     max-width: 1920px;
     margin: 7rem auto auto auto;
     text-align: center;
-    padding: 0% 7% 0% 7%;
+    padding: 0% 3% 0% 3%;
   }
 
   .contenedor-TituloRegalo {
@@ -3311,6 +3382,21 @@ audio::-webkit-media-controls-overlay-enclosure {
     font-weight: 500;
   }
 
+  /* .contenedor-fondoRegalo {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-color: #81d176;
+    border-radius: 15px;
+    border: black 2px solid;
+    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
+    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
+  } */
+
   .contenedor-fondoRegalo {
     width: 100%;
     height: 600px;
@@ -3319,11 +3405,6 @@ audio::-webkit-media-controls-overlay-enclosure {
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    background-color: #848664;
-    border-radius: 15px;
-    border: black 2px solid;
-    filter: drop-shadow(10px 10px 10px rgb(0 0 0 / 0.8));
-    box-shadow: inset 5px 5px 10px #354136, inset -5px -5px 10px #354136;
   }
 
   .contenedor-fondoRegalo .contenedor_vertical {
@@ -3337,7 +3418,7 @@ audio::-webkit-media-controls-overlay-enclosure {
   .contenedor-fondoRegalo .contenedor_vertical .contenedor_imagenRegalo {
     width: 100%;
     height: 19%;
-    margin-top: -60px;
+    margin-top: -50px;
     display: flex;
     justify-content: center;
     align-items: start;
@@ -3352,36 +3433,67 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
     width: 90%;
     height: 70%;
     margin-top: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
+  } */
+
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo {
+    width: 90%;
+    height: 70%;
+    margin-top: 5rem;
+    display: block;
+    justify-content: center;
+    align-items: center;
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
     width: 100%;
     height: 100%;
     color: #FFF5E5;
     font-size: 2rem;
     font-weight: 500;
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+  } */
+
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_textoRegalo p {
+    width: 100%;
+    height: 100%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+    width: 90%;
+    height: 15%;
+  } */
+
   .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo {
+    display: block;
+    margin-top: -1rem;
     width: 90%;
     height: 15%;
   }
 
-  .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+  /* .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
     width: 100%;
     height: 70%;
     color: #FFF5E5;
     font-size: 2rem;
     font-weight: 500;
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.8));
+  } */
+  .contenedor-fondoRegalo .contenedor_vertical .contenedor_sinpeRegalo p {
+    width: 100%;
+    height: 70%;
+    color: black;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   /* decimo quinta Seccion --------------------/////////////////////////--------------------------/////////////////////---------------------- */
