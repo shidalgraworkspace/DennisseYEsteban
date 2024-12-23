@@ -951,7 +951,6 @@ audio::-webkit-media-controls-overlay-enclosure {
   display: flex;
   justify-content: center;
   align-items: start;
-  transform: rotate(-25deg);
 }
 
 .contenedor-fondoRegalo .contenedor_vertical .contenedor_imagenRegalo img {
@@ -2187,7 +2186,6 @@ audio::-webkit-media-controls-overlay-enclosure {
     display: flex;
     justify-content: center;
     align-items: start;
-    transform: rotate(-25deg);
   }
 
   .contenedor-fondoRegalo .contenedor_vertical .contenedor_imagenRegalo img {
@@ -3422,7 +3420,6 @@ audio::-webkit-media-controls-overlay-enclosure {
     display: flex;
     justify-content: center;
     align-items: start;
-    transform: rotate(-25deg);
   }
 
   .contenedor-fondoRegalo .contenedor_vertical .contenedor_imagenRegalo img {
