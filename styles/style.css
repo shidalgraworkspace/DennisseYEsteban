@@ -629,7 +629,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-hora_ceremonia {
   width: 100%;
-  margin-top: 100px;
 }
 
 .contenedor-hora_ceremonia p {
@@ -639,6 +638,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-parroquia_ceremonia {
   width: 100%;
+  margin-top: 100px;
 }
 
 .contenedor-parroquia_ceremonia .parroquia_ceremonia {
@@ -719,7 +719,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-hora_recepcion {
   width: 100%;
-  margin-top: 100px;
 }
 
 .contenedor-hora_recepcion p {
@@ -729,6 +728,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
 .contenedor-salon_recepcion {
   width: 100%;
+  margin-top: 100px;
 }
 
 .contenedor-salon_recepcion p {
@@ -1914,7 +1914,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-hora_ceremonia {
     width: 100%;
-    margin-top: 50px;
   }
 
   .contenedor-hora_ceremonia p {
@@ -1924,6 +1923,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-parroquia_ceremonia {
     width: 100%;
+    margin-top: 50px;
   }
 
   .contenedor-parroquia_ceremonia .parroquia_ceremonia {
@@ -2004,7 +2004,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-hora_recepcion {
     width: 100%;
-    margin-top: 50px;
   }
 
   .contenedor-hora_recepcion p {
@@ -2014,6 +2013,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-salon_recepcion {
     width: 100%;
+    margin-top: 50px;
   }
 
   .contenedor-salon_recepcion .salon_recepcion {
@@ -3172,7 +3172,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-hora_ceremonia {
     width: 100%;
-    margin-top: 25px;
   }
 
   .contenedor-hora_ceremonia p {
@@ -3182,6 +3181,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-parroquia_ceremonia {
     width: 100%;
+    margin-top: 25px;
   }
 
   .contenedor-parroquia_ceremonia .parroquia_ceremonia {
@@ -3255,7 +3255,6 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-hora_recepcion {
     width: 100%;
-    margin-top: 25px;
   }
 
   .contenedor-hora_recepcion p {
@@ -3265,6 +3264,7 @@ audio::-webkit-media-controls-overlay-enclosure {
 
   .contenedor-salon_recepcion {
     width: 100%;
+    margin-top: 25px;
   }
 
   .contenedor-salon_recepcion .salon_recepcion {
